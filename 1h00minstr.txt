@@ -1,0 +1,337 @@
+Développer sur iphone c’est facile. 
+Le contenu de l’iphone vient de plein d’endroit.
+C’est-à-dire de l’apple appstore. Et c’est tout
+Vous avez pas le droit d’installer des application qui ne vient pas de l’appstore dans l’iphone
+Vous…
+Nous n’avons pas le droit, je parle de nous parce que nous(Mozilla) avons une expérience avec ça.
+En général, vous n’avez pas le droit de mettre n’importe quelles applications sur l’app store.
+Ils ont le droit de la refuse pour globalement la tête du client.
+Donc c’est arrivé hein, je dirai il y a une clause qui a été rajouter dans leur raison de refuser. C’est en gros, si c’est écrit par adobe on (apple) en veut pas
+Ça été écrit quasiment telle quelle dans leur clause. Ils ne veulent pas d’adobe, ils ont vraiment envie de donner un coup de pied à adobe, ils ont donné un coup de pied à adobe. Les clauses de l’apple appstore ils les changent quand ils veulent. Et ils l’ont rendu abondamment clair.
+Donc un autre exemple qui nous touche directement.
+C’est qu’on a pas le droit de faire un navigateur pour iphone qui ne soit pas safari relooker.
+Et ralenti.
+Et donc c’est vrai, il faut qu’il soit plus lent. Un navigateur, non mais chrome est beaucoup plus lent que safari sur iphone, il est a peu près 9x plus lent.
+Opéra je me suis toujours posé la question. Opéra .. Ils ont une version spécial 
+Le opéra mini je crois quand même que c’est un safari sur le dessus et un truc spécial … 
+Opéra renvoie des images.
+« Opéra c’est quasi qu’une visionneuse d’image »
+Opéra mini voilà c’est pas un vrai navigateur
+« Et la navigation, enfin la construction de la page est faite sur un serveur d’opéra, donc euh…
+Ils font ça depuis la nuit des temps. Sur des téléphones minuscules.
+Et ça marche très bien.
+C’est un peu surprenant qu’ils veulent le faire sur un terminal puissant comme l’iphone. 
+Mais visiblement il y a des gens, … situation sur lesquelles ça marche bien.
+Et euh la raison pour laquelle les autres terminaux … navigateurs sont plus lent.
+C’est tout simple. C’est qu’en faite vous êtes obligé d’utiliser les briques iOS, dans les briques iOS il y a le moteur webkit qui est commun à chrome et safari.
+Mais l’accélération du javascript est réservée uniquement à Safari. 
+Donc on peut faire n’importe quels autres navigateurs. A condition qu’il utilise le même moteur de rendu que Safari et Chrome. Que donc les extensions qui sont de plus en plus propriétaire, qu’ils ont rajoutés à la syntaxe HTML,CSS, … Parfois en attentes de standardisation, parfois pas du tout.
+Ils renforcent ces positions là. Mais tout en faisant ça, ils font en sorte que si vous faite un autre navigateur, il sera plus lent. Et il faut le génie des ingénieurs de google pour donner l’impression que leur navigateur est plus rapide alors qu’effectivement sur les benchmarks ils est 9x plus lent. 
+Mais c’est toute la différence entre la perception de rapidité et la rapidité réelle.
+Et voilà, c’est super impressionant. Le jour où Google chrome est sortie pour iOS, il y a plein de gens qui disaient ouaa c’est génial c’est tellement plus rapide que Safari. Et tout les benchmarks disaient qu’il était 9x plus lent.
+Et effectivement c’est.. tout vous avez été dit à l’instant, le composant javascript sur iOS. Il est interdit un autre composant javascript que celui fourni par Apple. 
+Et celui fourni par Apple il y a un petit drapeau « accélérer ou pas accélérer » et il y a que Safari qui a droit d’accélérer.
+Ça le mérite d’être simple.
+Ça c’est des fonctionnalités limités artificiellement dans un objectif purement commercial, purement pour assurer la domination d’un produit sur les autres et purement pour assurer que les trucs propriétaires webkit dominent le web
+Je vous cacherai pas que l’on l’a un peu là ..
+-	Données apple
+Pour les données ce n’est pas super claire
+J’avoue n’avoir pas suivi où en est icloud et tout ce qu’il entoure
+Mais vous…
+Personnellement j’ai pas d’iphone ou autre
+Si vous avez un iphone je vous invite à vérifier les licences sur à qui appartiennent les données et où elles sont.
+Pour beaucoup de chose il y a aucune transparence.
+Donc cette histoire sur les versions de javascript ralenti et tout ça, à la rigueur on le sait.
+Qu’est ce qu’il y a d’autres qu’on ne sait pas ? bas par définition on ne sait pas.
+L’histoire de l’iphone qui enregistrait vos mouvement, on ne sait pas pourquoi. 
+Donc selon apple je ne sais plus quelles ont été leurs explications… dû à un bug (…) c’est possible je ne sais plus.
+Les statistique d’utilisation du réseau, c’est possible.
+Comme il n’y a aucune transparence, il n’y a aucune transparence.
+D’ailleurs il y a une question que je me pose à ce sujet.
+Apple a signé un certain temps, 1 an ou 2 un accord avec twitter, un accord spécifique avec twitter sur la fourniture… le fait de fournir des identités.
+Est-ce que quelqu’un sait en quoi consiste cet accord ? Moi je ne sais pas
+Donc peut être que l’information est disponible quelque part
+ Personnellement si j’avais un iphone j’aurai bien aimé vérifier.
+-	Données google
+Donc la situation et toute de suite mieux chez google
+Chez google les protocoles sont claires, c’est facile à développer, le contenu il est sur le market place
+Euh pardon il s’appel google play maintenant le market place.
+Le contenue, google peut décider de virer les choses.
+Généralement ils ont pas trop tendance à le faire, donc on sait déjà un petit peu.
+Quand on est informaticien, on peut installer des applications ailleurs que le market place, mais malheureusement 99.9% de la population sur Terre n’est pas informaticienne donc ne sait pas faire ça. Et ne prendra pas le risque même si on lui dit qu’il faut décocher l’option.
+Après il y a un warning, attention vous pouvez installer un virus. Donc bas oui oui c’est vrai.
+Non non mais c’est vrai.
+Donc de nouveau il y a quelques limiteurs artificiels de fonctionnalités. Je ne sais plus lesquels de tête mais c’est le même genre de chose.
+Je vous dis ça mais encore une fois entre android et iOS on prefere largement android.
+Android est largement plus ouvert.
+Mais ca veut par dire qu’il faut garder ça. Mais garder les yeux ouverts sur ce qu’on a.
+De nouveau pour utiliser votre android il vous faut un compte chez google.
+Vous ne pouvez pas lancer votre téléphone ou votre tablette ou votre frigo android si vous n’avez pas un compte chez google.
+Quelles sont les informations partager entre votre frigo android et … non je pense pas que vous avez des frigo android.
+Bon on me cite que peut être si.
+En tout cas il y a des télévisions sous android.
+Donc il y a probablement des magnétoscopes.
+Quelque soit le truc que vous avez sur android, il va partager des informations avec google.
+Lesquelles je n’en sais rien.
+Vous pouvez certainement trouver l’information quelque part, en cherchant bien.
+Mais encore une fois nous somme dans une situation où Google
+La seule raison pour laquelle est fait android. Mise à part frapper Apple parce que c’est important ce genre de chose dans la vie.
+La seul raison c’est d’avoir des informations sur vous. Parce que de nouveau c’est comme ça qu’ils gagnent de l’argent.
+Donc faire gaffe à ce genre de chose. 
+On a toujours des problèmes de transparence.
+Qu’est ce qui rapporte de l’argent de nouveau ?
+Plus ils ont d’informations sur vous, plus ils gagnent de l’argent.
+C’est une équation très simple pour google.
+-	Chrome
+Il faut bien que je tape un peu sur chrome quand même
+J’ai dit du bien d’opéra, c’est des gens sympas
+Chrome,… c’est un navigateur très bien qui fait des trucs sympas 
+Je vais commencer par ça parce que c’est vrai.
+Ils font plein de trucs super bien.
+Là où ça commence à être beaucoup moins sympatique, c’est quand ils ont en plus des protocoles web… des protocoles pas tout à fait web qui s’ajoute.
+Donc par exemple native client 
+Je ne sais pas si ça vous est familier, donc c’est active X en mieux. C’est active X avec de la sécurité en plus.
+Donc je répète google native client c’est quelque chose qui permet à une page web de contenir un exécutable qui va s’installer chez vous.
+Et s’exécuter chez vous.
+Maintenant comparé à active X il y a de la sécurité. Ça c’est déjà un point bien.
+Maintenant le problème c’est que l’exécutable, et bin vous allez avoir un exécutable … je sais pas moi pour PC, vous allez l’utiliser depuis votre téléphone  et bas sur votre téléphone ça va pas marcher.
+On n’est plus du tout dans le cadre du web ouvert.
+On est dans le cadre de quelque chose d’ouvert
+On me fait signe que c’est pas tout à fait vrai.
+En faite c’est un poil plus compliqué. Mais le NaCl, Native client google.
+C’est effectivement du code compilé, il y a pepper et native client.
+Pour native client, ce qu’ils imaginent de faire.
+C’est faire du code qu’il soit à la fois … i86 et du code ARM. Et donc ils peuvent imaginer dès le départ target 2 de type de matériels.
+Sachant quand même que le code qui va tourner sur votre navigateur, ça va être une grosse boîte noire. On pourra pas s’avoir ce qui se passe dans ce code là. 
+Contrairement à du code javascript qui tout le reste tourne sur une page web et … qu’on casse le web ouvert avec cette idée là. Et si un jour ils decident d’arrêter de supporter une machine ou si un jour il y a une nouvelle architecture matériels qui apparaît elle pourra pas profite de ses développement native client.
+C’est une voie sur laquelle nous Mozilla s’est engagé sur laquelle on a reculé.
+(… Est-ce que vous avec un exemple ?) 
+Non, il y a pas vraiment grand-chose à ma connaissance non
+J’en connais une qui s’appel bastion qui est un jeu à la Diablo qui est pas mal du tout
+(…)
+C’est des applications qui ne sont activé que depuis… Chrome market ? Chrome Store
+Comme c’est google on ne sait pas a l’avance ce qu’ils vont faire.
+Google fait beaucoup de logiciel libre, en l’occurrence ces logiciels sont du logiciel libre.
+Mais ce n’est quand même pas une gouvernance transparente.
+De temps en temps ils annoncent un truc, ce qui est totalement cohérent pour une entreprise à but lucrative.
+1 :11 :17 (saccade)
+Nous notre objectif c’est de ne pas garder le secret face au concurrent.
+On n’est pas obliger d’aimer
+Donc de nous on a ces questions de contenu centralisé, ces applications .. prenons de l’autre coté native client…
+Ah oui juste pour compléter, ce qui a été dit tout à l’heure.
+Il y a NaCl et native client qui ne sont pas la même chose exactement
+Ce n’est pas super clair, mais l’un d’entre eux et plus multiple plateforme que l’autre.
+Pour résumer.
+Dans tout les cas c’est l’éditeur Google, qui ne fonctionne que sur du chrome.
+Donc il y a une histoire de contenu centralisé.
+Il y a un marché, … ils ont peut être reculé dessus donc prenez avec une pincette sérieuse ce que je vais vous dire tout de suite.
+Mais en tout cas il y a eu un moment ou les applications web installable sur Chrome et chrome os étaient uniquement des applications web qui venaient du chrome Store ou Google webStore
+De nouveau on revient au problème du silo verrouillé. Que avec android et surtout iOS
+Ils ont peut être reculé dessus ce n’est pas très clair dans ma tête 
+Donc encore une fois je ne jurai pas dessus.
+Donc cela dit c’est une source unique filtré.
+Et puis, l’un de mes favoris avec chrome et chrome os, mais déjà avec chrome c’est ..
+Pourquoi ils ont fait un navigateur rappelez moi ?
+Pour exactement la même raison que pour tout le reste, pour avoir plus d’information sur vous
+Parce que c’est comme ça qu’ils gagnent de l’argent.
+Donc … une différence énorme entre chrome et firefox, je ne reviendrai plus sur les différences.
+Mais l’une des différences énorme, c’est que nous avec firefox c’est protéger votre vie privée y compris prendre des choix qui vont limitées les fonctionnalités de firefox
+L’objectif de google avec chrome, c’est récuperer le plus d’information possible sur vous. 
+Par tous les moyens à peu près légitimes et envisageables.
+Donc un exemple bête, si vous tapez une adresse ou commencez une recherche sur la barre de recherche en haut.
+Si vous faites une recherche ça va aller de toute manière chez Google, si vous tapez une adresse, Google est au courant.
+C’est-à-dire que les informations ne sont pas justes sur votre ordinateur, mais aussi chez Google.
+Google sait par où vous naviguez.
+La manière dont ils le citent comme fonctionnalité, c’est .. qu’ils font un truc prédictif grâce à ça
+Comme ils savent sur quelle page vous êtes et qu’il connait vos habitudes et qu’ils connaissent les habitues, les gens font à peu près la même chose que vous.
+Ils sont capables de télécharger la page suivante sur laquelle vous allez probablement vous connectez.
+Mais l’information…
+Ça c’est bien pour vous apriori mais les conséquences c’est que eux savent ce que vous faites exactement.
+Les favoris, les contenus des formulaires qu’on envoi, j’en ai aucune idée.
+(si par exemple si on fait un compte google et qu’on synchronise avec notre navigateur… on peut récupérer nos favoris sur un autre système)
+(C’est un choix que tu fais ça)
+Alors…
+Alors on me dit que effectivement, donc j’avais pas vérifié moi-même
+Mais on me dit que google dispose des informations , que les informations sur les favoris et tout ce qu’il  y a sur les formulaires donc comprenant les mots de passe.
+Est à priori des informations associé à votre compte Google, et qu’il passe d’un navigateur à un autre
+Quand vous passez d’un navigateur à un autre et donc à priori chez google.
+Ok vous me l’apprenez.
+On me dit que c’est pareil avec firefox, et la réponse est non.
+On a la fonctionnalité, mais elle est crypte avec une clé que nous n’avons pas.
+Toutes les informations sont effectivement sur notre serveur mais on a pas la clé pour les décrypter.
+Du coup si vous perdez votre mot de passe, c’est bête pour vous parce qu’on peut pas vous le rendre.
+-	Le monde sous un Silo
+Imaginons un monde dominer entièrement par un silo, une de ces choses là
+Donc que ce soit facebook, iphone, chrome dans la version la plus extrémiste possible parce que encore une fois il ne font pas que des trucs extrémiste, ils font des trucs très bien chez Google.
+Donc imaginons un monde dominer entièrement par une de ces choses là
+Est-ce que wikipédia est possible ?
+Oui, non, peut-être, j’en sais rien mais disons qu’il est assez tentant d’imaginer que si jamais facebook lance son propre wikipédia dans un monde facebook
+Bas il y aurait exactement le même problème que je mentionnais tout à l’heure.
+C’est pareil pour github.
+Donc est-ce qu’on pourrait réinventer facebook par un monde contrôlé par facebook ?
+Ou Eest-ce qu’on pourrait réinventé facebook dans un monde contrôlé par Google ?
+La réponse est non, ils ont un concurrent qui s’appel Google +
+On va pas se casser la tête 
+Si vous dépendez 100% d’un fournisseur, vous pouvez pas faire une entreprise qui vaut des milliards de dollars comme facebook.
+Et il n’y a aucune possibilité.
+Et tient pour les jeux ? vous connaissez Zinga ?
+Voilà vous connaissiez Zinga c’est bien ca ?
+Est-ce il y a des gens qui ne sont pas familier avec l’histoire de Zinga et notamment les trucs arrivés cette semaine ?
+Donc il y a plusieurs personnes donc je vais raconter.
+Zinga c’est une entreprise qui fait des jeux sur facebook, il y a encore 1 an 1an et demi c’était considérer comme une réussite extraordinaire, ils avaient un budget de je ne sais plus combien de centaine de million de dollars
+C’était un truc très impressionant.
+C’est des petits jeux genre sims city, farm ville, un truc comme ça
+Bon tres bien
+Pour résumer, là ils ont publié un déficit de 52 millions de dollars genre hier, quelque chose comme ça après avoir viré à peu près tout le monde et toute l’équipe créative est partie.
+Donc qu’est ce qui s’est passé entre les deux ?
+Est-ce que vous savez ce qu’il s’est passé ? ce qui a causé la chute de Zinga 
+(un accord avec facebook qui a pas marché ?)
+Peut être il y a ça aussi derrière, je ne sais pas exactement.
+Mais…
+Facebook a changé une fonctionnalité pour embêter Zinga.
+Donc je ne sais pas s’il y avait un accord derrière prévu
+Il n’est pas impossible qu’ils aient bien fait du point de vu des utilisateurs  
+Parce que manifestement Zinga arrêtait pas de spammer tout les utilisateurs.
+Donc … manifestement à chaque fois que vous … je n’ai pas tous les détails car je n’ai jamais joué à ce jeu.
+Si quelqu’un est prêt à me raconter je suis prêt à prendre.
+Mais globalement, facebook faisait de la publicité gratuitement à Zinga
+La manière dont fonctionnait facebook, ils faisaient gratuitement de la pubilité a Zinga
+Parce que à chaque fois que vous passiez un niveau, à chaque fois que vous avez récupéré 100 pièces d’or ou un truc comme ça
+BIM
+Tous vos amis étaient aux courants.
+Et donc… Facebook à décidé : « non mais ça va pas » 
+Et ils ont décidé de changer le mode, enfin changé facebook
+Zinga est passé de ça à ça (up down)
+Donc ça c’est le danger d’avoir un fournisseur unique.
+Zinga était une entreprise qui dépendait à 100% de facebook
+Et bientôt ça ne sera plus une entreprise
+Sauf si ils arrivent à trouver une idée géniale pour changer le cours de la situation
+Mais ça va être vachement mal partie
+Donc ceci est une illustration très simple de , enfin je vous avez donné des situations hypothétique avec wikipédia, github,… avec Facebook
+Ceci est une situation très  concrète qui est en cours actuellement.
+Et de nouveau, je vais vous parler du printemps arabe car c’est un exemple que j’aime bien
+Parce que c’est un exemple fort
+Si on était dans un monde entièrement contrôlé par l’une de ces entreprises, et que l’une de ces entreprises avaient un contrat avec par exemple quelqu’un
+Est-ce que la communication aurait été possible ? Bien entendu on peut supposer que non 
+Donc tout ça c’est le genre de raison pour laquelle nous aimons bien lutter contre la vie silo
+Nous appelons ça des silos à partir du moment où c’est verrouillé.
+-	Le Combat continue
+Ce matin quand j’ai pris le RER j’avais mis un transparent Silo = pas bien
+Pour être certain que tout le monde avait compris. Que les retardataires puissent rattraper.
+Mais je me suis dit qu’il ne fallait quand même pas vous insulter.
+Bon 
+Quelles sont les activités de mozilla dedans ? 
+Je vous ai parlé  de plein de gens mais très peu de mozilla
+Donc nous combattons sur plusieurs fronts.
+Je résume ça en 3 fronts, ce n’est pas franchement pas quelque chose d’aussi précis 
+L’un des fronts principaux, c’est donc le combat pour la vie privée.
+Nous voulons que les utilisateurs donc… possèdent leurs propres informations et que lorsque leurs données sont utilisées ce soit avec leur accord.
+Et pas juste parce que c’est gratuit et automatique
+Nous avons un certain nombre de projet en cours et un certain nombre de projet qui sont effectivement des projets.
+Pour essayer d’avancer sur ce front là
+Le premier projet est donc le projet Persona anciennement browser ID,
+Ils ont changé le nom parce que personne comprenaient ce que voulait dire browser id
+Je ne garantie pas que les gens comprennent ce que veut dire Persona mais au moins ça une bonne tête.
+Donc persona c’est des questions d’authentifications
+Là où Google vous fournis une identité par exemple, donc vous avez un compte sur Gmail qui vous sert d’identité pour tout vos trucs chez google et pour tous les trucs des gens qui passe par google et bas tient c’est amusant je viens de me connecté sur StackOverflow avec mon adresse Google et bien évidement Google sait que je me suis connecté sur StackOverflow… donc  Google ca lui pose aucun problème bien entendu de fournir cette identité puisse que c’est un moyen d’obtenir des informations supplémentaires.
+Pour plein de site c’est la manière la plus simple d’établir l’identité de la personne avec laquelle ils sont.
+Et au lieu de demander 1 million de mot de passe et tout ça
+Donc les utilisateurs c’est plus confortable pour eux
+Le site c’est plus simple pour eux
+Et google gagne des choses
+Donc presque tout le monde est content sauf qu’il y a des informations qui ont filtrées
+Donc si je me suis connecté sur Stackoverflow à la rigueur ce n’est pas trop grave. Si je m’étais connecté sur site privé du …je ne sais pas… partie anarchiste zoophile libérale 
+Bas… je préférai que Google soit pas au courant, 
+C’est pas très petit partie mais ils auront de l’avenir
+Donc persona est une manière de répondre exactement au même problème mais sans fuite d’informations
+Je ne rentrai pas sur les détails du fonctionnement de Persona, il y a un peu de cryptographie derrière, 
+Si vous voulez on pourra en parler après 
+Mais le principe de persona c’est  toujours la même chose
+Vous avez une identité qui vous suis partout qui est fourni par quelqu’un n’importe qui
+Mais quand vous vous connectez quelque part la personne qui vous fourni l’identité n’a pas d’information intéressante
+Les informations ne passe que si … en tout cas ne filtre pas à partir de cette endroit
+Donc ça me permet de me connecter au site de mon partie favori sans que google ne soit au courant
+Problème c’est que je suis tout seul
+Ce n’est pas grave bientôt nous serons des millions
+Oui ? Vous voulez adhérer ?
+(…)
+On en parle après séparément  mais c’est une question de cryptographie, en gros on transmet des clés publiques et signatures, pour résumer on transmet … La personne qui fournit l’identité fournit une preuve d’identité mais ne sait pas à qui il l’a fournit
+Tout ce qu’il sait c’est que vous vous êtes connecté quelque part mais à aucune idée de où vous vous êtes connectez
+Et ça passe par le navigateur et c’est le navigateur qui est le seul à avoir les 2 informations simultanément
+(…)
+On regardera les détails, on parlera des détails après ?
+Ça peut être un peu long comme conversation
+Donc un autre projet qui maintenant commence a être adopté par les autres navigateurs aussi
+C’est le Do not track, bon microsoft à un peu fait une bêtise à ce sujet
+Bon non je crois que c’est partie d’une bonne intention
+Donc le principe de Do not track, ça part vraiment du principe que les gens ont confiance les uns en les autres.
+Ce qui est pas forcement le… enfin ce qui est rarement le cas 
+Mais dans les cas où on est face à des gens honnêtes. C’est quelque chose d’utile.
+Le do not track c’est juste une petite information qui est envoyé lorsque votre navigateur se connecte sur un site web
+Il dit s’il vous plait ne garder pas d’information sur moi
+Ça technologiquement ça ne résout rien, c’est juste une manière de dire ne garder pas d’informations sur moi
+Il faut clairement plein d’autres briques pour s’assurer que les informations ne sont pas gardées
+Et ce sont plus des briques qui ne sont pas des questions technologiques
+C’est plus des gens, des audits, … ou des gens qui jurent sur l’honneur qu’ils ne vont pas garder l’information.
+Mais bon ça c’est déjà une manière de commencer sur ce sujet là
+Donc maintenant je crois qu’a peu près tout les navigateurs l’ont depuis peu.
+La dernière version d’internet explorer du coup l’active par défaut tant dise que du coup ca perd toute signification.
+Car l’objectif est de dire ce site là l’autorise, ce site là je n’autorise pas, et internet exploreur fait je n’autorise aucun site.
+Et du coup tout les sites ce disent si c’est comme ça bas compte dessus …
+Ceci est un effort, je ne sais pas ce que ca va donné
+C’est une des directions dans laquelle il est intéressant d’y aller
+Un autre truc rigolo est collusion
+Alors comment l’active collusion déjà ?
+Non ce n’est pas ça
+(tu sais pas comment l’active la barre en bas ?)
+(ah euh ..)
+ Merci
+Donc collusion 
+Collusion quand tu veux
+Ah je n’ai pas de réseau c’est pour ça
+D’accord bas tant pis
+Donc collusion est une extension qui est maintenant fournit sauf erreur de ma part comme standard avec firefox
+Qui vous permet de savoir dans une large mesure qui vous track
+C’est ce que j’appelais espionner les espions
+Quand je vous disais quand j’arrive sur une page web
+Et qu’il y a un bouton like, il a des informations qui filtre de lui à facebook
+Ce que vous disait Kaze, c’est qu’on peut détecter ce filtrage d’information
+Collusion est une extension qui le fait automatiquement 
+On n’a pas toutes les informations, mais déjà on arrive à avoir une bonne idée d’un certains nombres d’informations qui filtre alors qu’on s’en doutait vraiment pas
+Donc typiquement dès que vous allez sur un site, avec un bouton like
+Vous allez avoir des informations filtrées 
+Donc y a un maillage qui s’affiche, donc votre site vient de se connecter à facebook 
+Pardon
+Oui c’est ça, un graphe orienté
+Quand vous vous connectez sur un site avec un bouton +1 ou qui utilise google developper console
+Un truc qui permet de d’avoir les statistiques de connexion, pour savoir à quelle heure les gens se connecte, d’où il se connecte,  …
+Donc un outil très pratique, je m’en suis servi en tant que webmaster
+Bien entendu il faut savoir que les informations sont stockés chez google, et vont chez google
+Google trouve moyen de s’en servir
+Ils ont fait ça parce que c’est pratique, mais c’est très pratique pour eux aussi
+Donc collusion détecte tous ces genres d’informations
+Ils ne vous dit pas exactement quelle genre d’information qui passe mais vous dit qu’il y a une fuite d’information dans cette direction
+Et ça nous l’avons développer de manière à ce que les gens ayant un peu de technique, je pense pas que monsieur tout le monde arrivera à ce servir de ça
+Mais vous à priori vous devez être capable de vous servir de ça et faire houla pourquoi le site du partie mentionné préalablement donne des informations à je ne sais pas la DGSE avec un bouton like DGSE
+A moins d’être cinglé 
+Je ne vous parlerai pas du market place de firefox os parce que vous avez un invité spécial pour ça
+Non non je te laisse
+(j’ai rien sur le market place)
+Je vais vous mentionner brièvement Tor
+Alors là les truc que je vous ai mentionné préalablement c’est du mozilla, Tor ce n’est absolument pas du mozilla
+On aime bien mais ce n’est pas nous
+Mozilla est, enfin nous somme 1 des acteurs dans ce combat
+Il y a plein de gens qui se battent
+Il s’avère qu’on est un de plus visible, oue cool pour nous mais il y a plein d’autres gens qui font des choses
+Donc Tor, c’est un protocole et des outils pour permettre de se connecter tout en conservant son anonymat
+Y compris dans les dictatures, c’est prévu notamment pour se connecter dans les dictatures 
+D’autres choses, il y a des extensions pour firefox qui ne sont pas faites par mozilla pour le coup
+BetterPrivacy, Ghostery qui vont detecter d’autre type de fuite d’information
+Et les couper à la source donc personnellement je ..
+Ghostery coupe les fuites à la source
+BetterPrivacy nettoie les super cookies
+Je ne sais pas si vous connaissez, il y a le principe des cookies, super cookies, cookies zombie, tout ça
+Enfin bon bref
+BetterPrivacy essaye de faire en sorte que les trucs qui essayent très très fortement de s’incruster chez vous aient moins de chance d’y arriver 
+-	Apprendre à innover
+
