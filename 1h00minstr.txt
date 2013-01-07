@@ -1,17 +1,649 @@
-Développer sur iphone c’est facile. 
+...déjà un petit peu mais il y a des choses que vous ne connaissez pas forcément
+et puis des nouveautés qui sont en train d'être concoctées au sein de la fondation
+et que vous allez découvrir dans les mois à venir
+Et auxquels certains d'entres vous vont participer, bien entendu, parce que vous savez qu'on va également vous faire participer
+à cette aventure...
+Donc, ça va se passer de la façon suivante :
+il va y avoir deux exposés/présentations
+que vous pourrez interrompre pour poser des questions mais sachez que, de toutes façons,
+à la fin de ces deux exposés, de ces deux présentations, il y aura une série de questions/réponses
+et ils se feront un plaisir de répondre à toutes les questions que vous pourrez vous poser
+Donc, je cède la parole à David qui va nous parler de Mozilla, Pour un Web Ouvert
+Bonjour !
+Donc, c'est parti !
+...Ce n'est pas parti...
+C'est bon, c'est parti cette fois ?
+.. Euh, donc bonjour !
+Hey bien comme cela a été annoncé, je m'appelle David Raschenbach-Teller, je fais parti de Mozilla et je suis venu vous parler bah de, héhé, Mozilla, c'est original !?
+Alors, quelques mots, donc déjà l'orthographe de mon nom au cas où vous auriez des difficultés, je vois pas pourquoi
+Ensuite, qui je suis, bah quand même, histoire de me présenter, donc je fais parti de l'équipe, enfin d'une des équipes qui développe firefox et compagnie, je fais partie de l'équipe performance donc notre role c'est de prendre firefox et compagnie, trouver ce qui ralenti et taper dessus à coup de pieds jusqu'à ce que ça ralentisse plus.
+Je suis aussi actif dans le cadre de Mozilla Education, je suis pas le seul dans cette pièce, euh Mozilla Education, c'est bien...
+C'est des gens comme nous qui, de temps en temps, passons voir des gens comme vous pour leurs dire "Coucou, on est super chouette, viendez nous rejoindre" et voilà...
+Plus généralement, nous nous chargeons d'une partie des communications avec les universités, avec le monde académiques donc si vous avez des questions à nous poser, ça tombe bien, on est là !
+Voilà, si vous avez envie de me joindre, j'ai divers pseudo qui tournent généralement autour de Yoric.
+Ok
+de quoi je vais vous parler durant cet exposé ?
+Alors, déjà une chose si je suis le seul à parler je vais m'ennuyer très vite donc n'hésitez pas à poser des questions...
+Euh, j'aime bien le son de ma voix mais bon y'a quand même quelques limites
+Donc je vais vous parler, bah je vais vous parler de Mozilla hein, enfin je vous l'ai quand même annoncé deux fois.
+Je vais vous dire quelques mots sur nos activités passées, présentes et à venir.
+Donc en particulier tout ce qui concerne, hé bien, le Web ouvert et y'a déjà eu des années de combat sur le web ouvert
+Je ne sais pas à quel point vous êtes au courant de ce que sont les enjeux du Web ouvert mais je compte bien sur le fait que d'ici la fin de mon exposé vous serez incollable sur le sujet
+Apparté: Faut vraiment que je prenne le micro, c'est pour l'enregistrement ou je peux parler juste à voix haute ?
+Parce que personnellement j'aime bien parler comme ça, je me sens un peu moins hideux (sans micro)
+Ok, alors c'est parti avec le micro
+Je vous parlerai, donc disais-je, des enjeux qui ont déjà donné lieu à des batailles, des batailles assez, avec des... bon je vous en parlerai...
+Je vous parlerai de la situation à l'heure actuelle de ce champ de bataille
+et, euh, j'essaiyerai de manière fort subtile, de vous convaincre de venir participer, parce que nous avons besoin de vous.
+Alors, Mozilla, donc, Mozilla, d'abord c'est un gros lézard...
+Mozilla est connu essentiellement pour Firefox, qui est l'un des navigateurs les plus utilisés au monde.
+Donc, si l'un d'entre vous ne connais pas encore Firefox, c'est la honte...
+Nous travaillons aussi sur thunderbird, qui est l'un des clients mail les plus utilisés au monde moins que le pourcentage de Firefox
+mais c'est quand même pas mal.
+C'est, à mon sens, le meilleur client mail multi-plateforme.
+Nous travaillons sur Firefox OS mais je vais tâcher de pas trop vous en parler parce que mon collègue va vous... a pleins de transparents à ce sujet.
+Bon ça c'est nos sujets... nos projets les plus connus.
+On a pleins d'autres projets.
+Alors on a des projets type langage de programmation, là je vous en ai donné, je vous en ai mis deux, on développe un nouveau langage de programmation qui s'appelle Rust.
+On développe un petit truc qui s'appelle Javascript, ?Sun Javascript?, globalement c'est né un petit peu à la préhistoire de Mozilla mais c'est né chez nous.
+Et, bon on continue à l'améliorer, on continue à proposer des améliorations, à essayer de faire en sorte que tout le monde se mettent d'accord sur une version de javascript.
+Parce qu'on aimerait bien éviter que ce que réadvienne quelque chose qui a déjà eu lieu une 10/15aine d'années...
+Et qui s'appellait Microsoft...
+Euh, on travaille sur plein d'autres trucs.
+On travaille, on a Popcorn pour éditer des vidéos en ligne...
+on a Thimble, pour apprendre aux gens à éditer les pages Web...
+Euh, qu'est-ce qu'on a d'autres ?...
+On a plein de trucs, je vous en reparlerai au fur et à mesure...
+On a Collusion, pour essayer d'espionner les espions... Enfin plein de trucs sympa
+Globalement, nous sommes à un peu près 600 employés, un petit peu plus maintenant...
+mais bon j'imagine qu'on doit pas avoir dépassé les 700
+...
+Bon, quelque chose entre 6 et 700 employés...
+Donc, salariés de Mozilla
+Et des volontaires...
+Personnellement, avant d'être employé par Mozilla, je faisais partie de la communauté Mozilla, j'étais un des milliers de volontaires.
+Je ne suis pas le seul dans cette pièce non plus...
+Euh, pourquoi est-ce qu'il y a des volontaires ?
+Hé bien parce que Mozilla, avant d'être tout autre chose, c'est un mouvement de fond.
+Mozilla, c'est une association à but non lucratif qui, certes, possède une entreprise dont le rôle est essentiellement de payer ses 600 employés
+Mais, donc, cette association à but non lucratif a pour vocation unique de défendre les utilisateurs du Web.
+Donc j'insiste sur le but non lucratif, beaucoup de gens ne sont pas au courant de ça...
+parmis tous les fabricants de navigateur, nous sommes les seuls à être euh, bah, les seuls dont l'objectif est vraiment de défendre les gens.
+C'est vraiment notre premier, deuxième, troisième et unique objectif.
+--
+Bon, je vous parle de défendre le web, de défendre les gens sur le Web...
+Juste histoire de nous mettre d'accord, j'aimerais bien vous dire ce que c'est que pour moi ou peut être pour nous le Web.
+Je vais pas vous faire un cours sur comment ça fonctionne, je compte sur vous pour déjà en avoir une idée, sinon...
+vous trouverez l'information vous même.
+Mais je vais vous donner quelques exemples de ce que peut être le Web à son meilleur, sous son plus beau jour.
+Le Web... bon bah le Web c'est Wikipédia...
+pas que Wikipédia on est d'accord...
+mais le Web, c'est une manière de partager des savoirs, Wikipédia c'est un des ?fork?, de nouveau, à but non lucratif, plein de gens qui se sont mis ensemble...
+certains qui ont donné 5 minutes, d'autres qui ont donné des mois et des mois, d'autres qui sont à temps plein...
+pour mettre en commun toutes les connaissances de la planète.
+Alors, Mozilla n'a rien à voir là dedans, soyons clair...
+Mais on trouve ça chouette et ça c'est le genre de chose qui n'était pas vraiment possible avant le Web.
+Et si le Web disparait c'est le genre de chose qui ne sera peut être plus possible.
+C'est le genre de chose que l'on veut défendre.
+--
+C'est pas que ça.
+Donc Wikipédia, c'était déjà en train de se mettre ensemble, un autre exemple de gens en train de se mettre ensemble pour d'autres raisons, c'est Github...
+C'est des gens... bon Github lui même c'est un outil qui sert uniquement à des gens pour travailler ensemble d'un bout à l'autre de la planète.
+Mettre en commun leurs efforts pour fabriquer, bah on espère, pour fabriquer des trucs bien.
+Il y a certainement plein de catastrophes qui sortent de Github mais, une fois de temps en temps, y'a un truc génial.
+Et ça aussi c'est le genre de chose qu'on veut protéger.
+De nouveau, Mozilla n'a rien à voir avec Github... bon on utilise Github nous même pour certains projets...
+mais, euh, c'est absolument pas nous qui avons lancé Github.
+--
+Facebook.
+On aime, on aime pas.
+Moi personnellement je ne suis pas un énorme fan mais facebook aussi c'est quelque chose de super impressionnant.
+Facebook, c'est quoi ? Bah Facebook c'est de nouveau des gens qui se mettent ensemble pour communiquer.
+Encore une fois, Facebook un outil, si y'avait pas le Web, y'aurait pas Facebook.
+--
+Google, bon je ne vais pas continuer mon catalogue éternellement mais vous verrez pourquoi je vous montre cet exemple là.
+Google.
+Un service, qui n'est pas fourni avec le Web, c'est à dire le Web existait avant Google...
+Si Google disparait, le Web, à priori, continuera à exister mais c'est un outil super utile pour trouver des informations.
+Et pour essayer de nous forcer à installer Chrome au passage, comme vous pouvez le voir...
+mais bon ça reste super utile.
+Donc, Google...
+Pourquoi est-ce que c'est intéressant ? C'est vraiment cet aspect0" ce n'est pas fourni avec le Web".
+Ils n'ont pas inventé le Web, ils sont arrivés après le Web.
+Et pourtant c'est super utile c'est même le truc le plus utilisé sur le Web.
+--
+Bon.
+Les actualités aussi sont importantes.
+Le site médiapart, pourquoi médiapart ?
+Bon, c'est un journal en ligne, il y a des centaines de journaux en ligne...
+C'est un journal uniquement en ligne qui a pour caractéristique, entre autres, d'avoir euh...
+C'est eux qui ont lancé l'affaire Bettencourt.
+Donc, ça c'est un exemple de Web qui a une influence sur la vie de tous les jours.
+Au moment où, euh, disons il y a quelques mois, il y avait des élections présidentielles.
+Il est assez probable que l'affaire Bettencourt a jouée un mini rôle au moins.
+Le Web, ce n'est pas juste de l'informatique, le Web c'est quelque chose qui a des conséquences sur la vie humaine.
+Le Web ça a des conséquences sur la vie de tous les jours.
+J'y reviendrai un peu plus tard...
+--
+Bon, on est pas obligé d'avoir des conséquences sur la vie de tous les jours.
+On peut aussi s'amuser à "frager" ces potes aussi.
+C'est toujours sympa de "frager" ces potes.
+Un étudiant : ça a des conséquences sur la vie de tous les jours...
+Frager ces potes ?
+Ah bah si on se fâche avec eux, oué mais..<rires> 
+Un autre étudiant : ça peut rendre les gens sourds, j'ai vu ça dans le journal...
+<rires>
+Bon, euh...
+Le monde réel, c'est aussi ça.
+ça c'est plusieurs photos du printemps arabe, qui a eu lieu il n'y a pas si longtemps, et qui n'est peut être pas tout à fait terminé d'ailleurs.
+Pourquoi est-ce que je vous parle du Web pour le printemps arabe ?
+Le printemps arabe, bah le printemps arabe c'était pas le web.
+Le printemps arabe, c'était des hommes et des femmes qui sont allé affronter des fusils.
+Qui dans certains pays l'ont réussi, dans d'autres pays n'ont pas encore réussi, dans d'autres pays se sont probablement fait complétement éclater...
+qui ont risqué leur vie, certains d'entre eux qui l'ont payé de leur vie.
+ça ce n'est pas le Web, ça c'est le monde réel.
+Bon maintenant le Web a	eu un effet là dessus, le Web a été l'outil, l'un des outils qu'ils ont utilisés pour communiquer entre eux.
+Sans le Web, ça serait peut être arrivé mais quand même le Web a été un outil déterminant là dedans.
+Donc, quand je vous dis qu'il faut protéger le Web et qu'on veut protéger le Web c'est qu'on aimerait bien que ce genre de chose puisse rester possible avec le Web de demain...
+--
+Alors, bien entendu, là le printemps arabe, il a déjà eu lieu.
+Il est pas forcément tout à fait terminé mais il a déjà eu lieu.
+Je ne peux pas vous dire ce dont on aura besoin demain, je peux pas vous dire ce qui sera important pour l'humanité demain.
+Peut être que ça passera par le Web peut être pas, on sait pas.
+Maintenant, étant donné l'importance qu'à pris le Web dans la vie de tous les jours, c'est pas impossible du tout que ça passe par le Web.
+L'un de nos objectifs chez Mozilla, c'est nous assurer qu'on va pas nous limiter complétement...
+qu'on va pas nous mettre dans une situation où le Web peut être vérouillé pour empêcher quelque chose d'important d'arriver.
+Un étudiant : QUand vous parlez de vérouiller le Web, comme on le protège ?
+Je vais donner des exemples plus tard.
+Mais, si je n'ai pas répondu à votre question à la fin, reposez là moi, ok ?
+Oui, euh, pardon, il demandait : "Qu'est-ce que je voulais dire par verrouiller le Web et par protéger le Web"
+--
+Alors, il s'est passé déjà des choses sur le Web.
+Il y a eu quelque chose qu'on a appelé la "Guerre des navigateurs".
+Il y a eu la 1.0, la 2.0 et peut être la 3.0, enfin bon...
+Après on s'amuse à donner des numéros mais...
+La guerre des navigateurs, je la fais remonter, en fait, à un petit peu avant le début des navigateurs.
+--
+Est-ce que vous avez vécu ce genre de chose dans la boîte aux lettres ?
+... Les frisbee, les magnifiques frisbee que l'on recevait.
+Plusieurs par jour, moi j'en recevais à la sortie du lycée mais vraiment plusieurs fois par semaine, on venait nous en distribuer à la sortie du lycée.
+J'en recevais dans ma boîte aux lettres.
+Y'en avait qui étaient fourni avec tous les magazines que je lisais.
+C'était super pratique pour redécorer l'appartement à une certaine époque.
+A part ça, j'ai pas trouvé beaucoup d'intérêt.
+En l'occurence, j'imagine que si ils le faisaient, c'est que eux y trouvaient un intérêt.
+Donc, ça, ce que je vous ai mis là, c'est ceux d'America Online.
+Donc, il y avait un certain nombre de services à l'époque qui étaient à la mode, qui en fait, ont commencé avant le Web, hein, certains de ces services, pas avant Internet.
+Internet, ça date des années 60.
+Mais le Web, globalement, c'est 93.
+Donc, il y a eu des services, du style America Online, COmpuserve, il y a un certain service qui s'appelait MSN de Microsoft Network qui est venu s'ajouter à ça en 1995 donc le Web existait déjà mais n'était pas encore à la portée qu'il a actuellement.
+Et tout ça, qu'est-ce que c'était ?
+Bah c'était des choses qui étaient beaucoup plus puissantes que le Web de l'époque, on va être clair...
+Qui étaient beaucoup plus puissantes que tout ce qui existait globalement, que l'on pouvait trouver facielement en tout cas à l'époque.
+Donc à l'époque effectivement il y avait le Web qui était difficile d'accès encore.
+Il y avait les BBS, c'est essentiellement ces deux choses là.
+Il y avait le minitel, bon c'était... c'était très pratique mais un peu limité.
+ça c'était une technologie beaucoup plus avancée.
+Je parle pas des galettes elles-mêmes, je parle de ce à quoi elles donnaient accès.
+Le frisbee, c'est toujours rigolo, ça rentre dans la catégorie "frager ces amis".
+Quelle est la différence avec Internet ?
+Bon, il y en a plein.
+Une des différences, c'est que il s'agissait de sources uniques.
+Si vous vouliez faire une page "AOL", à lépoque, ils l'on progressivement libéralisé au fur et à mesure qu'ils perdaient du terrain...
+mais, à la grande époque, quand AOL était tellement puissant qu'ils ont pu quand même quasiment arracher un studio de cinéma.
+A cette époque là, vous vouliez faire une page AOL, ou je sais plus exactement comment ils appellent ça, je crois que c'était un service AOL.
+Bah il fallait payer AOL.
+Il fallait l'accord d'AOL, il fallait un contrat avec AOL.
+Pareil avec Compuserve, pareil avec Microsoft.
+Oui, donc, juste histoire qu'il n'y ait pas d'ambiguitées, MSN, ils ont réutilisé le nom pour autre chose.
+Le MSN auquel vous avez accès pour "chatter" ces jours-ci, donc voilà, c'est un héritier commercial mais toute l'infrastructure technologique entre temps a été revendue, en l'occurence à France Telecom je crois.
+Au moins en France...
+Pour se connecter à tout ces trucs là, ah bah c'est très simple hein, vous avez la galette, vous avez le frisbee, vous le mettez dans votre ordinateur.
+Bon, le frisbee n'existe pas en version Linux donc bah voilà...
+Si vous êtes sous Linux, vous vous connectez pas.
+Selon les époques, si vous êtes sur Mac, vous pouvez vous connecter ou pas.
+Parce que ça dépendait à quel point ils avaient envie de se casser la tête à faire des logiciels pour Apple, enfin pour les Mac.
+Si vous dites si sous BSD ils avaient jamais entendu parler de vous donc c'était même pas la peine de vous casser la tête.
+|Stupeur chez certains étudiants|
+Sous BSD.
+Bon, bah vous non plus vous n'en avait pas entendu parler, c'est pas grave...
+Le noyau de vos Mac, c'est du BSD, mais bon...
+Une fois que vous étiez chez AOL, donc soit vous étiez content, soit vous étiez pas content...
+Si vous vouliez passer chez Compuserve ou autre, ok vous pouviez...
+simplement, vous perdiez votre email, tout vos mails que vous aviez stocké, vous perdiez votre adresse...
+Et voilà, vous perdiez toutes vos données quoi, vous perdiez même vos "high score" dans les jeux qui étaient en ligne..
+Non c'est très pratique pour AOL... ou pour Compuserve ou pour Microsoft etcetera...
+Ce qui posait déjà une question et je vais vous la reposer un certain nombre de fois c'est :
+A qui appartiennent les données ?
+Alors, légalement je ne sais pas à qui elles appartenaient à l'époque, mais en pratique elle appartenait à la personne qui vous avez filé la galette.
+Donc, vous me demandiez ce que c'était quelque chose de pas ouvert... ça par exemple, c'est pas ouvert.
+C'est pas le seul exemple que je vais vous donner mais ça c'est le genre de chose contre lesquels...
+On aime bien lutter !
+Alors, je vous dis ça mais ce n'est absolument pas nous qui avons lutté contre ça à l'époque.
+Moi j'étais petit à cette époque là.
+--
+Le Web s'est développé à peu près en même temps.
+AOL existait déjà à la fin des années 80, peut être même au milieu des années 80, Compuserve aussi.
+MSN c'est arrivé dans les années 90, le Web aussi est arrivé dans les années 90.
+Il y a trois navigateurs qui sont à peu près arrivé en même temps.
+Netscape, Internet Explorer qui n'était pas de Microsoft à l'époque, et Opéra.
+La technologie à l'époque, selon le nombre de critères d'aujourd'hui, il faut avouer qu'elle était complétement pourrie.
+C'était un petit peu de mise en page et des liens.
+Et c'était tout ce qu'on pouvait faire.
+Ce qui n'a pas empêché Netscape d'affirmer qu'on était en train de révolutionner le monde et qu'on allait faire des appliations Web.
+Donc, c'était plutôt la partie marketing de Netscape qui parlait de ça, que la partie technique.
+Cela dit, ça avait quelques avantages, la source était complètement décentralisée.
+Il n'y avait pas une compagnie avec laquelle il fallait faire un contrat pour pouvoir faire un site Web.
+De la même manière, c'était pas particulièrement filtré donc éventuellement il peut y avoir des difficultés pour accéder à l'information souvent en fonction de l'endroit où vous étiez.
+Parce que l'accès à internet était difficile, soit parce qu'il fallait la trouver cette information.
+Là on parle à une époque où les moteurs de recherche étaient assez poussifs par rapport à ce que l'on a aujourd'hui...
+mais ça restait décentralisé, ça restait non filtré.
+Les protocoles étaient ouverts, donc l'un des effets précis de ce protocole c'est que...
+vous aviez un navigateur, vous en aviez marre parce que il arrêtait pas de planter, vous utilisiez un autre navigateur qui plantait probablement à peu près autant mais pas sur les mêmes sites
+En utilisant les deux, vous arriviez à voir un peu tout.
+Et en l'occurence, Opéra était pas mal à l'époque.
+Opéra est toujours très bien en l'occurence mais Netscape était complètement pourri.
+J'ai le droit de le dire, Mozilla c'est la suite à Netscape...
+L'effet ? Bah l'effet c'était que les utilisateurs étaient libres.
+Je veux dire, vous étiez abonné avec machin, vous vouliez vous réabonner avec bidule, bah vous ne perdiez... si vous vous étiez mal débrouillé vous perdiez vos mails effectivement mais vous aviez moyen de les faire passer.
+Il fallait être un petit peu technique mais c'était faisable.
+Vous aviez totalement accès au Web, que ce soit par un fournisseur ou par un autre, c'était exactement pareil...
+Bah voilà, c'est quand même largement mieux.
+Bon, pour la question de à qui appartiennent les données, à l'époque, à part le mail, c'était tellement limité que y'avais pas vraiment la question qui se posait et le mail, il y avait moyen de le récupérer.
+--
+Et puis, un jour, Microsoft a décidé que Microsoft Network ça n'allait servir à rien...
+faut dire qu'ils n'avaient pas le choix vu le nombre d'abonnés qu'ils avaient et que il fallait prendre d'assaut le Web.
+Pourquoi est-ce qu'ils ont décidé de prendre d'assaut le Web ?
+Eh bien, Netscape, on y revient, il n'arrêtait pas de déclarer :
+"Regardez on a une nouvelle génération d'applications, ça s'appelle des applications Web. Le Web c'est le nouveau système d'exploitation."
+"On va faire des choses qui marcheront, sous Windows, sur Mac... pleins de trucs..."
+Bon, à l'époque, c'était complètement du pipeau
+Mais, euh... Mais c'était bien vu parce que c'est le genre de chose qui a fini par arriver et Microsoft,
+on ne peut pas les accuser d'avoir vu venir Internet longtemps à l'avance mais sur ce coup là ils ont bien paniqués
+et ils se sont dis que il fallait absolument tuer ça dans l'oeuf.
+Il fallait empêcher cet Internet ouvert, libre parce que commercialement c'était catastrophique pour eux.
+Si jamais ce genre de chose arrivait, ça veut dire qu'il n'y avait plus de raison d'être sous Windows.
+Potentiellement, à terme, à en croire les promesses de Netscape, qui valaientt ce qu'elles valaient, y'aurait plus besoin de Word.
+Enfin voilà, c'est les deux manières dont Microsoft gagne de l'argent, Windows et Word.
+Donc, Microsoft a commencé à faire tout son possible pour que Internet soit Microsoft Internet.
+Qu'est-ce qu'ils ont fait ?
+Bon déjà ils avaient racheté Internet Explorer un petit peu avant.
+Ensuite, ils ont commencé à livrer Internet Explorer avec Windows.
+Jusque là, c'est assez embêtant pour la concurrence mais c'est pas une catastrophe.
+Le problème, c'est que progressivement ils se sont mis a détourner les standards un petit peu à gauche et à droite.
+Ils ont introduit des choses comme ActiveX.
+Est-ce que vous vous souvenez d'ActiveX ?
+...
+Merci.
+Donc, historiquement, ActiveX c'était un hack.
+Je veux dire, c'était vraiment un hack qui était improvisé par Microsoft pour lutter contre Java.
+Sun et Netscape ensemble, ont lancé, un truc qui s'appelait Java, qui était pas génial à l'époque.
+J'entends des gens critiquer sur la version actuelle, en tout cas à l'époque, c'était vraiment poussif.
+Et Java, qu'est-ce que c'était ? Bah c'était plus ou moins la promesse de Netscape qui était en train de se remplir.
+C'était des applications qui tournaient dans le navigateur, qui la plupart du temps aller marcher aussi bien bah...
+Que vous soyez sur Macintosh ou sous Windows ou sous Linux...
+Et bah Microsoft avait pas vu tout ça.
+Ils ont donc introduit ActiveX.
+ActiveX, du point de vue utilisateur, c'était génial, c'était un truc qui se chargeait super vite, qui fonctionnait automatiquement et qui pouvait faire n'importe quoi.
+Du point de vue des gens qui avaient envie de rentrer dans votre ordinateur, c'était génial, c'était un truc qui se chargeait super vite, qui marchait automatiquement et qui pouvait faire n'importe quoi.
+Quelle coïncidence !
+ActiveX, donc c'était un hack. Ils ont pris une de leurs technologies qu'ils utilisaient pour... c'était COM à l'époque
+Qui servaient bah... on va réutiliser des bouts d'un programme dans un autre et là ils se sont dit :
+"Ah, on va pouvoir utiliser n'importe quel programme à l'intérieur d'Internet Explorer juste après l'avoir téléchargé"
+Donc, par exemple, pour écrire un programme qui, je sais pas, allait effacer votre disque dur, il fallait 5 lignes de Visual Basic...
+le mettre dans la page Web, fallait le compiler avant pardon, c'était la partie la plus difficile, donc le mettre dans la page Web et puis ajouter un lien pour dire "allez, s'il te plaît, lance-moi cette magnifique application".
+...
+Il y a d'ailleurs une belle citation, si mes souvenirs sont bons, de Steve Ballmer, au sujet de ActiveX, quand on lui avait fait remarquer que la sécurité c'était quand même... enfin ça aurait été pas mal de faire un peu de sécurité...
+Euh, la citation c'est : "Si les utilisateurs ont le choix entre la sécurité et regarder des cochons danser à l'écran, ils vont choisir regarder des cochons danser donc c'est ce qu'on va leur fournir".
+Eh bien les gens ont eu des cochons danser à l'écran...
+Alors, pourquoi est-ce que ActiveX était embêtant ?
+Ces raisons de sécurité, ça vaut aussi pour la vie privée je veux dire, il fallait un peu plus que 5 lignes pour récupérer tous vos contacts Outlook ou pour ajouter un truc pour espionner tout ce que vous tapiez au clavier pour récupérer votre numéro de carte bleue, m'enfin, c'était pas le genre de technologie...
+Donc, ça c'était quand même... euh, comment on dit politiquement correct "se foutre de la gueule du monde" ?
+Euh... c'était un peu léger du point de vue de Microsoft
+Bon, un autre problème avec ActiveX, enfin il s'est avéré que ça a fini par être un avantage mais l'autre problème c'était que ActiveX ne marchait que sous Windows.
+Parce que c'était un programme binaire qui était exécuté depuis... enfin je ne sais pas exactement. On télécharge un programme, on l'exécute.
+Donc, ça ne marchait que sous Windows, au début les gens sur les autres plate-forme étaient pas content parce qu'ils avaient beaucoup moins de fonctionnalités sur les pages Web...
+Est-ce qu'ils se rendent compte de ce à quoi ils avaient échappé... enfin bon.
+ça c'était une manière d'essayer de détourner les standards du Web.
+Et ça a très bien marché, parce que ActiveX, pour les entreprises, c'était super pratique par exemple.
+Vous mettiez le composant, je sais pas quoi, gestion d'inventaire sur le serveur qui pouvait être mis à jour à chaque fois.
+Les utilisateurs se connectent sur la page "gestion de l'inventaire", téléchargent, sans s'en rendre compte parce que on a pas besoin de demander l'avis aux utilisateurs.
+Donc, téléchargenet une application, l'utilisent... si on a besoin de mettre à jour l'application, elle est mise à jour automatiquement etcetera...
+C'était très bien pour les entreprises du coup bah... du coup c'était une catastrophe pour les utilisateurs mais c'était très bien pour les entreprises.
+Et c'est le genre de chose qui ont permis progressivement à Microsoft de récupérer une partie de Web en le transformant en autre chose que le Web.
+En le transformant en quelque chose de fermé, quelque chose de propriétaire, parce que pour développer un ActiveX, il faut pas se leurrer...
+Il fallait être sous Windows, pour développer un ActiveX, il fallait utiliser les compilateurs Microsoft...
+Donc ça c'était ActiveX, mais y'avait pas que ce genre de chose.
+A partir d'un moment, je crois qu'ils ne sont jamais réellement passés à l'acte ou alors si ils l'ont fais, ils l'ont vite passé sous le tapis parce que c'était au mauvais moment...
+Mais ils ont commencé à annoncer que Internet Explorer allait contenir Word, enfin en tout cas contenir une partie de Word.
+Parce que après tout, le HTML, c'était un format super limité, donc autant mettre la capacité d'affichage de Word à l'intérieur du navigateur Web.
+Bien entendu, pour utiliser Internet Explorer, du coup il fallait le mettre sur des plate-formes dans lequel il y avait Word donc il fallait être sous Windows, etcetera, etcetera.
+Les spécifications de Word, qui n'étaient absolument pas publics à l'époque, qui ont fini par être partiellement publiés... quelques années après suite à une préversion légale.
+Les spécifications de Word, juste pour situer, pour voir à quel point c'est facile de faire quelque chose de compatible avec ça, il y avait 6000 pages juste sur l'ouverture du fichier.
+Bon courage pour essayer d'implanter quelque chose... pour afficher quelque chose sur un autre navigateur.
+Donc, en intégrant de nouveau ces technologies qui pour le coup étaient complètement confidentielles, je veux dire la manière dont fonctionne Word est complètement confidentielle ou qu'elle était complètement confidentielle.
+En intégrant ça au navigateur, ils ont ajoutés des fonctionnalités... très bien
+Oh, ou ils ne l'ont peut être pas fait...
+On pensait qu'ils allait le faire mais je ne sais pas si il l'ont vraiment fait.
+Bref, ils ajoutaient des fonctionnalités au navigateur et ils empêchaient de plus en plus d'utiliser des technologies qui n'étaient pas les leurs.
+Mais on était en train de s'avancer vers un monde dans lequel pour naviguer sur Internet il fallait être sous Windows, il fallait utiliser Internet Explorer.
+Pour écrire une page Web il fallait utiliser Word et uniquement Word.
+Pour faire des programmes interactifs sur une page Web, il fallait utiliser un compilateur Microsoft donc il manquait encore un ou deux composants...
+Mais microsoft commençait à contrôler pas mal de choses dans le même temps et il y a un autre truc magnifique qu'ils ont commencé à introduire, de mémoire c'était à la même époque mais je peux me tromper, c'est...
+Euh, je ne sais plus comment ils l'appelaient à l'époque enfin c'était une forme de DRM de nos jours, voilà...
+Des choses qui permettent d'annuler des documents à distance donc, leur scénario c'est "oh, j'ai envoyé par accident au monde entier, enfin à toute l'entreprise le fichier de comptabilité, hop je vais faire une manipulation pour que personne ne puisse le lire".
+Et, il y avait vraiment eu des pubs là dessus.
+Je crois que c'était un éléphant qui avait fait "ou là là, j'ai envoyé toute la comptabilité"
+Euh, ouai elles étaient ridicules ces pubs mais c'est pas grave...
+Donc, ceci était une manière d'agir à distance, en plus sur les pages Web, sur ce qui remplaçait les pages Web...
+En plus de cela, dans vos pages Web, il y avait, dans vos documents Word excusez-moi, il y avait plein d'informations que vous n'aviez pas mises vous mêmes, des informations sur votre ordinateur, des informations sur votre nom, etcetera...
+ça commençait à faire quelque chose de... bah si tu regardes ça d'un coup là...
+On a donc une entreprise unique qui contrôle toute la technologie et qui met plein d'informations... qui va faire filtrer vos informations sans vous demander votre avis.
+Qui dispose de la technologie soit pour annuler les choses que vous avez publiées soit pour laisser d'autres personnes annuler les choses que vous avez publiées...
+Parce que ce que je ne vous ai pas dit c'est que la technologie était supposé aller plus loin, selon eux, selon leur pub. J'ai pas vérifié si c'était vraiment le cas mais "ah, ou là là, ce fichier viole mon copyright, tiens voici une manière de l'annuler à distance".
+Bah, c'est pas tout à fait ?orélien? mais c'est un peu glauque comme Internet ça...
+L'une des conséquences, ce n'était pas la seule, c'était une clientèle de plus en plus captive.
+Donc on voyait les évolutions d'Internet Explorer qui allaient dans cette direction.
+Internet Explorer 3 était probablement le meilleur navigateur à l'époque.
+Internet Explorer 5/6 ça commençait à être un peu plus... lourd.
+Pour la sécurité, globalement voilà on préfèrait voir des cochons danser que de faire de la sécurité.
+De temps en temps ils avaient des opérations de sécurité mais c'était plutôt vendre de la sécurité ou de l'apparence de sécurité.
+Donc on était dans un Internet où l'utilisateur arrivait en dernier.
+Ce n'est pas ce, personnellement, ce n'est pas ce que je veux pour Internet.
+Je vous ai montré au début ce que je voulais pour Internet et ça c'est le contraire. Donc est-ce que ça répond partiellement à votre question ?
+Et toujours le problème des informations, à qui appartiennent elles à partir du moment où une entreprise peut décider que votre page Web n'existe plus... je ne sais pas.
+--
+Mais la question se pose...
+Alors voilà, ce monde là, donc je ne sais pas si vous arrivez à lire ce qui y'a marqué sur la barricade c'est "C'est vraiment fermé".
+Ce monde là alors est-ce que avec ce Web là on aurait pu avoir Wikipédia ?
+...
+Technologiquement, c'était possible...
+Mais Microsoft avait sa propre encyclopédie qui s'appelait Encarta
+Donc à partir du moment où Microsoft avait sa propre encyclopédie, comme Microsoft contrôlait tout, je ne sais pas si il aurait vraiment été dans l'intérêt de Microsoft de laisser une autre encyclopédie commencer à gagner en popularité.
+A partir du moment où ils maitrisaient toutes les technologies, c'était pas forcément très difficile de détruire Wikipédia dans l'oeuf.
+Github.
+...
+Je rappelle, Microsoft a un truc qui s'appelle SourceSafe...
+Oui, oui, ça existe encore...
+Il y a encore des gens qui souffrent avec ce genre de chose.
+Pareil, à partir du moment où eux avaient un produit, pourquoi est-ce qu'ils auraient laissé un truc concurrent en plus gratuit et fondé en partie sur des logiciels libres.
+Pourquoi est-ce qu'ils auraient laissé cette ?vengeance? se développer ?
+Facebook.
+...
+En l'occurence, je ne garanti pas qu'ils aient eu un concurrent valable à facebook mais supposons qu'ils n'en ait pas eu, très bien.
+Quelqu'un, mettons Marc Zuckerberg ou quelqu'un d'autre, lance ahah, je vais faire facebook.
+Qu'il commence à avoir 1000 utilisateurs, 10 000 utilisateurs, 100 000 utilisateurs, 1 million d'utilisateurs.
+Un jour, un avocat de Microsoft arrivera, c'est un scénario totalement hypothétique, un avocat de Microsoft donc arrive :
+"Bonjour, on va vous racheter, voilà, c'est ça ou on vous coule"
+Suffit qu'il tire la prise et facebook arrête de fonctionner.
+Donc, Facebook aurait pu exister à condition d'être Microsoft Facebook.
+Ou sinon ils auraient lancé leur propre facebook et ils l'aurait coulé.
+Enfin, je veux dire, ça revient au même.
+Partant de là, tous les outils qui ont servi à communiquer durant le printemps arabe, est-ce qu'ils auraient pu exister sous cette forme là ou sous une autre ?
+Microsoft, à priori, je n'ai pas de raison de supposer que ils sont particulièrement hostiles à qui que ce soit, enfin à part leurs concurrents commerciaux.
+Mais supposons, l'ombre d'un instant, que Microsoft ait des contrats avec Ben Ali.
+Ou avec quelqu'un de la famille Ben Ali, ce qui en l'occurence est assez probable parce que pour avoir des contrats en Tunisie à l'époque, il fallait forcément avoir des contrats avec la famille Ben Ali.
+Donc, supposons un instant, si c'était eux qui se seraient retrouvé en position de contrôler toutes les communications.
+Toutes les communications en Tunisie, ça peut être un autre pays...
+Qu'est-ce qu'ils auraient fait Microsoft ?
+Parce que leur intérêt commercial aurait clairement été de couper les communications.
+Bah, ce n'est pas une situation que l'on aimerait voir.
+Quand je vous dit que l'on se bat pour un Web ouvert, c'est que l'on veut éviter ce genre de situation où une personne, une entreprise, pour des raisons commerciales ou autres, disposerait de la possibilité de, comme ça, couper la prise.
+Bon, quand à savoir de ce quoi on aura besoin demain dans le cadre du Web, bah je ne connais toujours pas la réponse, je ne sais pas de quoi on aura besoin.
+Mais, ce que je peux vous dire c'est que si il y a qu'une seule entreprise qui contrôle tout, y'a de fortes chances qu'on ne soient pas prêts pour demain.
+--
+Alors il y a eu la deuxième guerre des navigateurs...
+Donc, je ne sais plus si...
+Je ne pense pas vous l'avoir dit mais vous le savez peut-être, avec ce genre de manipulation, Microsoft est passé dans une situation de domination totale, Netscape a lamentablement coulée.
+Il restait Opéra qui faisait un peu de résistance dans un coin.
+C'est nos concurrents mais on les aime bien Opéra.
+Sérieusement.
+Ils font des bons trucs souvent.
+Bon, bah pendant un moment, on s'est dis bah voilà Internet ça va ressembler à Microsoft Internet.
+Heureusement, un petit groupe de fidèles irréductibles qui étaient 10, 10 anciens de Netscape. Avec un financement qui en l'occurence venait d'America Online, ont lancé Mozilla. Et avec le code source de Netscape aussi... ont lancé Mozilla.
+Il a fallu quelques années pour que Mozilla donne quelque chose mais bon Mozilla ça a fini par donner la situation que nous avons actuellement.
+Une situation où Internet Explorer n'est plus la force qui permet de dominer le Web entier.
+On nous demande fréquemment, est-ce que vous essayez d'être numéro 1 ?
+La réponse est non.
+Enfin je veux dire, on se bat pour avoir le plus de part de marché possible mais notre objectif principal n'est pas d'être numéro 1.
+Notre objectif principal est d'empêcher quelqu'un d'être en position de domination totale.
+Si jamais nous nous retrouvons en position de domination totale, on y réfléchira...
+Mais je pense que ça arrivera pas.
+Y'a suffisamment de concurrence de nos jours.
+--
+Donc, qu'est-ce que nous avons fait ?
+Donc, encore une fois, Mozilla, Opéra et quelques autres beaucoup plus anecdotiques...
+Bah on a réintroduit l'ouverture sur le Web, les standards ouverts...
+De manière à ce que toute page Web écrite pourra être utilisée avec un navigateur, marche aussi avec un autre navigateur.
+ça ne suffisait pas, il fallait que la technologie rattrape ce que permettait de faire les standards propriétaires.
+Mais de nos jours, nous avons des standards ouverts, une technologie puissante...
+On peut toujours regarder des cochons qui dansent à l'écran, tout va bien mais à priori, on peut regarder des cochons qui dansent à l'écran sans se prendre un virus.
+Admirez le progrès de 10 ans de technologie !
+De nos jours, à peu près tout est compatible d'un navigateur à l'autre, il reste toujours pleins d'imperfections.
+Mais la quasi totalité des sites, en tout cas des gens qui prennent le temps de faire leur site Web, arrivent à faire des sites Web qui marchent parfaitement avec les navigateurs.
+Cela inclut même Internet Explorer...
+Parce que Internet Explorer, donc, après les versions calamiteuses 5 et 6, après la version 7, qui était juste une manière de gagner du temps parce qu'ils voyaient les versions de Mozilla et Firefox qui n'arrêtaient pas de s'améliorer.
+La version 7 c'était essentiellement pour dire "mais si, mais si, on fait des nouvelles versions".
+La version 8 c'est "si, si, on va finir par se mettre à corriger nos bugs".
+La version 9 bon c'est celle... on a recommencé, ça y est on a un navigateur.
+Euh, j'ai pas testé la 10.
+De nos jours, globalement, je ne vais pas aller jusqu'à dire que tout le monde est super pote et se tape dans le dos mais nous sommes dans une situation où on peut respirer.
+Nous sommes dans une situation où cette technologie est suffisamment puissante mais aussi suffisamment ouverte et suffisamment standardisée pour que les gens ne soient pas verouillés avec un navigateur, un fournisseur d'accès, un fournisseur d'outils pour faire les pages Web, etcetera, etcetera.
+Et en plus on a gagné de la sécurité à ce prix là... on a perdu l'image mais on a gagné de la sécurité.
+...
+Bon, je ne prétenderais pas que la situation est parfaite parce que pour les questions de à qui appartiennent les informations, est-ce que vous avez un accès totalement ouvert, des questions du style HADOPI.
+HADOPI, si on le prend avec, peut être, un petit peu de mauvaise foi, c'est "ou là là, j'ai regardé quelque chose que je n'avais pas le droit de regarder, ah bah du coup je n'ai plus le droit de regarder d'autres choses"...
+Pas de bol.
+Des choses du style ACTA, je ne sais pas si vous avez suivi les mésaventures du traité ACTA qui permettait à n'importe quel ayant droit d'un pays de porter plainte dans un autre pays et d'avoir l'entière collaboration du pays pour traquer les contrefaçons donc les contrefaçons ça commençait à regarder un truc que vous n'avez pas le droit de regarder...
+J'ai lu le texte, c'est une catastrophe.
+Heureusement, ça a été bloqué au niveau du parlement européen.
+--
+Bon !
+On a gagné, on a gagné !
+Bon, j'ai mis un point d'interrogation, hein.
+Si on avait gagné, euh...
+Oh, ce serait chouette.
+En fait, il reste un petit peu de travail
+--
+Revenons sur facebook.
+Bon, vous voulez faire quelque chose avec facebook.
+Les protocoles, la API, tout ça, on va dire que c'est assez clair.
+Pour les contenus, tiens, c'est centralisé.
+ça me rappelle des choses...
+Ok, y'a des pages Web et y'a des pages facebook.
+Les pages facebook, technologiquement sont des pages Web mais si vous n'avez pas de compte facebook, bah vous n'avez pas accès à la page facebook.
+La source est filtrée. Facebook est connu pour, de temps en temps, supprimer des pages parce que... je sais pas pourquoi m'enfin... pour des centaines de raison.
+Mais typiquement "ah, j'ai insulté Estelle Hallyday ou je sais pas quoi", c'était pas sur facebook Estelle Hallyday mais bon...
+Les données sur facebook...
+Vos données, elles appartiennent à qui ?
+Elles appartiennent à Marc !
+Les données, toutes vos données que vous mettez sur facebook, alors y'a quelques petits chemins pour avoir le droit d'avoir accès à une partie de vos données mais globalement, les données elles appartiennent à Marc.
+Alors pas seulement...
+Ah ouai, petite anecdote...
+Il y a quelques jours, un membre de la communauté Mozilla, je sais pas si vous l'avez vu passer ce lien... a acheté pour 5$ 1 million de profils facebook, enfin toutes les informations sur 1 million de profils facebook.
+Il croyait que c'était un spam, il a fait "ah, je vais regarder"...
+Je sais pas si y'avait les photos, je n'ai pas vérifié.
+Mais euh, voilà, il a fait "oh tiens, je vais regarder ce que c'est que cette arnaque", il a payé 5$ et il a effectivement reçu 1 million de profils facebook qui lui sont arrivés livrés sur des fichiers Excel je crois, un truc comme ça.
+Donc, les profils, y'avait pas le mot de passe mais y'avait tous les détails sur l'utilisateur y compris bah le nom, le mail etcetera.
+Euh, je ne pense pas qu'il y avait les photos facebook puisque c'était dans du Excel.
+...
+Et ce n'est pas facebook, pour le coup, qui a vendu l'information.
+C'est probablement, alors je vais dire, un jeu quelconque sur facebook, une application quelconque, je n'ai pas vu de qui il parlait mais c'est une application facebook quelconque.
+Je sais absolument pas laquelle.
+Je pense que le gars qui a acheté pour 5$ un million de profils ne sait pas non plus laquelle mais voilà...
+C'est une manière de piquer des informations.
+Donc, non seulement les données ne vous appartiennent pas mais vous ne savez pas à qui elles appartiennent, elles appartiennent à tout le monde sauf à vous.
+C'est génial.
+Petite question au passage :
+Facebook et d'ailleurs les applications, comment est-ce qu'ils gagnent de l'argent ?
+Bon d'accord ils en perdent souvent mais quand ils en gagnent, comment ils en gagnent ?
+... La publicité, mais encore...
+Donc, bon, la vérité c'est qu'on est obligé d'extrapoler parce que, c'est pas une information publique.
+Donc, y'a au moins une application qui gagne de l'argent en vendant les informations à n'importe qui sur Internet... pour 5$.
+1 million pour 5$, ça n'a pas l'air super rentable, ça dépend combien de gens achètent.
+Facebook, très probablement, gagne leur argent à l'aide de publicités ciblées donc le principe de la publicité ciblée c'est...
+Ils ont des informations sur vous, donc selon les cas, soit ils vendent les informations, soit plus probablement, parce que à mon avis y'a plus à... enfin c'est au plus haut niveau comme ça...
+Ils extraient des informations de tout votre profil, de tout votre historique, de toutes les conversations que vous avez eu.
+Ils extraient ces informations et ils déduisent ce que vous avez... ce que vous allez avoir envie d'acheter.
+Et donc, ils vendent ce genre d'informations extraient à priori, probablement, sans votre nom.
+Sous la forme donc de publicité ciblée de manière à ce que sur votre écran s'affiche une publicité pour, je sais pas moi, aller voir le prochain James Bond parce que vous avez parlé d'agent secret avec quelqu'un.
+Bon, je parle du prochain James Bond, mais y'a une affaire assez rigolote y'a quelque chose comme 6 mois aux États-Unis.
+C'est une anecdote hein, c'est pas vraiment une affaire.
+Dans un supermarché Tesco, peut-être en Angleterre et pas aux Etats-Unis, je me trompe peut-être, enfin bon...
+L'anecdote reste la même.
+Donc un... un des commerciaux donc c'est pas dans le supermarché lui même m'enfin bref, c'est une chaîne de supermarché Tesco.
+L'un des commerciaux reçoit un coup de fil d'un monsieur qui est extrêmement en colère parce que sa fille de 15 ans n'arrête pas de recevoir des publicités pour des femmes enceintes.
+Et il est hors de question qu'elle reçoive des publicités pour des femmes enceintes, elle a 15 ans.
+Qui a su, avant le père, que la fille était enceinte ?
+Le supermarché.
+Donc, la fille était effectivement enceinte.
+Le supermarché, en regardant juste ses achats et sa carte de fidélité est arrivé à déterminer qu'elle était enceinte.
+ça, c'est en étant un supermarché.
+Et en plus, c'est légal.
+Maintenant, Facebook, a probablement beaucoup plus d'informations que votre supermarché.
+Facebook sait de quoi vous parlez, avec qui vous parlez, quand vous parlez, sait où vous habitez globalement, en tout cas d'où vous vous connectez...
+Quel type d'ordinateur vous avez...
+Dans certains pays, facebook sait ce que vous allez acheter à la pharmacie, en tout cas ils ont signé un... ou alors c'est peut-être juste de la parapharmacie pardon.
+Ils ont signé, il y a 3 semaine, 1 mois un truc comme ça, un accord avec une chaîne de carte de fidélité qui notamment s'occupe des cartes de fidélité de la chaîne... je sais jamais si c'est CVS ou CSV, donc qui est une chaîne de parapharmacie aux Etats-Unis.
+Voilà...
+La vie privée, c'est génial.
+Donc, facebook peut maintenant déterminer si vous êtes en trithérapie, ou des choses comme ça.
+Allez, une autre question au passage. Euh, je parle de facebook mais ça vaut aussi pour les concurrents. Soyons clair !
+Bon y'en a pas à l'échelle de facebook des concurrents, c'est vrai, mais bon...
+Allez, question au passage : que fais le bouton "Like" qu'on voit sur plein de blogs, plein de sites Web ?
+...
+Donc, on me cite "Il nous espionne", mais encore...
+...
+J'ai entendu un bout de voix par là-bas mai j'ai pas eu le temps de voir qui c'était.
+...
+Bon alors, potentiellement aussi...
+Mais moi j'étais juste sur la partie espionnage en l'occurence...
+Le bouton "Like", dès qu'il s'affiche à votre écran, envoie des informations sur votre navigation chez Facebook.
+Vous n'avez pas besoin de cliquer dessus, dès que le bouton est affiché.
+Bon bah y'a du javascript derrière, y'a des choses derrières.
+Y'a une iFrame, bref toujours est il qu'il arrive à déterminer qui vous êtes.
+C'est cool, hein?
+Donc, si vous avez un compte Facebook, bah à priori ils leur faut pas plus que quelques millisecondes pour faire le lien entre l'identité des deux personnes.
+Si vous n'avez pas de compte Facebook, il peut quand même se rendre compte que c'est la même personne qui se connecte à tel site, puis à tel site, puis à tel site, puis à tel site à telle heure en venant de tel endroit etcetera, etcetera.
+Après avoir fait telle recherche par Google éventuellement...
+Nan, nan, c'est pas anodin ce petit "Like".
+Étudiant : Comment on fait pour savoir...
+Alors ça c'est une bonne question, comment j'ai fais...
+Alors moi je dois le savoir parce que je l'ai lu quelque part...
+Je peux vous donner un cas où je me suis rendu compte moi-même, c'était en remplissant mes impôts en ligne.
+J'aime bien les histoires d'horreur comme ça...
+Euh, j'étais en train de débugguer une extension Firefox à ce moment là et puis j'ai décidé de faire une pause et d'aller remplir mes impôts en ligne.
+J'avais encore tous mes outils de débugguage qui était affichés et quand je me suis connecté sur les impôts en ligne, j'ai vu plein d'informations qui n'allaient pas vers les impôts.
+Mais qui allaient vers une entreprise privée.
+Alors, je suppose, mais j'ai pas moyen d'en être certain, qu'ils font juste des statistiques pour voir combien de temps les gens passent sur le site des impôts, pour voir si c'est ergonomique et tout ça.
+Si les gens reviennent 1 million de fois sur les mêmes onglets ou etcetera...
+En tout cas, depuis ce jour là, je me suis pas reconnecté sur le site des impôts en ligne.
+...
+J'en ai aucune idée mais c'est une bonne question.
+On me demandait si c'était légal...
+Autre intervenant : En fait, y'a beaucoup de techniques qui permettent de cibler le comportement des gens sur une page Web.
+C'est du marketing simple...
+Comme on veut le faire côté client...
+Le bon côté du truc c'est qu'on peut regarder ce qui se passe en fait.
+On a des outils de debug dans les navigateurs. Firefox, Chrome, Opéra... et on peut regarder le code qui s'exécute...
+Donc, un bouton "Like", je crois que un seul bouton "Like", enfin pour nous c'est un cauchemar à optimiser côté Gecko parce que c'est plus de 8 méga de mémoire qui partent en fumée.
+Parce que c'est un iFrame qui contient un document HTML qui contient plein de JS pour faire un paquet de choses parce que c'est de l'analyse.
+ça sert à voir comment les gens interragissent entre eux.
+Ce qui intéresse Facebook, c'est de voir, bah, d'avoir une certitude sur ce qui vous intéresse quand vous naviguez sur Internet. De savoir que, les sujets qui vous préoccupent, sur lesquels vous passez du temps c'est euh...
+Je sais pas moi, les euh... les produits pour lutter contre ????????????? matinales par exemple pour le truc de tout à l'heure.
+ça peut être tout et n'importe quoi.
+ça leur sert après à vous refourguer de la publicité qui sera plus ciblée donc qui vont pouvoir vendre plus cher.
+Donc, Facebook c'est une très très bon exemple.
+On pense que c'est les meilleurs à faire ça.
+Techniquement, c'est eux qui ont le plus de surface.
+Mais...
+Y'a pas très lontemps, même en France, y'a des gens assez fort pour ça.
+J'ai encore reçu, dans le laboratoire où on a bossé tous les deux, le ???, y'a des gens qui essaient pour faire un truc comme ça, à la facebook.
+Et, euh justement je crois qu'il y en a sur le site des impôts.
+ça leur permet d'évaluer aussi parfois l'ergonomie d'un site Web.
+Ils essaient deux versions d'un site Web, avec deux mises en page différentes.
+Et ils essaient de voir quelle est la mise en page sur laquelle les gens restent la moins longtemps, sur laquelle les gens arrivent le plus vite à la page finale.
+Donc, dans tout ça y'a...
+On va dire qu'il y a deux attitudes possibles à avoir :
+la première, c'est de se dire bon, que par défaut on veut rester un peu méfiant sur les informations qu'on divulguent en ligne et...
+Pour les plus curieux, ça s'étudit, c'est du code qui s'analyse, qui s'exécute, qui se débug très bien dans les navigateurs, on voit les requêtes qui sont passées, on voit les informations qui sont échangées.
+On a des gens chez nous, dans l'équipe de sécurité qui passent leur journée à ça, à étudier tout ces mouvements d'information entre votre site, des petits boutons anodins comme sur le site Facebook "Like" et autre...
+Et qui nous permettent de vérifier après nous, dans Gecko, bah qu'on donne le moins d'information possible.
+Typiquement, Firefox 16 qu'on a sorti y'a 2 semaines, on l'a arrêté en catastrophe au bout de 2 heures parce qu'on s'est apperçu qu'il y avait un truc qui aurait permis au bouton "Like" typiquement, d'avoir l'historique de votre navigation. Donc, là clairement c'est pas le cas.
+On a fait la 16.01 deux heures plus tard et on l'a poussé partout.
+Mais, ça fait parti des choses que... qu'on peut vérifier parce que ça s'exécute dans le navigateur.
+Donc, y'a des navigateurs qui ont clairement intérêt à assurer une étanchéité, on va dire, entre vos données privées et le Web, et d'autres navigateurs qui ont clairement intérêt à faire l'inverse.
+...
+Alors, la navigation privée, à priori, va vous aider un peu sur ça mais ne suffira pas à empêcher ce genre de chose.
+C'est à dire, à priori, quand vous êtes en mode "navigation privée" il ne devrait pas arriver à... facebook, encore une fois, on cite facebook mais c'est pareil pour les concurrents.
+C'est juste Facebook, on est parti sur ce nom là.
+Donc, Facebook ne devrait pas arriver à lier votre profil avec votre navigation.
+Mais à mon souvenir, si vous vous connectez à deux sites d'affilés pendant la même navigation privée, il va se rendre compte que c'est la même personne.
+Je me trompe ?
+...
+Par contre, y'a d'autres outils que je vais vous présenter brièvement...
+Autre intervenant :
+En fait ça c'est ce que l'on appelle du fingerprinting, si on veut savoir côté, du côté du site Web qu'une même personne s'est connectée deux fois, on va chercher à faire des tests pour avoir...
+Comment dire, des caractéristiques du navigateur qui est utilisé pour essayer d'être sûr de l'identité du gars.
+Quand on passe en navigation privée, on est quand même plus difficilement identifiable parce que on perd l'historique à chaque fois, à chaque navigation privée.
+Mais, les risques de fingerprinting sont plus délicats mais en théorie on peut toujours.
+Mais on peut même le faire sans javascript, l'exemple qui est connu comme le loup blanc, c'est les mails en HTML, qui contiennent souvent une image qui est un GIF transparent d'un pixel et ça je pense que toutes les entreprises de marketing du monde le font et ça leur sert à quoi ?
+ça leur sert à relier des mails à la terre entière et ils savent juste en regardant les logs de connexion à leur serveur Web si ce pixel de, d'un octet, à été lu.
+Bah c'est que l'adresse email sur laquelle ils ont tapés au hasard, y'a bien quelqu'un derrière.
+Donc en fait, on peut pas euh...
+à part ne pas se connecter sur Internet, effectivement...
+On peut pas se prémunir complètement de ce genre de chose là.
+On peut en être averti, des gens comme vous, qui êtes éduqués pour être des acteurs du Web de demain... Vous pouvez avoir ça à l'esprit pour vous demander dans quelle direction techniquement il faut aller pour qu'à terme, on reste maître de nos données le plus possible.
+Mais, clairement, y'a pas de solution sans qu'on censure.
+On fait du mieux qu'on peut et voilà, y'a des trucs plus...
+Je vais vous montrer quelques contre-mesures mais c'est vrai que contre le fingerprinting, c'est super difficile de se protéger.
+Et y'avait des test qui avaient été effectué, le fingerprinting, rien qu'avec les informations qu'on peut vraiment pas bloquer.
+Genre, le numéro de version du navigateur, la langue dans laquelle vous êtes, et votre adresse IP.
+Rien qu'avec ça on peut super bien identifier les gens.
+Oui, ça fait peur.
+--
+Bon, je vous ai parlé de Facebook, je ne peux pas ne pas taper sur Google.
+Donc Google, bah c'est chouette.
+Maintenant, Google c'est pas juste un moteur de recherche, c'est tout une galaxie de services, y compris Google Docs, Google Plus, enfin Google tout ce que vous voulez...
+Google Shamppoing, ça devrait pas encore exister mais bon...
+Donc, Google, de plus en plus, a du contenu centralisé.
+Peut-être pas technologiquement centralisé parce qu'ils ont des data centers dans le monde entier mais si vous avez un document que vous partagez sur Google Docs, eh bien il est chez Google, il est pas chez vous.
+Encore, Google sont pas les pires de ce point de vue là mais faut quand même garder ça en tête.
+A certains endroit, ils ont des sources... alors c'est un petit peu différent mais enfin bon... au moins sur Google Plus y'a les mêmes problèmes que sur Facebook globalement.
+Et y'a toujours le problème, à qui appartiennent les données.
+Si vous regardez la licence d'un peu près tous les services Google, une fois que vous mettez des trucs en ligne chez Google, ça appartient à Google.
+ça vous appartient probablement aussi m'enfin...
+Vous avez votre fiche d'impôt que vous avez rempli, enfin votre fichier Excel avec votre comptabilité que vous avez rempli sur Google Docs, bah il leur appartient aussi.
+Ils vous garantissent juste qu'un être humain ne va pas le lire.
+Ils ne vous garantissent pas qu'un programme ne va pas le lire parce que ils vous garantissent même que des programmes vont le lire.
+Ils ne vous disent pas ce que les programmes vont en faire.
+Donc, comment est-ce qu'il gagnent de l'argent, Google ?
+Réponse, exactement de la même manière que Facebook en étant juste un tout petit plus transparent à ce sujet.
+Non, c'est vrai.
+Google je veux dire, dans la catégorie Seigneur des ténèbres, on a vu pire que Google.
+Mais bon faut faire gaffe.
+On a vu pire mais ça ne veut pas dire qu'il faut accepter à peu près tout.
+Un étudiant: vous pouvez donner un exemple pire ?
+Pire que Google ? Bah Microsoft y'a quelques années
+...
+J'vais y réfléchir
+Mais je ne donnerai pas d'exemples...
+--
+Bon, prenons cela dit, sans aucun rapport avec la conversation qui vient d'avoir lieu, ce qui se passe sur un iPhone
+Donc, de nouveau, développer sur iPhone c'est facile.
 Le contenu de l’iphone vient de plein d’endroit.
-C’est-à-dire de l’apple appstore. Et c’est tout
-Vous avez pas le droit d’installer des application qui ne vient pas de l’appstore dans l’iphone
+C’est-à-dire de l’Apple appstore. Et c’est tout
+Vous avez pas le droit d’installer des applications qui ne viennent pas de l’appstore dans l’iPhone
 Vous…
 Nous n’avons pas le droit, je parle de nous parce que nous(Mozilla) avons une expérience avec ça.
-En général, vous n’avez pas le droit de mettre n’importe quelles applications sur l’app store.
-Ils ont le droit de la refuse pour globalement la tête du client.
-Donc c’est arrivé hein, je dirai il y a une clause qui a été rajouter dans leur raison de refuser. C’est en gros, si c’est écrit par adobe on (apple) en veut pas
+En général, vous n’avez pas le droit de mettre n’importe quelle application sur l’app store.
+Ils ont le droit de la refuser pour globalement la tête du client.
+Donc c’est arrivé hein, je dirai il y a une clause qui a été rajouté dans leur raison de refuser. C’est en gros, si c’est écrit par adobe on (apple) en veut pas
 Ça été écrit quasiment telle quelle dans leur clause. Ils ne veulent pas d’adobe, ils ont vraiment envie de donner un coup de pied à adobe, ils ont donné un coup de pied à adobe. Les clauses de l’apple appstore ils les changent quand ils veulent. Et ils l’ont rendu abondamment clair.
 Donc un autre exemple qui nous touche directement.
-C’est qu’on a pas le droit de faire un navigateur pour iphone qui ne soit pas safari relooker.
+C’est qu’on a pas le droit de faire un navigateur pour iPhone qui ne soit pas safari relooker.
 Et ralenti.
-Et donc c’est vrai, il faut qu’il soit plus lent. Un navigateur, non mais chrome est beaucoup plus lent que safari sur iphone, il est a peu près 9x plus lent.
+Et donc c’est vrai, il faut qu’il soit plus lent. Un navigateur, non mais chrome est beaucoup plus lent que Safari sur iPhone, il est a peu près 9x plus lent.
 Opéra je me suis toujours posé la question. Opéra .. Ils ont une version spécial 
 Le opéra mini je crois quand même que c’est un safari sur le dessus et un truc spécial … 
 Opéra renvoie des images.
@@ -25,27 +657,27 @@ Mais visiblement il y a des gens, … situation sur lesquelles ça marche bien.
 Et euh la raison pour laquelle les autres terminaux … navigateurs sont plus lent.
 C’est tout simple. C’est qu’en faite vous êtes obligé d’utiliser les briques iOS, dans les briques iOS il y a le moteur webkit qui est commun à chrome et safari.
 Mais l’accélération du javascript est réservée uniquement à Safari. 
-Donc on peut faire n’importe quels autres navigateurs. A condition qu’il utilise le même moteur de rendu que Safari et Chrome. Que donc les extensions qui sont de plus en plus propriétaire, qu’ils ont rajoutés à la syntaxe HTML,CSS, … Parfois en attentes de standardisation, parfois pas du tout.
-Ils renforcent ces positions là. Mais tout en faisant ça, ils font en sorte que si vous faite un autre navigateur, il sera plus lent. Et il faut le génie des ingénieurs de google pour donner l’impression que leur navigateur est plus rapide alors qu’effectivement sur les benchmarks ils est 9x plus lent. 
+Donc on peut faire n’importe quel autre navigateur. A condition qu’il utilise le même moteur de rendu que Safari et Chrome. Que donc les extensions qui sont de plus en plus propriétaire, qu’ils ont rajoutés à la syntaxe HTML,CSS, … Parfois en attentes de standardisation, parfois pas du tout.
+Ils renforcent ces positions là. Mais tout en faisant ça, ils font en sorte que si vous faite un autre navigateur, il sera plus lent. Et il faut le génie des ingénieurs de google pour donner l’impression que leur navigateur est plus rapide alors qu’effectivement sur les benchmarks il est 9x plus lent. 
 Mais c’est toute la différence entre la perception de rapidité et la rapidité réelle.
-Et voilà, c’est super impressionant. Le jour où Google chrome est sortie pour iOS, il y a plein de gens qui disaient ouaa c’est génial c’est tellement plus rapide que Safari. Et tout les benchmarks disaient qu’il était 9x plus lent.
+Et voilà, c’est super impressionnant. Le jour où Google Chrome est sortie pour iOS, il y a plein de gens qui disaient ouaa c’est génial c’est tellement plus rapide que Safari. Et tout les benchmarks disaient qu’il était 9x plus lent.
 Et effectivement c’est.. tout vous avez été dit à l’instant, le composant javascript sur iOS. Il est interdit un autre composant javascript que celui fourni par Apple. 
 Et celui fourni par Apple il y a un petit drapeau « accélérer ou pas accélérer » et il y a que Safari qui a droit d’accélérer.
 Ça le mérite d’être simple.
-Ça c’est des fonctionnalités limités artificiellement dans un objectif purement commercial, purement pour assurer la domination d’un produit sur les autres et purement pour assurer que les trucs propriétaires webkit dominent le web
-Je vous cacherai pas que l’on l’a un peu là ..
+Ça c’est des fonctionnalités limitées artificiellement dans un objectif purement commercial, purement pour assurer la domination d’un produit sur les autres et purement pour assurer que les trucs propriétaires webkit dominent le web
+Je vous cacherai pas qu'on l’a un peu là ..
 -	Données apple
 Pour les données ce n’est pas super claire
-J’avoue n’avoir pas suivi où en est icloud et tout ce qu’il entoure
+J’avoue n’avoir pas suivi où en est iCloud et tout ce qu’il entoure
 Mais vous…
-Personnellement j’ai pas d’iphone ou autre
-Si vous avez un iphone je vous invite à vérifier les licences sur à qui appartiennent les données et où elles sont.
+Personnellement j’ai pas d’iPhone ou autre
+Si vous avez un iPhone je vous invite à vérifier les licences sur à qui appartiennent les données et où elles sont.
 Pour beaucoup de chose il y a aucune transparence.
 Donc cette histoire sur les versions de javascript ralenti et tout ça, à la rigueur on le sait.
 Qu’est ce qu’il y a d’autres qu’on ne sait pas ? bas par définition on ne sait pas.
-L’histoire de l’iphone qui enregistrait vos mouvement, on ne sait pas pourquoi. 
-Donc selon apple je ne sais plus quelles ont été leurs explications… dû à un bug (…) c’est possible je ne sais plus.
-Les statistique d’utilisation du réseau, c’est possible.
+L’histoire de l’iphone qui enregistrait vos mouvements, on ne sait pas pourquoi. 
+Donc selon Apple je ne sais plus quelles ont été leurs explications… dû à un bug (…) c’est possible je ne sais plus.
+Les statistiques d’utilisation du réseau, c’est possible.
 Comme il n’y a aucune transparence, il n’y a aucune transparence.
 D’ailleurs il y a une question que je me pose à ce sujet.
 Apple a signé un certain temps, 1 an ou 2 un accord avec twitter, un accord spécifique avec twitter sur la fourniture… le fait de fournir des identités.
