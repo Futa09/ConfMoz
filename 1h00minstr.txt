@@ -1,4 +1,4 @@
-...déjà un petit peu mais il y a des choses que vous ne connaissez pas forcément
+﻿...déjà un petit peu mais il y a des choses que vous ne connaissez pas forcément
 et puis des nouveautés qui sont en train d'être concoctées au sein de la fondation
 et que vous allez découvrir dans les mois à venir
 Et auxquels certains d'entres vous vont participer, bien entendu, parce que vous savez qu'on va également vous faire participer
@@ -966,4 +966,239 @@ Je ne sais pas si vous connaissez, il y a le principe des cookies, super cookies
 Enfin bon bref
 BetterPrivacy essaye de faire en sorte que les trucs qui essayent très très fortement de s’incruster chez vous aient moins de chance d’y arriver 
 -	Apprendre à innover
+
+Ça c’est le front numéro 1 la lutte contre la vie privée
+Le front numéro 2
+Nous voulons que le web appartienne à ses utilisateurs.
+Bas ça veut dire qu’il faut que les utilisateurs fassent le web
+Tout le monde ne peut pas être informaticien mais on va faire en sorte qu’il y en ait quelqu’un qu’il le soit déjà 
+Bas nos activités chez mozilla éducation 
+On va déjà parler des informaticiens essentiellement
+Mais on essaye de leur expliquer notamment ce que je vous ai essayé d’expliquer tout à l’heure
+On essaye aussi de travailler avec vous sur des projets, projets étudiant, des stages et tout ça
+Web maker
+Web maker c’est la contrepartie de l’éducation mais pour des gens qui ne sont pas des informaticiens
+Mais d’essayer de leur apprendre à fabriquer quand même une partie du web
+Donc leur apprendre faire une page web
+Ne serai ce que leur apprendre à … il y a plein d’autres trucs du genre
+Leur apprendre … ce qu’il appel  « webmeter »
+Leur apprendre à comprendre comment fonctionne le web et ne pas être de simple consommateur du web
+Notamment il y a un outil dans le cadre de mozilla webmaker
+Mozilla Thumble qui est un éditeur web tout bête en ligne
+C’est une page web qui permet d’éditer une page web avec un rendu immédiat
+C’est très pratique pour apprendre a faire des tas de choses
+Ah il y a un autre truc qui est l’inspecteur web
+Parce que quand même une page web est une jolie page web que quand elle est vue en 3D
+Je peux zoomer
+Vous voulez que je zoom ?
+L’objectif
+Il y a pas que le mode 3D oue on joue à minecraft
+Plus généralement, l’inspecteur c’est pour essayer comprendre comment fonctionne une page web
+Qu’est-ce qu’il a fait tiqué notamment qu’est ce qu’il a fait bugger
+De manière soit à la corriger si c’est votre page web
+Soit à prendre des choses si ce n’est pas votre page web
+On a Popcorn, qui est une suite en ligne pour éditer et mettre en place de la vidéo
+De nouveau c’est pour apprendre à faire des trucs
+Pas forcement pour des informaticiens mais ça peut être super pratique
+Et puis on a firefox OS là aussi qui déchire trop, je vais toujours laisser mon collègue en parle dès que j’aurai fini 
+--Les Outils pour innover—
+Après il y a les outils pour fabriquer des choses
+Je sens que les gens vont plus rester attentives très longtemps à supposer qu’il le sont encore c’est pas grave
+Ah non c’est parce que vous aimez le vélo ! oui c’est un vélo firefox voyons
+On innove chez mozilla
+Donc, nous avons plein d’outils conçu pour aider les gens à développer, essentiellement dans le cadre d’une page web mais pas uniquement 
+Donc on a tous nos outils de développement, l’inspecteur en fait parti
+On a un éditeur de javascript en ligne
+On a des outils pour permettre de déterminer ce que fait le javascript et pourquoi il bug
+Pas seulement le débugger
+Des outils pour essayer de faire des références là-dessus
+Des outils qui permet de déterminer pourquoi est-ce que des pages web vont lentement et tout ça
+Ça c’est un front, le front outil de développement
+Disons un sous front
+Un autre sous front
+C’est les applications web ouverte 
+De nos jours nous avons atteint un niveau de fonctionnalité sur le web où on peut vraiment faire plein de choses
+Bon un exemple, et je vais de nouveau citer google donc là cette fois
+Ils arrivent à faire google docs
+Et google docs c’est fichtrement impressionnant quand même
+Il y a pas si longtemps ce ne serait absolument pas envisageable
+Donc il y a plein d’autres choses qu’on peut faire avec le web maintenant
+On peut téléphoner avec le web, vous aurez probablement une démonstration tout à l’heure
+On peut faire des vidéos conférences avec le web
+On peut faire des jeux avec le web, des jeux en 3D donc là c’est la vue en 3D mais c’est purement fait avec des technologies web
+Donc la photo que je vous ai mis tout à l’heure c’est cube je crois ou je sais plus
+Mais un jeu du style Quake, qui tourne entièrement sur le web
+Je me fais frag complètement
+ Il y a plein de chose qu’on peut faire de nos jours avec le web
+Nous avons un objectif
+Libérer toutes ces applications
+Que on puisse écrire à peu près n’importe applications, on ne va pas certainement avoir 100% des applications, mais 95% des applications qui sont écrite avec le web, par le web, pour le web et avec des formats ouverts et avec cet esprit de web ouvert en tête.
+C’est assez ambitieux, bas on aura vraiment changé le monde
+On aura des applications qui marcheront sur toutes les plateformes
+Avec l’esprit web ouvert on aura des données qui vous appartiennent, ça c’est la partie la plus difficile je pense
+Et du boulot, mais on y travail dessus, on y travaille avec le W3C, avec nos concurrents, on y travail même avec facebook  c’est pour dire
+Et il y a plein de boulot mais c’est quelque chose qui avance et qui avance bien, et vous allez avoir une démo tout à l’heure de … à quel point ça avancé
+Il y a des choses aussi qui ne dépendent absolument pas de mozilla, genre JQuery, NodeJS, …
+Plein d’autres outils qui encore une fois contribuent à mettre l’innovation, le développement entre les mains des utilisateurs
+Encore une fois quelle est la différence entre NodeJS et VisualStudio C++, on va dire C++  Visualstudio
+Vous n’avez besoin de rien pour commencer avec NodeJS, vous avez besoin d’un ordinateur
+Vous n’avez pas besoin d’autorisation de qui que ce soi, vous n’avez pas besoin d’une carte bleu, vous avez juste besoin d’un ordinateur. Alors il a peut être fallu une carte bleu pour avoir un ordinateur.
+On n’arrivera pas à résoudre tous les problèmes
+Mais encore une fois tout ça, ce genre de choses et mettre l’innovation aux mains de tout le monde, on compte sur vous pour participer de plein de manière.
+Ça tombe bien j’ai un transparent à ce sujet
+--Vous pouvez participer--
+ Donc il y a plein de manière d’y participer 
+Et sérieusement on compte sur vous
+Il y a plein de manière d’aider, on peut y aller avec du code
+Donc vous à priori vous pouvez aider avec du code
+Il n’y a pas qu’avec le code
+On a toujours besoin de gens pour aider sur des questions de traduction
+Firefox est disponible en 90 langages un truc comme ça ?
+Y compris dans des langages de type breton, y compris le Manchu
+Enfin plein de langage, lesquels ont été rajouté récemment ?
+Donc des langages loin de moi
+Et on a failli avoir une version en Clubon
+A l’a pas eu en définitif ?
+On avait des briques et il manquait plus qu’a déployer
+Nous comptons sur vous pour la version clubon 
+Une autre chose qui est trait importante
+C’est toutes les questions d’innovation ne s’arrête pas a firefox, ne s’arrête pas aux outils mozilla
+Nous avons besoin, et quand je dis nous c’est le monde libre, le web libre à besoin de gens pour développer des applications dans cet esprit.
+Pour développer des applications à l’aide des technologies et du web libre, du web ouvert
+Et avec l’état d’esprit du web ouvert, où les informations appartiennent à leur utilisateur
+C’est quelque chose de très important.
+Je pense que c’est le point sur lequel vous pouvez le plus nous aider
+Et ça ne sera à priori pas en classe
+Mais on veut … aller soyez chic participer
+Bon quoi d’autre ?
+Bien entendu vous pouvez utiliser les technologies, bas plus il y a de gens qui utilisent les technologies ouvertes, moins il y a de gens qui utilisent les technologies verrouillées  et propriétaire.
+Donc c’est bien
+Plus il y a de gens qui en parlent autour d’eux
+Et dis donc Facebook vous espionne un petit peu, vous savez firefox OS c’est vachement mieux que tout le reste.
+Comment ça vous ne l’avez pas encore testé, mais je ne veux pas le savoir
+Donc plus il y a des gens qui font ça.
+Plus on fait avancer la cause.
+Et enfin on a un gros truc qui s’appel bugZilla, qui contient 800 000 bugs
+Une bonne partie d’entre eux sont fermés
+Donc nous comptons sur vous pour nous rapporter vos bugs, si vous utilisez un truc avec nos technologies prévenez nous quand il y a quelque chose qui ne marche pas, prévenez nous si y a des choses à améliorer ou laissez nous un mot gentil si vous adorez.
+C’est toujours bon pour le moral
+Bas je vous remercie de m’avoir écouté, ce fut long et si vous avez des questions n’hésitez pas sauf si c’est des questions de cryptographie, on les gère séparément. 
+Quand vous parlez de Google
+C’est justement quand vous donnez l’exemple de Google, Facebook, Microsoft, ils ont tous à peu près le même système économique.
+Donc c’est-à-dire je récupère vos informations, je la vend plus tard
+Et je ne sais pas comment microsoft gagne son argent mais bon je veux pas particulièrement le savoir.
+Mais je veux juste avoir une idée de comment Mozilla par exemple fait pour gagner son argent.
+C’est une très bonne question
+Alors je vais vous dire on a quelque donations.
+Mais ça ne couvre pas énormément de chose.
+Le truc qui nous couvre le plus, c’est ça
+Le rond à quelque pixel en haut à droite de l’écran.
+Et ça rapporte pas mal d’argent.
+Non le contrat doit être à un moment renouvelé tous les 3 ans. Il y a eu une négociation pour être renouvelé et il a été renouvelé
+Et vous avez un montant ?
+Euh ça je n’ai absolument pas le droit de vous le dire
+Alors je peux juste vous citer une déclaration qui a été publique d’un certain Tristan NITOT
+Je n’ai pas le droit de vous dire on est content
+Si on gagne plus d’argent c’est forcement qu’on a  plus d’argent
+Si on gagne plus d’argent google on aurait eu l’argent d’autres
+Oui il faut savoir qu’il y a d’autre personne qui font des moteurs de recherche et qui aimerai bien prendre la place de google en nombre d’utilisateurs
+Donc on a 450 millions d’utilisateur, il y a un certain nombre d’entreprise qui sont prêtes à payer de l’argent pour avoir quelque pixel devant 450 millions 
+Il y a effectivement une version de mozilla qui met Bing en premier
+Euh voilà
+C’est le moteur de firefox OS 3
+En même temps il y a plein de moteur de recherche dans le monde.
+Il est clair en France et une bonne partie dans le monde, on a un contrat avec Google qui met google en première position.
+En Russie jusqu’à récemment c’était un moteur de recherche Russe qui était en première position.
+Au Japon jusqu’à récemment c’était Yahoo !
+Enfin voila…
+On n’est pas obligé d’avoir … on  n’est pas marié avec Google non plus.
+Et si je dis du bien de Google des fois c’est n’est pas seulement
+Bonjour monsieur Google excusez nous
+Donc ce n’est pas exclusivement parce qu’on a des accords avec Google
+C’est indépendant
+Pardon ? Que google ait créé Chrome ?
+Bon ça nous embête un peu, ça dépend des jours
+Parce qu’il faut avouer qu’ils ont fait du très bon travail sur plein de choses.
+Ils ont vraiment poussé les choses dans de bonne direction
+Donc nous on est là notamment pour les garder honnête
+Pour pas qu’ils virent dans des trucs un peu trop gênant
+Pour garder… pour rappeler aux gens que oui quand vous tapez quelque chose dans la barre de recherche… que Google est au courant, des trucs comme ça.
+Donc nous nous voulons poser des alternatives en permanence toujours pour proposer des alternatives qui est la plus favorable à l’utilisateur.
+C’est quand même notre raison d’être.
+Donc Chrome ça dépend des jours, il y a des jours où ils nous embêtent 
+Ils nous embêtent quand c’est fourni automatiquement quand toutes les personnes qui installe la nouvelle version de flash, il y a chrome qui s’installe automatiquement comme navigateur par défaut
+Ça nous embête
+Mais globalement je dirai que l’effet a été positif sur le web
+En fait chez mozilla on n’a pas vocation à être hégémonique sur le web
+On s’en fiche d’avoir 80% de part de marché
+On est très content avec 20% voir 15%
+Ce qu’on veut juste c’est avoir une part de marché suffisante pour qu’on ne puisse pas être ignoré
+Nous on fonctionne avec des standards web, uniquement des standards web donc tout ce qui est lisible chez nous est lisible par d’autre.
+Donc c’est comme ça qu’on essaye de forcer le web à rester à un état interopérable/ouvert
+Donc on est a je sais plus combien 50
+Globalement Chrome est à 25-30 aussi
+(a priori on est 1er en France )
+Et Internet Explorer pareil
+Donc on a une situation qui n’est pas loin de ce que je qualifierai d’idéale
+ Où on est passé de il y a 10ans IE6 à 98% de part du marché à globalement 30-35%
+Et Chrome et firefox qui sont à peu près à égalité pareil 30-35
+Donc il y a plus aucun éditeur de navigateur qui peut faire quelque chose sans les standards web
+Même microsoft son IE9 qui est très correct, je n’ai pas grand chose à reprocher à microsoft sur IE9
+Je suis assez content qu’ils aient enfin accepté le fait qu’ils ne faisaient pas le standard du web
+Que le web se faisait autour d’un tas d’autres choses et qu’il fallait qu’ils le suivent
+Donc c’est plutôt pas mal, il y a aussi des projets sur lesquels on a un partenariat avec Google
+Des trucs qui ont plus ou moins bien marché, je pense a webm
+Mais la actuellement webrtc qui est probable skykiller 
+Grosso modo on va pouvoir faire du skype dans un navigateur sans skype
+Donc on l’a lancé avec Google, Google a mis dans sa version il y a je sais plus 1 mois et demi ou 2
+Bref c’est des choses qu’on ne peut pas avancer tout seul
+D’une manière générale pour qu’un standard soit validé par le W3C 
+Il faut 2 implémentations indépendantes
+Donc si Google le fait et que Mozilla le fait, on a 2 implémentations indépendantes, ça devient un standard.
+Si on est tout seul à le faire, on ne peut pas lutter
+Là le ménage à 3 globalement, il y a des fois nous en tant que développeur on est un peu vexé de voir que nos collègues chez Google font moins bien.
+Il y a d’autre fois on fait péter les news parce qu’on fait mieux qu’eux.
+Et ca fait une concurrence qui est saine, on avance, je trouve… qu’on … je suis assez content personnelement
+C’est vrai qu’il y a certainement des liens, il y a régulierement des gens qui viennent nous dire haha je suis passez chez … que j’utilise Chrome maintenant
+Ok, enfin…
+Dite nous juste pourquoi pour qu’on puisse améliorer firefox
+On en reparlera
+Est-ce que ça répond à ta question ?
+Il y a-t-il d’autres questions ?
+Oui ?
+Si quelqu’un veut bien filer le micro, c’est diamétralement à l’opposé.
+En fait c’était pour en revenir sur ce que vous avez dit
+Oui ?
+Enfin je vous demande avec la monté de Chrome dans les parts de marché,
+Est-ce que, comment dire, la fondation Mozilla n’est pas amené à disparaitre à la longue parce que si une grande partie de vos ressource vient du petit logo… et donc comment vous allez faire après pour subvenir à vos besoin…
+Pour le moment nous somme franchement content de la situation, pour plusieurs raisons
+Là vous parlez uniquement de la question économique
+Nous n’avons jamais eu autant d’utilisateur qu’actuellement
+Nous avons 1,5 milliards d’utilisateurs, un tout petit peu moins 1,5 milliards d’utilisateurs
+Ce qui est quand même pas mal
+Donc, la situation est bonne pour nous, tant que nous avons des utilisateurs
+Et pour l’instant ça monte, si jamais un jour si notre part de marché faisait ça (down)
+Effectivement on se poserait des questions sur notre survie
+En même temps on se poserait la question sur notre survie quelque soit notre moyen de financement si notre part de marché faisait ça (down)
+Donc de ce point de vue là, ça va
+Il y a une chose qui pourrait éventuellement … enfin il y a plusieurs choses qui pourraient éventuellement nous menacer
+Si il y avait qu’un seul moteur de recherche, effectivement ils n’auraient pas forcement intérêt à louer un peu d’espace chez nous
+Mais pour l’instant il y a deux grandes compagnies qui fait des moteurs de recherche et qui aiment bien se mettre des bâtons dans les roues l’une des autres
+De ce point de vue là ça nous va très bien
+Il y en a quelque autre plus petit aussi
+Il y a autres entreprises aussi qui aimeraient bien ou aime bien avoir des petits pixels en haut a droite
+Euh je réfléchie si y a des choses confidentielles
+Bon il y a d’autre entreprises qui , plein de personnes qui seraient prêt a faire des accords avec nous  de ce point de vue la, même si Google décide pour une raison ou une autre d’arrêter l’accord avec nous
+On a pas mal de plan de secours
+Enfin justement par plan de secours, si j’ai bien compris en fait c’est qu’une grande partie de vos ressources vient de chez Google
+Oui ce n’est pas secret
+Et est ce que ça ne serait pas plus judicieux pour la fondation de réfléchir à un Business Plan pour son…
+On y réfléchie, je n’ai absolument pas le droit de le dire
+Il y a très peu de chose qui sont confidentielles chez Mozilla, mais ça, ça en fait partie
+Y a-t-il d’autres questions ?
+Sinon je peux laisser la parole à mon collègue
+Il veut parler aussi, il s’ennuie depuis tout à l’heure, je l’entendais ronfler depuis ici
+Donc questions ou pas questions ?
+Donc je pense qu’il n’y a pas de question alors sinon vous viendriez me voir après et on parlera de crypto
+--FIREFOX OS--
 
