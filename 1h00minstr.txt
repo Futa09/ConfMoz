@@ -1202,3 +1202,695 @@ Donc questions ou pas questions ?
 Donc je pense qu’il n’y a pas de question alors sinon vous viendriez me voir après et on parlera de crypto
 --FIREFOX OS--
 
+
+
+
+
+
+
+
+
+
+2:04:00
+--
+...
+Un étudiant: Je voulais savoir de quel type sera le noyau minimaliste dont vous parliez au départ ?
+Linux, what else ?
+...
+Donc voilà...
+Si David avait une heure de plus il vous aurait parlé du marketplace.
+Mais c'est typiquement l'idée, c'est qu'on veut casser les silos.
+On veut remplacer ça par quelque chose de beaucoup plus ouvert.
+Que n'importe quel développeur puisse proposer à peu près n'importe quelle application sur à peu près n'importe quel marketplace.
+Le marketplace dans l'idée qu'on s'en fait, y'aura Mozilla qui aura le sien mais ils seront pas exclusifs les uns des autres.
+On part dans l'idée que le modèle de sécurité sera plus simple parce qu'on pourra faire tourner que des applications Web.
+Quand vous installez une application iPhone, Android, vous installez du code binaire qui peut taper assez loin dans les entrailles de votre machine.
+Sur une application Web, grosso-modo, on est dans les mêmes conditions de sécurité que sur une page Web.
+Même meilleur que sur le desktop en fait.
+Puisqu'on a déjà des process isolés sur le... toutes les applications différentes sur le mobile.
+--
+Donc globalement l'idée, pour les utilisateurs, en tout cas pour la première année, c'est de leur offrir un smartphone abordable.
+On imagine.. enfin dans l'idée qu'on s'en fait, les utilisateurs de firefoxOS...
+En grande majorité, ce sera leur premier smartphone.
+Enfin moi personnellement, c'est mon premier smartphone.
+Et j'étais assez content de mon ?dompro? d'avant.
+Et on veut pouvoir permettre une grande grande variété d'applications.
+On veut pas... on veut casser, entre guillemets, toute possibilité de censure sur les applications qu'on pourra faire pour ce genre de machine.
+Unbe application Web... personne peut empêcher quiconque de faire une application Web.
+ça tombe bien.
+Non seulement on va supporter les applications Web mais la démarche c'est de ne supporter que les applications Web.
+--
+On verra en fin d'exposé ce que ça veut dire.
+Donc ça, c'est le genre de graphique que les américains adorents mais que je déteste.
+Mais globalement, on a un axe, voilà donc ça c'est les...
+Sur cet axe horizontal, plus on va vers la droite et plus le téléphone il sait faire des choses classes.
+Et quand on monte là, ça veut dire que le téléphone il coûte cher.
+Donc actuellement y'a une espèce de...
+Y'a une espèce de courbe comme ça...
+Notre idée, c'est de proposer la même chose que ce qui se fait actuellement dans les téléphones à 150-200 dollars mais pour des prix inférieurs à 50.
+Avec... en utilisant juste firefox comme OS quoi.
+--
+Donc ça, c'est supposé être l'an prochain, 2013.
+--
+Donc un petit aperçu de... alors vraiment très loin, de l'architecture.
+Globalement, comme je disais tout à l'heure, on a une architecture qui est beaucoup plus simple.
+Grosso-modo, tout ce qui est en violet, c'est vraiment ce qui est simple, ce qui est standard, ce qui est partagé par...
+Enfin ce qui est défini par les standards déjà utilisés par des tas de gens.
+Tout ce qui est bleu, c'est tout ce qui est spécifique, tout ce dans quoi on peut difficilement mettre les mains.
+Donc là, c'est pas cité, mais c'est globalement, c'est le cas d'Android.
+Donc, on a tout un kernel, toute une ROM dans le téléphone et puis après on a un kernel Android donc Android c'est un kernel Linux, c'est une machine virtuelle, je sais pas si on a le droit de dire java mais enfin c'est Dalvik donc c'est... une JVM quoi.
+Plus tout un tas de trucs, et c'est surtout des API natives.
+Donc, si je veux faire une application...
+Actuellement là le truc que j'aime pas, je me suis acheté un vélo.
+Je me suis dis "tiens, j'aimerais bien avoir une application qui me suive, qui me fasse ma géolocalisation, qui trace le truc sur Google et qui repère le nombre de dénivelé positifs que j'ai fais, le temps que j'ai mis etcetera, etcetera..."
+Je me suis aperçu qu'il y avait pleins d'applications qui existaient pour Android, pleins pour iPhone et c'est du code qui est très différent.
+Parce que les API Android, les phones sont très différents, les langages sont très différents.
+Le ??? est différent aussi, la disparité des modèles fait que les applications sont très différentes.
+Un jour, quand j'aurais un peu de temps, je ferais la même pour firefoxOS.
+Ce qui sera assez cool c'est qu'elle marchera sur les trois terminaux du coup.
+Puisque, à priori, à peu près tous les terminaux supportent les technologies Web.
+La magie va se passer dans cette partie là.
+C'est à dire ce qu'on appelle les Device API.
+Chez Mozilla on appelle ça les Web API parce que on se place de l'autre côté mais bon...
+Mais grosso-modo c'est une initiative qui a démarré y'a déjà un moment.
+Qui consiste à proposer des API Web pour que votre navigateur...
+ça avait démarré avec quoi ? Ah oui, y'avait un truc qui avait démarré, c'était l'accéléromètre.
+On voulait pouvoir utiliser sa tablette, la faire pencher et qu'on sache interpréter ça dans une... dans une page Web.
+Typiquement, pour des jeux, donc on va commencer à exposer l'API accéléromètre.
+Je crois qu'il y a une API JoyPad aussi que google a pondu, qui est marrante.
+Y'a...
+Et puis de fil en aiguille, on sait dit tiens en fait on pourrait faire des API pour à peu près tout.
+Et, ce qui y'a de cool quand on bosse pour Mozilla, c'est que quand on fait des API comme ça, des API.
+On peut les proposer à la standardisation.
+On peut les implémenter d'abord et les proposer à la standardisation.
+Recevoir des critiques de la part des gens du W3C dessus, modifier etcetera...
+Et en faire des standards quoi.
+Donc ça c'est la démarche.
+--
+ça c'est l'architecture.
+Alors, je sais plus d'où sont venu les noms.
+Mais bref...
+Gonk, c'est le kernel.
+Donc ça c'est un kernel Linux.
+On est parti au départ d'un kernel Android dans lequel on a enlevé à peu près tout.
+On a enlevé la JVM, on a enlevé le moteur WebKit, on a enlevé plein plein de choses.
+Et maintenant on se retrouve avec un moteur qui fait 17 méga je crois, avec un kernel qui fait 17 méga.
+Donc on a vraiment plus rien dedans.
+Et à un moment donné on est allé un poil trop loin, on avait du mal, on avait même plus de quoi faire, enfin, là on peut même plus éditer un fichier avec ce qu'on a dedans.
+Il faut l'éditer en remote, enfin...
+On avait été un poil violent.
+Mais dans le doute, on préfère en enlever trop que pas assez.
+La partie noble on va dire, c'est Gecko.
+Donc, ça c'est le moteur qui fait tourner Firefox sur les machines des plus avertis d'entres vous.
+Et, avec en plus, toutes ces API Web, toutes ces device API.
+Donc, là je sais pas ce que nos infographistes ont voulu représenter là.
+Bon, ça c'est visiblement l'API téléphone, ça c'est l'API de settings, l'API de son, SMS, photo... enfin bon.
+Alors, on a pas d'API pour explorer des fichiers.
+ça fait parti des grandes différences entre faire une application Web et faire une application desktop classique.
+Grosso-modo, je pense que la plupart d'entre vous ne veulent pas qu'un site Web puisse accéder à vos fichiers sur desktop.
+ça parait à peu près évident.
+Par contre, si vous même vous choisissez avec un bouton "Choose File", un fichier sur votre desktop, à ce moment là vous avez fait la démarche de le choisir vous-même, de le sélectionner.
+A ce moment là, vous êtes d'accord pour que le site Web en fasse quelquechose.
+Mais bref, on a pleins de restrictions comme ça.
+Donc typiquement, l'API fichiers c'est super frustrant
+Le monsieur qui est là en plus il peut expliquer plus de choses que ce que je devrais savoir sur l'API fichiers.
+Donc je sais que c'est pas l'API fichiers puisqu'on en veut pas de l'API fichiers.
+Par contre, c'est peut-être média ou je ne sais pas quoi.
+Ou peut-être que juste nos infographistes à qui j'ai piqué ce matériel de press, n'ont pas compris qu'on avait pas d'API fichiers.
+Peut-être.
+J'en sais rien.
+En tout cas, la partie moche, c'est qu'il y en a beaucoup plus que ça des API spécifique.
+On en a vraiment une bonne grosse flopée.
+Donc.
+ça grosso-modo, c'est une partie qui se fait...
+Proche, enfin en collaboration avec les fabricants.
+ça, c'est ce qui se fait globalement dans les bureaux en Californie mais aussi un peu à Paris.
+David, typiquement, bosse sur cette partie là.
+Et ça, c'est la partie qui devrait vous intéresser vous.
+Et j'espère pleins de gens.
+ça c'est la partie interface utilisateur, donc qu'on appelle Gaia.
+Mais bon, Gaia c'est un mot-valise.
+Toute la partie visible du téléphone, ce sont des applications Web.
+Et on a des applications qui sont livrées d'origine avec le téléphone, donc tout cet ensemble d'applications on appelle ça Gaia.
+Mais y'a pleins d'applications qui sont retirés ou ajoutés au dernier moment et qu'on mettra au marketplace à la place.
+Y'a pas de différences, de vraies différences entre une application du marketplace Mozilla ou une application Gaia en fait.
+La différence c'est que l'application Gaia elle sera livrée dans le téléphone par défaut.
+Mais, c'est une application Web comme une autre.
+Enfin comme une autre...
+Qui peut profiter de ces API là, la différence essentielle c'est ça.
+--
+Donc voilà, pour revenir un peu sur Gonk pour les plus chevronnés d'entre vous.
+On a un bout de... d'abstraction layer, de couche d'abstraction matérielle.
+Donc globalement, l'API de Gonk, elle nous sert à faire en sorte que les gens qui bossent sur Gecko n'aient pas trop à se soucier du matériel.
+Donc on a des équipes qui bossent uniquement pour, on va dire, la compatibilité matérielle du téléphone.
+Donc, le rôle de cette API Gonk c'est d'exposer les API matérielles à Gecko.
+--
+Gecko, je sais pas pourquoi on le présente encore mais...
+Le meilleur moteur javascript du monde.
+Presque le meilleur moteur de rendu du monde.
+On y travaille.
+Et surtout là, le Gecko qu'on va chipper dans FirefoxOS, c'est un Gecko qui expose un grand nombre d'API pour contrôler votre device.
+Qui sont pas activés par défaut dans le desktop, sur la version laptop.
+--
+Et donc Gaia...
+Alors...
+Y'a un terme en fait...
+qui est assez malheureux, c'est...
+le terme "Webapps" parce que en fait on ne sait jamais trop ce que ça veut dire une "Webapps".
+Une application Web, ça peut être quelque chose qui...
+qui se passe entièrement du côté du serveur.
+Et sur lequel finalement vous n'avez pas trop de contrôle.
+Et, en fait, quand on parle de "Webapp" dans le projet FirefoxOS, on parle d'applications Web qui tournent entièrement sur le téléphone.
+Donc, on utilise les derniers gadgets de HTML5.
+Comme "offline cache", parfois "localStorage" quand on en laisse passer.
+Et donc ce sont des applications qui tournent entièrement sur votre téléphone.
+Si, si y'a pas de réseau, comme c'est le cas souvent ici, ça marche quand même.
+Donc, quand on parle d'"Open WebApp" ou de "WebApp" dans le reste de cette présentation, c'est de ce genre d'application Web dont on parle.
+--
+Donc, je crois que la liste n'est pas complète parce qu'on on a rajoutés depuis.
+Mais ça c'est un aperçu de toutes les API qu'on a dû implémenter dans GAIA.
+Et le plus dingue c'est qu'à chaque fois on fait des documents pour le W3C, pour expliquer ce qu'on fait.
+Et avoir leur feedback parce qu'on veut...
+Le but du jeu, c'est que tout cet ensemble d'API devienne un standard.
+C'est au moins aussi important que d'avoir un téléphone fonctionnel pour nous.
+--
+ça, c'est le tableau qui fait peur.
+Enfin surtout à moi.
+Parce que c'est un remap.
+Mais globalement ça vous explique comment on fonctionne
+On a toutes ces API là donc vous avez eu un aperçu.
+Bon, bah on y a réfléchi, on les implémente.
+Et on a nos collègues, essentiellement en Californie, qui ont bossé dessus.
+Pour les implémenter pas mal.
+Et pendant ce temps-là, nous à Paris...
+On a eu des gens qui ont fait des spéc.
+Alors UX, user experienced, c'est tout ce qui est ergonomie logiciel.
+Ils ont fait, ils ont imaginés comment devaient se comporter les applications, tout ça.
+On les a implémentés.
+Et actuellement on est dans cette phase là.
+C'est à dire qu'on a figé nos fonctionnalités.
+On ne rentre plus aucune nouvelle fonctionnalité.
+On est en train de débuguer, de peaufiner.
+Et de résoudre les bugs...
+Enfin, les histoires de performance, les glitch d'affichage et tout ça.
+Et, on a du boulot.
+La bonne nouvelle c'est que je crois qu'on nous a annoncés qu'on avait droit à un mois de plus là.
+Mais globalement, voilà.
+Décembre: GAIA v1 est sur les rails.
+Après y'a tout un processus compliqué pour que ça passe l'autorité de certification, pour que ça puisse être mis sur le marché.
+Parce que un téléphone mobile c'est pas tout à fait un ordinateur comme un autre.
+Et on commencera d'ores et déjà à bosser sur GAIA v2.
+Pour... l'année d'après.
+Donc, GAIA v1 qu'on va finir là.
+Il devrait être ?"chiper"?, ça commencera par le brésil.
+Autour du printemps-été prochain.
+...
+Toute la mise à jour pour l'instant se fait ????
+Pour l'instant, la seule chose qu'on sache pas mettre à jour c'est cette partie là.
+Et, on...
+Comme on est en phase de stabilisation là.
+On a déjà des gars chez nous qui refusent de flasher leur téléphone.
+Typiquement là, partout où je me déplace, ça m'arrive de le faire dans le RER ou dans le métro.
+J'ai une idée, je la code et j'ai mon cordon USB, je fuiiiiiiit...
+Et j'envoie dans le téléphone, ça prend 10 secondes.
+Et, enfin le fait de l'envoyer, le fait de la coder ça me prend malheureusement plus de temps.
+Et, on a des gars chez nous qui disent: "nan mais maintenant c'est fini, je refuse de brancher mon téléphone sur un ordi. ça doit marcher".
+Donc, y'a des fois des cas un poil pénible, où en fait une version bugguée est arrivée et a cassée des trucs.
+Et du coup on essaie de réfléchir, de savoir comment on peut faire, par mise à jour successive, pour résoudre le problème.
+C'est un nouveau métier quoi, je suis pas sûr de l'aimer celui-là.
+Mais oué on y arrive.
+On y arrive globalement.
+Le seul truc pour lequel pour l'instant on sait pas trop comment faire, c'est cette partie là.
+Cette partie-là pour l'instant, je sais pas trop ce qui est prévu de faire.
+Je suis un peu plus inquiet là-dessus.
+Mais sinon on est capable de péter tout le reste.
+On a figé la version de Gecko qu'on va ?"chiper"?.
+C'est le Gecko 18.
+Donc c'est le firefox qui est actuellement en version Aurora qui sera le firefox stable dans 12 semaines, dans 3 mois.
+Donc, tout ça normalement, y'a pas de raison d'être plus inquiet que...
+...
+Pour l'instant, y'a un terminal.
+Enfin un terminal, on sait pas encore exactement lequel.
+Mais la première phase de déploiement de firefoxOS, ça va être :
+un terminal, qui va être vendu au Brésil et on espère qu'il va être bien vendu.
+Et qu'il va nous permettre de voir comment on est capable de faire des mises à jour dans plusieurs millions d'unités comme ça d'un coup.
+Actuellement, on fait des mises à jour sur, comme disait David tout à l'heure, sur un demi-milliard de postes toutes les 6 semaines.
+Donc, ça nous fait pas plus peur que ça.
+Ce qui nous fait peur c'est de...
+C'est facile de faire une mise à jour sur un desktop.
+Sur un pays comme le Brésil ou l'amérique latine plus généralement où la connectivité est pas toujours au top...
+Ou le gars il peut se retrouver en bout de son forfait data alors qu'il a pas fini de télécharger ses mises à jour, etcetera, etcetera...
+On a... pas mal de petit...
+Enfin...
+On va certainement découvrir des problèmes.
+Je pense.
+Y'a pas de raison que ça se passe bien du premier coup.
+--
+Alors, on fait pas ça que parce qu'on peut le faire.
+Y'a pas mal de développement, enfin de choses qui se font en Web.
+Où, quand on pose la question: mais pourquoi vous faites ça dans un navigateur Web alors que ça existe dans des applications desktop ?
+Souvent le gars il dit: bah parce que je pouvais le faire, alors je l'ai fais.
+Y'a un peu de ça, c'est pas parti de ça au début.
+Mais, clairement, si on le fait et qu'on investit autant de temps et d'énergie là dedans, c'est parce qu'il y a des bénéfices pour le développeur auxquels on croit beaucoup.
+Le premier de ces bénéfices, c'est que c'est facile de commencer à développer pour une application mobile type firefoxOS.
+Est-ce qu'il y en a qui ont déjà développés des applications pour Android ou pour iOS ? Parmis vous.
+Android ?
+iOS ?
+Android ?
+C'est pas juste du bonheur le truc Android là, avec leur... tu utilisais le plugin Eclipse ?
+ça fait rêver, non ?
+Là, on a besoin d'un éditeur texte.
+Et d'un navigateur.
+iOS, c'est déjà un problème mieux foutu leur truc.
+Parce qu'ils ont un régulateur de device où on peut jouer et tout ça mais bon.
+Il faut... bah un Mac, il faut la licence Xcode et il faut l'inscription... 100 dollars je crois...
+...
+Clairement, nous l'idée, c'est qu'on puisse...
+On vise les marchés émergents.
+On voudrait que toute cette population du monde puisse créer ses propres applications mobiles.
+C'est des gens qui vont pas connaître le desktop en fait.
+Ils arrivent à cet âge d'or de l'information directement par la tablette, le mobile et tout.
+Et on veut pas mettre la barrière d'entrée trop haute pour eux.
+On veut qu'ils puissent développer leurs propres trucs comme ça, paf !
+Surtout qu'on peut le faire, y'a pas de raisons de s'emmerder.
+Les environnements de développement existent déjà.
+Bon, globalement, c'est firebug.
+Et, euh, y'a plein d'autres choses pour ceux qui sont calés en développement Web, JS.
+Y'a des frameworks, y'a des langages, y compris comme JS, enfin y'a pleins de choses.
+Y'a pleins de choses.
+Et puis, c'est finalement une façon qui est pas mal, qui est assez pertinente pour résoudre le problème de ce que les "Appleistes" appellent la fragmentation du marché Android.
+En fait, ils détestent travailler sur Android parce qu'ils ne savent pas à l'avance qu'elle va être la résolution, qu'elle va être la puissance de calcul du terminal etcetera...
+Quand on travaille sur iOS, normalement on le sait.
+A peu près.
+Quand on travaille chez Android, on sait pas.
+Hey bien nous on dit on sait pas mais on s'en fout parce que on est habitués à faire ça, on est habitués à faire des design réactifs en CSS.
+On utilise des media queries CSS3 pour s'adapter à différentes résolutions.
+Globalement, la démarche c'est :
+on commence par créer une application pour le cas le plus pénalisant, c'est à dire le device bah celui que j'ai dans la poche.
+Celui qui a le CPU le plus faible, qui a l'écran le plus pourri...
+Et après rajoute à coup de media queries des fonctionnalités au fur et à mesure que l'écran soit plus grand, que le CPU nous donne plus de choses, etcetera...
+Donc, c'est finalement pas mal.
+On casse enfin la dépendance à la plateforme et au navigateur, on casse la dépendance au marketplace, dont David vous a parlé.
+Et oui, ça fonctionne offline.
+C'est pas parce qu'on fait du HTML que on a forcément besoin d'une connexion Internet.
+--
+Alors, ça c'est la partie...
+ça c'est la partie...
+C'est vraiment parce que c'est Mozilla que ça peut se passer comme ça.
+La grande différence entre Maemo, Tizen, maintenant Mer et compagnie.
+Toute cette lignée là d'OS pour mobile qui étaient basés sur un noyau Linux aussi et qui utilisaient aussi des technos Web...
+WebOS typiquement, rentre dans cette catégorie là.
+C'est qu'ils avaient leurs API spécifiques pour le matériel et pour le système d'exploitation plus la techno Web.
+Ce qui fait que pour développer pour ces machines là il falait connaitre les deux.
+C'était bien vu de connaitre les deux en tout cas.
+Nous, on s'interdit, même pour nous, parce que on pourrait très bien, y'a pleins de fois où on s'arrache les cheveux, on perd des semaines de développements pour un truc qu'on pourrait faire en quelques lignes de XPCOM ou de trucs comme ça.
+Et, l'équivalent du NaCL de Google, on sait faire ça chez Mozilla.
+On s'interdit de le faire parce que l'idée c'est de faire du Web Only.
+Donc, si y'a quelque chose qu'on sait pas faire, c'est un bug, c'est pas normal.
+Donc c'est quelque chose qu'il faut corriger au niveau de Gecko.
+Donc quand y'a quelque chose qu'on sait pas faire du côté de GAIA, on le corrige dans Gecko.
+Donc, quand on veut optimiser nos applications pour des terminaux vraiment, vraiment à ???? prix.
+Hey bien ça nous oblige à faire progresser le moteur Gecko.
+Parce que il faut optimiser son rendu.
+Il faut faire en sorte que quand on a besoin d'une API, par exemple pour contrôler la consommation d'énergie, etcetera...
+Et bien il faut faire en sorte que cette API soit définie dans Gecko, proposée au W3C, standardisée et implémentée dans le device.
+Donc on fait globalement les choses proprement.
+On fait tout en sorte pour que le développement reste du développement Web le plus simple possible au final.
+Alors, dans les trucs qu'il va nous falloir faire aussi c'est faire en sorte que les outils des développeurs fonctionnent sur le remote device.
+Donc ça c'est typiquement le truc qui me rendait fou sur Android.
+Qui marche un poil mieux sur iOS.
+Mais globalement, si je pouvais faire tourner mon firebug sur le device par l'intermédiaire du cordon USB, c'est quand même vahchement mieux que les alternatives xcode ou android.
+Alors, c'est en train d'arriver.
+On a commencé à jouer avec cette semaine.
+J'aurais bien voulu faire une démo mais...
+C'est pas encore bien sec.
+Plus généralement, on se rend compte que faire des applications, un système complet en javascript, html, JS...
+HTML, CSS, c'est pas toujours simple.
+C'est des fois même un poil frustrant.
+Et, en fait, on se dit bon on pourrait résoudre ça avec un framework javascript.
+Mais typiquement, on se dit à nouveau, c'est une décision qu'on a prise dès le début du projet...
+Si on doit faire un framework, à nouveau c'est qu'on s'est trompé.
+Donc, ça devrait fonctionner "from scratch", comme ça.
+La grande différence entre deux langages qu'on utilise pas mal côté serveur actuellement.
+Entre Python et PHP, enfin y'a pleins de différences.
+Mais, une des grandes différence c'est que dans PHP il a fallu faire des framework parce que y'avait des choses qui ont été conçu un peu de travers au départ et sur lesquels ils ont pas voulu revenir en arrière.
+C'est ce qui permet que votre application PHP elle est écrite un jour et dans deux ans elle continuera à tourner.
+Et que par contre le code sera moyennement classe à lire.
+Côté Python, ils se sont dit on veut que le code soit propre.
+Donc, si on a besoin de frameworks, c'est qu'on s'est raté.
+Donc, du coup on réécrit le langage.
+Je sais pas si vous avez essayé de migrer vos scripts python 2.7 à python 3...
+ça fait mal.
+Donc, on essaie de réfléchir à savoir comment est-ce qu'on pourrait amener de façon incrémentale sans casser l'existant des outils pour faire du développement pas juste que de quelques applications comme ça mais de tout un système d'information en HTML, CSS, JS.
+Y'a des idées qui émergent.
+A chaque fois c'est la même ????? chez Mozilla, on veut que ce soit un standard.
+On veut que le standard soit implémentable par tout le monde, par Microsoft, Google, Apple, d'autres...
+Là typiquement on espère que ça va nous amener quelque chose sur les Web Open Apps.
+Mais globalement voilà, tout ça ça nous sert à faire en sorte que le Web ça devienne vraiment une plate-forme de développement pour le mobile.
+--
+Alors, quelques chiffres en passant.
+Les colonnes sont pas à l'échelle parce que je suis nul... pour les histoires d'infographie.
+Mais y'a...
+environ 100 000 applications iOS, 450 000 android et 8 millions d'applications Web en tout genre.
+C'est un chiffre un peu valise.
+Ce qui est clair c'est que, pour l'instant, on est loin d'avoir un parc d'applications aussi élevé que sur iOS ou android.
+Par contre, ce qu'on garde en tête, comme on n'est pas une société à but non lucratif, on est pas pressé non plus.
+On sait que le potentiel est élevé. On sait qu'à terme on devrait pouvoir avoir beaucoup plus d'applications que sur iOS et sur Android.
+Et avec cette démarche permanente de vouloir standardiser tout ce qu'on ajoute, tout ce dont on a besoin pour faire du développement Web.
+On espère aussi que iOS et Android réimplémenteront peut-être pas toutes nos APIs mais au moins les APIs qui seront les plus utilisées.
+Et que ça permettra donc à un maximum d'applications d'être développées qu'une seule fois en HTML et qu'elles fonctionneront comme, globalement, ce qu'on a fait pour les standards du Web depuis la fin des années 90.
+...
+Clairement, clairement, Google, leur truc, pour eux le Web c'est leur environnement de travail donc plus on saura faire des applications Web pures plus ils seront intéressés.
+Les seuls que ça emmerdera un pue c'est Apple mais Apple utilisant les moteurs essentiellement développés par Google, enfin je pense à WebKit.
+Ils suivront, qu'ils le veuillent ou non.
+--
+Alors, juste pour montrer que je suis pas en train de vous ?faker?, j'ai un téléphone.
+La marque c'est ?Pomaro?
+Et j'ai, alors...
+...
+...
+J'y crois !
+...
+Alors, ça c'est un... on va dire que ça c'est un espèce de firefox sans contrôle, c'est juste une surface de rendu, donc ça, ça se télécharge sur le site de Mozilla.
+Vous pouvez le tester vous-même.
+Donc, le petit truc qui m'amuse c'est que ça c'est le vrai niveau de batterie de mon laptop parce que c'est l'API Battery et que elle est implémentée et que voilà.
+Du coup j'ai mon niveau de batterie.
+Euh, un petit apperçu des applications, donc tout ça c'est donc du HTML.
+Là je vous présente l'application "Settings" parce que elle a été développée par des gens bien et parce que je voudraisd tout de suite enlever le verrouillage de l'écran.
+Vous comprendrez pourquoi dans pas longtemps.
+Donc, euh...
+...
+ça, ça va pas le faire, non ça va pas le faire...
+Y'a plein de trucs qui du coup ne sont pas... exploités, qui ne sont pas exposés par le clavier donc là typiquement...
+petit truc classique, vous savez les boutons Select pour faire une ?dropbox?
+en mobile ça devient ça, alors idéalement ça devrait être aligné correctement et pas déborder, et pas se retrouver comme ça.
+Mais ça c'est juste parce que j'ai pas encore fais le ?paging layout?
+Mais voilà comment on choisit les trucs comme ça.
+ça c'est des boutons, c'est des checkbox classiques.
+ça c'est un input type=???
+Tout ça c'est des éléments HTML standards en fait.
+Alors, ce qui nous manque là c'est le bouton "Home", je l'ai sur mon truc, hop je reviens au "Home" mais là bêtement y'a comme un genre de bug quoi.
+Et ce qui est cool c'est paf, ça redémarre vite.
+Et qu'en plus on a enlevé le ?langage écran? donc c'est plus rapide
+Donc, voilà quelques applications, je pense que j'ai le temps, je vais m'asseoir.
+C'est des choses que vous pouvez tester rapidement sur votre... en téléchargeant ça.
+C'est globalement, on est parti sur l'idée qu'on voulait pour toutes nos applications une interface aussi minimaliste que possible, qu'on voulait donner... privilégier le contenu.
+Hop là !
+Donc, à chaque fois on a voulu faire des applications relativement simple.
+Alors, je sais plus comment on sort de celle là.
+ça doit être comme ça je crois.
+Voilà, jpaf !
+Alors, pour la tourner, c'est simple, on a un bouton "Edit", là tac.
+Et comme tu vois, c'est pas encore tout à fait fini d'être implémenté
+Je crois qu'on peut pas en sortir à cause d'un ???
+Mais heureusement, paf, ça redémarre vachement vite.
+ça c'est cool comme ???????
+La radio FM j'ai trouvé ça sympa aussi
+Là, comme ça on peut se mettre des... tiens 89.3 
+Ok, évidemment là on entend rien parce que j'ai pas de radios dans ce machin là mais sur le principe, c'est classe.
+Je suis vraiment désolé pour l'écoute mais bon...
+L'agenda, ah l'agenda ça fait parti des applications qui sont toutes récentes.
+Parce que celle là 
+Déjà elle a pas besoin d'un téléphone pour fonctionner.
+Elle doit marcher niquel dans votre PC.
+Je suis même quasiment certain qu'elle est utilisable ou vraiment pas loin quoi...
+Qu'elle peut remplacer votre gestionnaire d'agenda actuel.
+Elle est faite de façon à peu près intelligente et on est en train de regarder comment on peut faire en sorte que sur le PC, ça se soit une side bar en fait.
+Sur le PC on a plus de place donc du coup on voudrait faire une interface multi-panneaux dès le départ...
+Et peut être présenter des vues un peu différentes mais tout ça c'est vraiment du boulot de styliste donc si y'en a parmis vous qui sont bricoleurs en CSS et tout.
+Cette application Calendar, vous pouvez l'utiliser dès maintenant sur un Desktop et commencer à jouer avec.
+Alors, par contre pour le code, c'est du code à framework, c'est un Modèle-Vue-Contrôleur
+Y'en a qui sont fans...
+C'est malheureusement pas mon cas.
+Mais côté CSS en tout cas, c'est bien fait.
+L'application email est dans le même délire, l'application email elle est faite par un ancien de chez thunderbird qui bosse maintenant à temps plein pour faire une application email en HTML5.
+Et euh... la blague qu'on lui fait à peu près 10 fois par jour et il doit finir par en avoir marre.
+C'est qu'on lui dit mais quand est-ce qu'on arrête thunderbird pour faire ça ?
+ça arrive...
+Une étudiante : Excusez-moi,...
+En fait y'a une API standard déjà dans le Web donc la géolocalisation on a le... on a la triangulation Wi-fi, ça je sais pas sur quoi on se repose.
+Mais on a un bus GPS dans la... dans le device qui est là.
+Donc on se localise avec le GPS.
+Et après, si par plate-forme, tu entends....
+Ah, ça c'est autre chose...
+Actuellement, si on tourne, on utilise NokiaMaps
+ça on peut parce que si on a pas de connexion au Net, on a pas de carte.
+Donc on est pas super satisfait mais ça fonctionne.
+Donc ça c'est une horloge.
+C'est du SVG.
+Je trouve ça classe. Je préfère celle là qui marche aussi bien.
+Donc on a les alarmes et je ne résiste pas au plaisir de vous montrer le sélecteur de temps.
+...
+Je vais mettre une alarme à cette heure là tiens, ça va me fera les pieds.
+...
+Pardon ?
+...
+Ouai, peut-être
+...
+Application vidéo...
+Voilà... avec le slider et tout...
+Alors là forcément si on pouvait le basculer ça rendrait mieux.
+Là, une vidéo dans ce sens là en mode portrait ça fait un peu crétin.
+...
+Dans les petites révolutions qu'on a faites là dessus c'est que on sait dit en ???? des vidéos en mp4 des audios en mp3 si c'est décodé par le hardware de ça.
+Donc on sait toujours pas le faire... enfin on sait pas le faire, on s'interdit de le faire sur le desktop pour des raisons d'éthique, politique, je sais pas trop...
+Sur le device, on se pose moins de questions, on le fait...
+L'application "Musique", je sais pas du tout comment fonctionne les applications "Musique" d'iOs et compagnie.
+Je la trouve vraiment sympa.
+Alors là malheureusement bah...
+Ma bibliothèque est un poil trop... trop longue.
+Je ne sais pas pourquoi il a perdu les images tiens, ça peut être un bug pour ce soir.
+Mais voilà il fait une mosaïque de tous... de tous ces trucs là.
+Et là, bêtement, comme ça ça doit être du FLAC et que...
+je sais pas décoder le FLAC en natif avec ce laptop il va pas pouvoir vous chanter ça.
+Mais sur le device ça marche bien.
+ça c'est un design que je trouve assez réussi.
+Et on a quand même les listes classiques...
+Un étudiant: ça fait penser aux tuiles...
+Ouai, ça fait penser aux tuiles Windows ouai...
+Ouai, je suis d'accord...
+...
+Là ça rend pas trop parce que en fait...
+dans les méta-données des fichiers mp3, FLAC et compagnie...
+y'a des images, en général 200 par 200 et du coup...
+en fait ça marchait tout à l'heure bêtement...
+là ça ne marche plus, je sais pas pourquoi...
+Et on a la pochette de l'album mais avec une couleur par dessus qui donne en fait...
+une espèce de taille en fonction de certains trucs qu'on a joué récemment...
+qu'on aime beaucoup etcetera...
+La taille... les morceaux qu'on joue régulièrement prennent 4 places au lieu d'une...
+Enfin, ils se sont fait plaisir je trouve les gars du ????
+Et, ça pareil ça marche sur le desktop.
+Le défaut c'est que il faut que ce soit de l'OGG en desktop parce que...
+A moins d'avoir le support matériel pour le décoder le MP3.
+...
+Je redémarre une dernière fois, je sais pas si y'a d'autres applications qui vaillent le coup d'être montrées.
+Vous m'en voudrez pas si je vous montre pas la calculatrice...
+Bon vous faites chier, voilà la calculatrice.
+...
+Ouai !
+...
+Elle est vachement mieux en vrai parce que on a pas la vraie police, on a une police qu'on a fait exprès pour mobile mais que visiblement j'ai pas sur ce machin là.
+Donc en vrai elle est mieux.
+Ah, alors maintenant j'aimerais vous montrer et puis on va finir là dessus..
+Le truc que je trouve vraiment classe sur ce projet...
+...
+Donc voilà, il s'appelle ??? mais en fait c'est un firefox ???
+C'est juste une branche un poil séparé pour tester des trucs d'interface.
+Donc, vous repérez l'URL, alors en fait pour avoir cette URL là j'ai fais un ??? de debug de Gaia.
+ça se fait en ruby, debug égal 1 espace make... Paf!
+Et...
+ça crée un profil dans lequel y'a tout Gaia et dans lequel y'a une extension qui permet de faire un pseudo serveur...
+Enfin bref...
+ça permet que l'application système, si je veux la tester, je fais system.gaia.???.org:8080.
+Et elle s'affiche dans le navigateur.
+Alors, ça c'est l'écran de démarrage...
+...
+Donc, là on est dans un vrai navigateur.
+Et, du coup on peut faire des choses de ce type...
+Et là pour le debug, c'est juste vachement...
+Enfin c'est vraiment nettement plus facile qu'avec iOs, Android ou n'importe quoi d'autre.
+Là, pour l'instant, donc ça on peut le faire tourner dans un navigateur parce que, dans l'application "Settings" j'ai fais en sorte que à chaque fois que l'API dont on avait besoin n'était pas exposée, je renvoyais...
+Ce que mes collègues US appellent une ????????
+C'est à dire, j'envoie des données bidons juste pour pas casser l'interface.
+Et donc ça permet de débuguer les interfaces, l'interaction utilisateur etcetera...
+Y compris pour les choses où y'a pas de support matériel.
+Et donc...
+Ah voilà, ça permet même de voir des bugs sur la prochaine version qui va arriver.
+Et bref, toutes vos applications vous pouvez les tester comme ça.
+Donc ça ce sont les outils de développement qui sont livrés avec firefox depuis quelques temps.
+Avec la fameuse 3D view dont vous parlez David tout à l'heure.
+Donc là on voit en fait...
+Je stocke les panneaux pour les effets de coulissement, je les stocke hors la partie visible.
+Donc, ça comme outil de debug, en plus evidemment de la console JS et compagnie...
+C'est... ça fait vraiment gagner un temps de chien.
+Et on est presque là, on est pas encore tout à fait mais d'ici 2-3 jours, 1 semaine, on sera capable de faire tourner ça... là-dessus.
+C'est à dire qu'on aura cette vue là pour le contenu qui est actuellement joué dans le téléphone.
+Donc ça permettra de tester encore plus facilement...
+Donc voilà...
+Globalement, les ???? features, les trucs qui différencient vraiment pour les développeurs Firefox OS des autres OS mobiles.
+Je crois que bêtement j'ai fermé le PDF...
+mais je crois que j'ai fini...
+Ah oui il était là...
+--
+Ah oui !
+Donc pour ceux qui ont un peu de temps, qui sont curieux, j'ai un device là.
+Que je vais pas quitter des yeux mais que vous pouvez essayer.
+Les trois liens qui sont là...
+alors, désolé je n'ai pas parlé du marketplace mais, globalement, tout ce qui tourne là dessus tourne sur le marketplace.
+Et sur le marketplace qui vient d'être lancé y'a un paquet de choses qui sont marrantes aussi à tester sur le desktop...
+Qui sont bidouillables, améliorables...
+bricolables...
+Y'a une page toute fraîche qui vient d'être créé sur mozilla.org qui s'appelle FirefoxOS en un seul mot.
+Et pour les plus curieux d'entre vous, ceux qui voudraient par exemple faire tourner le... l'émulateur B2G là, que j'ai lancé tout à l'heure...
+Vous cherchez Gaia Hacking sur le Wiki Mozilla...
+Y'a toutes les explications qui sont données en clair, c'est par Internet.
+Voilà!
+Vous avez peut-être des questions ?
+<applaudissements>
+Un étudiant : Demain, je veux développer une application, c'est comme une simple application HTML5, derrière y'a pas un paquet spécifique pour l'installer ?
+Non.
+Alors la question c'est: si moi je veux développer une application, de quoi j'ai besoin ?
+Un éditeur de texte, un navigateur.
+...
+Voilà, c'est ce que je voulais vous montrer là...
+C'est ce qu'on appelle un MANIFEST.
+Le MANIFEST, c'est effectivement une spéc du W3C maintenant...
+à cause du fait que Google soit passé avant nous, on doit se taper des underscores et ça je pense que je leur en voudrait à vie... des underscores.
+Donc là, settings, typiquement...
+Voilà, le MANIFEST settings...
+Ah merde !
+J'y avais pas pensé...
+Oué, celle là fait plus que 5 lignes mais globalement les 5 lignes dont t'as besoin, c'est ça... et encore...
+ça c'est les permissions qu'on demande...
+ça ce sont les WebActivities donc pour ceux qui font un peu de développement Android, c'est la réponse de Mozilla à la proposition de Google de... des Web Intents...
+On voulait restreindre un peu le truc...
+Et sinon...
+...
+Voilà, sinon c'est du Web classique... ça c'est l'application ?iNext?
+Bon, 68 kilo, y'a du monde dedans.
+Mais c'est du bête HTML quoi.
+...
+On a pas encore de discussion avec des opérateurs français.
+Alors, on va vendre une version améliorée de ça au brésil l'an prochain.
+Et y'aura une version pour le portugal aussi.
+Donc on imagine que les français pourront se procurer ça.
+Mais après, ce qu'on espère nous vraiment, c'est qu'on puisse supporter officiellement des devices plus courant.
+Alors, on avait pensé au L5 de LG, on avait pensé au Samsung GS2, GS3.
+On avait pensé à d'autres devices comme ça...
+qu'on pourrait supporter, qu'on pourrait rajouter dans nos priorités pour assurer la compatibilité.
+...
+Le LG L5, c'est un device à moins de 100 dollars.
+Et c'est un bon device déjà, c'est entre...
+Et le GS2 et compagnie, la raison pour laquelle on y pense c'est que...
+l'utilisateur... enfin... la plupart des développeurs Web, ils ont un iPhone ou un Galaxy.
+Et, du coup, le gars qu'à un GS2, si il est développeur Web, y'a de fortes chances qu'il  est fait son kéké, qu'il est acheté un GS3.
+Et du coup son GS2 il pourrait vouloir le recycler en firefoxOS.
+Et un GS2 en firefoxOS, c'est vraiment un truc qu'il faut voir.
+C'est fulgurant !
+C'est ahurissant de performance !
+Et donc c'est un engin qui donne vachement envie de travailler avec.
+Et, l'écran est magnifique, enfin...
+Du coup, c'est un engin qui est cher mais pour les gens, enfin pour beaucoup de gens qui sont susceptibles de travailler là dessus c'est probablement un engin qu'ils ont déjà.
+Ils ont juste besoin d'une bonne ???? pour le recycler, en faire quelque chose.
+Plutôt que de le laisser dans un tiroir.
+Donc, on y pense mais pour l'instant...
+Un étudiant: Et, est-ce qu'on peut l'installer sur un iPhone ?
+Sur un quoi ???
+J'ai pas entendu...
+<rires général>
+Non !
+Non, on peut légalement pas.
+Apple a interdit qu'on installe un autre moteur de rendu.
+Comme vous le disait David tout à l'heure donc, c'est illégal d'installer un...
+Un étudiant: Et, si moi je veux tester ?
+Bon, après faut se taper toute la compatibilité matérielle et tout...
+ça va être long.
+On s'était posé la question à un moment donné chez Mozilla pour le navigateur mobile.
+On s'était dit, bon on peut faire une version Windows.
+On peut faire une version Mac... enfin une version iPhone.
+Et en fait, on s'est dit, sur iPhone clairement l'intérêt est faible.
+Parce que ils ont déjà un bon navigateur.
+Mais c'était un peu le fait que ça soit interdit qui nous titille en se disant qu'il faut le faire... mais on l'a pas fait.
+Et en fait, je pense qu'on a bien fait de pas le faire parce que quand on voit comment les iPhone évoluent d'une année sur l'autre...
+on aurait jamais eu la patience de maintenir tout ça.
+Moi je vois je tourne sous Linux, j'ai eu un Macbook pendant un an...
+Plus jamais !
+C'est... j'vois les gars l'énergie qu'ils dépensent à essayer de coller au matériel chaque année, chaque micro modification qu'ils font, ça casse tous les pilotes.
+C'est pas, c'est clairement pas des gens avec lesquelles c'est agréable de travailler quand on est de l'autre côté de la barrière...
+qu'on est amateur, qu'on fait ça sur son temps libre...
+Alors que, typiquement, y'a pleins de device qui sont super agréable à hacker et on va clairement favoriser ses devices là.
+On veut des devices qui soient fait pour être bidouillé.
+...
+Clairement.
+...
+Alors, la question c'est : est-ce qu'on peut imaginer que firefoxOS sera un jour décliné sur PC fixe ?
+La réponse officielle, c'est non évidemment...
+Mais en fait, on est plusieurs...
+On est pas mal de linuxiens dans la boutique, chez Mozilla...
+On est pas mal a pas être enthousiasmé par les nouveaux bureaux à la ???, ?Nop shell? et compagnie.
+Et, globalement...
+Bah voilà...
+Un bureau type d'un mozilien, c'est des terminaux, pleins, et des fenêtres de navigateurs, pleins.
+Y'a deux façons de faire rentrer un terminal dans une fenêtre de navigateur.
+La première, c'est fireSSH, faut d'abord avoir un serveur SSH en local.
+On se connecte dessus via un client SSH qui tombe dans un onglet Web.
+C'est un copain à nous, qui s'appelle Mime Cuvalo, qui est l'auteur de fireFTP, qui a fait ça.
+Qui bosse maintenant pour Google bêtement...
+Mais qui reste quelqu'un de gentil et de fréquentable.
+Et, l'autre option, c'est un autre mozilien, qui est parti chez Google... nan chez Samsung.
+Lui par contre on lui parle plus...
+Il a fait un plugin qui s'appelle... enfin globalement c'est...
+Pour les linuxiens d'entre vous, y'a un noyau, enfin y'a un composant qui s'appelle VTE, qui est un composant qui sert à faire des terminaux d'environnement GTK sous Linux.
+Et, ce mec là, pour un poisson d'Avril, il avait fait un plugin pour avoir du VTE dans une page Web.
+Donc pour avoir un terminal dans une page Web.
+Alors, pour lui c'était une blague, il avait trouvé ça super drôle, il avait fait ça pour un 1er Avril.
+Y'a pleins de gens qui ont trouvé ça vachement bien.
+Et du coup il se retrouve comme un âne à devoir maintenir ça parce que y'a des gens qui trouvent ça vachement bien, y compris moi, j'adore !
+Et, donc, on a besoin d'un des deux.
+Et après, on a besoin d'un bureau.
+Et, y'a un gars, un français qui bosse à...
+...
+Comment ?
+...
+Y'a un gars de chez nous, un français, qui bosse à Mozilla à Mountainview, Californie, qui a fait, qui a proposé un package, un .deb donc un package Debian.
+Je sais pas si il l'a proposé à Debian directement ou si c'est hébergé chez lui sous son propre dépôt, bref.
+ça permet de lancer B2G comme desktop à la place de Gnome, KDE ou je ne sais quoi.
+...
+On commence à réfléchir à faire du ?tiling? pour pouvoir profiter de ces interfaces qui sont prévu pour des petits écrans sur des 24 pouces ou des 12 pouces comme celui-là.
+...
+On a pas encore regardé ça...
+Et, y'a un gars, je sais plus qui.
+Bref...
+Qui bosse sur raspberry PI et donc, firefoxOS typiquement, il le fait tourner sur son raspberry PI et il est tout content.
+Il nous a envoyé un patch pour nous dégommer la dépendance à X11 donc on a même plus besoin de X11.
+Donc, ça démarrait en une demi seconde avant avec X11.
+Maintenant, sans X11, je ne veux pas savoir, ça doit être...
+Enfin bref...
+ça va être grande classe.
+Donc, pour l'instant c'est clairement pas un truc qu'on met dans la main de tout le monde mais y'a un potentiel énorme.
+Quand on voit le boulot que c'est de développer un bureau complet pour Linux par rapport au boulot que ce serait de faire un truc comme ça en technologie Web simple...
+Il nous manque pas grand chose quoi.
+Donc, voilà, on est deux-trois à bosser dessus à nos heures perdues.
+On a peu d'heures perdues en ce moment.
+Mais, oué y'a des projets.
+Et j'espère que ça va aboutir parce que, je pense qu'à la fois pour l'utilisateur lambda, ça lui ira très très bien.
+Un truc qui démarre direct sur des applications Web même Gnome.
+On regarde comment Gnome évolue maintenant, je suis désolé pour les rares d'entre vous qui n'utilisent pas Linux au quotidien.
+Mais les applications Gnome maintenant, de plus en plus font la part belle aux applications Web et donc du coup, la suite logique ce sera intéressant de regarder ce qu'il y a sur un desktop, d'avoir un desktop fait entièrement en application Web.
+Le seul trucs qui nous ferait, nous mozilien, passer à ça c'est qu'on a besoin d'avoir des terminaux quoi.
+Et on est en train de bosser dessus.
+...
+Oui, ça c'est un mauvais exemple.
+Mais, même pas, PDFJS.
+C'est du PDF, je peux le rendre en PDFJS.
+Bah, normalement les présentations je les fait en HTML + Timesheets
+Sauf que là on a fini de débuguer un truc de performance hier tard.
+Et donc ma présentation je l'ai fait cette nuit et donc j'ai pris le matos de presse Mozilla et fouiiiiiiiit....
+C'est pour ça que c'est en anglais, je suis désolé...
+Mais, nan, mais y'a pleins de petites choses comme ça.
+Y'a, tout ce qui est infographie... ou là ça marchera pas.
+Y'a... pleins de choses...
+Mais d'une manière générale, c'était Tim Cook ou Jobs qui disait...
+"L'évolution... au début de"
+THE END
