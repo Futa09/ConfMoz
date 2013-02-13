@@ -1061,7 +1061,7 @@ Et on a failli avoir une version en Clubon
 A l’a pas eu en définitif ?
 On avait des briques et il manquait plus qu’a déployer
 Nous comptons sur vous pour la version clubon 
-Une autre chose qui est trait importante
+Une autre chose qui est très importante
 C’est toutes les questions d’innovation ne s’arrête pas a firefox, ne s’arrête pas aux outils mozilla
 Nous avons besoin, et quand je dis nous c’est le monde libre, le web libre à besoin de gens pour développer des applications dans cet esprit.
 Pour développer des applications à l’aide des technologies et du web libre, du web ouvert
