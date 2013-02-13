@@ -1200,19 +1200,185 @@ Sinon je peux laisser la parole à mon collègue
 Il veut parler aussi, il s’ennuie depuis tout à l’heure, je l’entendais ronfler depuis ici
 Donc questions ou pas questions ?
 Donc je pense qu’il n’y a pas de question alors sinon vous viendriez me voir après et on parlera de crypto
---FIREFOX OS--
 
-
-
-
-
-
-
-
-
-
-2:04:00
---
+Bon…
+Je vais essayer de pas trop vous embêter longtemps
+Mais, on va vous parlez effectivement de Firefox OS
+Donc bon je m’appel Fabien Cazenave aka kaze
+Je suis contributeur mozilla depuis 6ans maintenant
+Et employé, enfin je travail … payé par mozilla depuis à peu près 1an
+Et…
+Essentiellement pour bosser sur ce projet là
+Donc comme vous l’a dit David tout à l’heure
+La situation actuellement qu’on a sur le mobile
+C’est à peu près ça
+On a le choix entre Apple iOs 
+Donc on passe obligatoirement par l’appStore, c’est comme ça qu’il l’appel
+Sur uniquement un terminal apple
+On a le choix entre google/Android
+Donc on passe GooglePlay pour les applications,
+On a par contre le choix du terminal ce qui est assez cool
+Et un 3eme, je ne sais pas si quelqu’un a un windows phone, donc oue…
+Combien d’android ?
+… bas on ne vous félicite pas
+Et qui a autre chose qu’un…
+Ceux qui on autre est le téléphone a un navigateur web ?
+Oui
+Non, c’est quoi votre os ?
+Blackberry
+C’est quel système d’exploitation ?
+Ah mais autre chose que l’un des 3
+WebOS !
+Ah la classe
+Maemo
+Classe
+Jolie
+Non non bien
+On est dans l’espèce et maemo est bon
+Donc comme David vous l’a expliqué tout à l’heure 
+On n’est pas satisfait de cette situation là 
+Parce que la bataille, je pense qu’on peut considérer qu’on l’a gagné sur le navigateur de bureau, il y a 10 ans
+Elle se reproduit aujourd’hui sur le mobile
+Qui grosso modo webkit qui est devenu lui aussi l’IE6 de maintenant 
+On a 1 seul moteur de rendu pour toute les plates-formes mobile ou presque
+Parce que windows mobile jusqu’à preuve du contraire ça n’existe pas
+Et on a du coup en plus de cette limitation technique, on a en plus des limitations on va dire légale
+Où les applications ne sont qu’accessible que en montrant patte blanche 
+En mettant son numéro carte bleu dès le début tant qu’a faire
+Via des fonderies d’applications tel que : AppleStore, GooglePlay, …
+Donc voila, je suis désolé les slides sont en anglais
+Parce que j’ai fais ca un peu tard et j’ai récupérer le matériel de presse Mozilla
+Donc limited revenue choices
+Si je suis développeur d’application mobile et que je veux vendre ça sur iphone
+Je n’ai pas le choix, je dois passer par le magasin AppleStore
+Vogue ils ont une édition en ligne pour l’appleStore, il appel ça l’édition iranienne 
+Parce que pour franchir tout les critères d’acceptation AppleStore
+Ils sont obligé de faire des compromissions qui sont parfois surprenant du contenue qu’ils veulent vendre
+C’est un magazine de mode, mais non y a un paquet de trucs qui ne passe pas pour l’appleStore
+Donc, on veut remettre un petit peu de liberté dans tout ça
+On veut que les développeurs puissent développer, sans à ce soucier de ces spécificités techniques ou commercial
+On veut que les développeurs puissent proposer leur travail directement aux utilisateurs
+En passant ou pas par un store, peu nous importe
+Et
+C’est un projet qui vise autant à libérer les développeurs que les utilisateurs pour ces usages là
+Actuellement les utilisateurs sont un peu dans leur lune de miel avec tous ces services là
+Tant qu’ils ne se font pas reset leur compte Apple à distance comme c’est arrivé à un journaliste de Wired le mois dernier ou d’avant.
+Tant que rien trop affreux leur arrivent 
+Ils sont pour la sans contente du confort que leur apporte ces interfaces Android
+Donc notre rôle, c’est de faire aussi bien pour l’utilisateur, la liberté en plus
+Et évidemment on veut faire vachement mieux pour les développeurs
+Donc l’idée c’est ça
+Firefox OS, ça s’appelait Boot2Gecko au départ
+C’est partie d’une idée un peu, genre fin de soirée
+Et si on démarrait directement le terminal
+Non pas sur un noyau iOS donc BSD
+Ou un noyau linux type android ou etc
+Mais directement sur Gecko
+Qui est le moteur de rendu firefox
+Et y’en a plein qui se sont dit, oue je peux essayer ça 10 ans avec des machines à l’époque comme ça etc
+Bref on a ressortie les vieilles histoires de guerre
+ On s’est dit en fait, il n’y a aucune raison
+On pourrait très très bien faire ça
+Avoir un système 
+Un kernel ultra minimaliste, de démarrer directement sur le moteur de rendu Gecko
+En fait, c’est une façon 
+C’est comme si on transformait un navigateur en système d’exploitation pour simplifier
+Donc du coup firefox os c’est un projet qui venait de ça
+On s’est dit qu’on va utiliser uniquement se qu’on sait faire dans Firefox
+C’est-à-dire du HTML5 et utiliser des standards du web
+Et qu’on va voir jusqu’où ça peut aller et est-ce que on est capable de faire un système..
+Enfin un système exploitation pour mobile complet juste avec des standards web
+Oue ?
+Est-ce que ca change quelque chose le fait de démarrer sur Gecko? C’est plus rapide?
+Oui, en fait les premiers prototype qu’on utilisait était des samsung galaxy s2
+Très belle machine, écran magnifique et tout,
+Enfin je suis un grand fan
+Une des fonctions qu’on a mis super longtemps à avoir, c’est le reload
+Le F5 vous savez quand vous faite du développement web, le F5 pour rafraichir la page du navigateur web
+Grosso modo on démarrait un galaxy s2 sur android, c’est de l’ordre de 30sec à 60sec
+Et en fait, comme on ne savait pas rafraichir une page sur le terminal (device),
+C’est un poil pénible quand on bosse dessus 
+On a trouvé une façon de le planter
+Comme ça quand on plante Gecko, ça redémarre entièrement le reste.
+Et toute la boucle, c’est-à-dire on appuis sur le bouton ça renvoie la commande qui fait planter Gecko
+Et ça redémarre et ça se faisait en moins ½ seconde
+Donc en fait l’idée c’est clairement, pour l’année 0 de firefox OS
+On ne vise pas le galaxy s2, c’est de la triche, c’est trop rapide
+Aucun intérêt pour nous.
+On vise vraiment les téléphones à très très vile prix
+Et on se dit ces téléphones là
+Qui pour l’instant ne fasse rien faire d’autre que téléphoner, alarme
+Le mien fait lampe torche j’aime beaucoup
+Et on voudrait qu’il fasse aussi navigateur web
+Et qu’on puisse installer un paquet d’application dessus, parce que notamment il va être plus léger
+On va pouvoir installer firefox OS sur n’importe quel téléphone ?
+On en support quelque uns 
+Donc on a : Samsung galaxy s2, le nexus S, 
+Vous avez dit galaxy s2 mais on ne peut pas le compter comme un ancien
+Ce n’est pas ancien ?
+Galaxy s3 alors je n’en sais rien.
+Mais globalement non, on vise pas ça sur n’importe quel machine.
+Je vais vous expliquer pourquoi en fait
+Oui y’en a
+La priorité de mozilla n’est pas de faire sur une grosse machine, mais y a des gens dans la communauté qui évolue sur ça
+C’est pas comme dans la communauté IMO, ou y a des vrais cinglés qui font tourner ça sur des M900 ou des trucs comme ça, j’ai un 900 à la maison et j’aime beaucoup
+Donc voila
+Et on est pas dans ce genre de …
+Les cinglés qui faisaient ça, on en a embauché un paquet pour qu’ils travaillent pour nous maintenant.
+Et qu’ils fassent ça sur des téléphones qui vont vraiment vendre
+Enfin ce n’est pas nous qui vont les vendre mais on espère qu’ils vont en vendre plein
+Parce que c’est comme pour l’histoire desktop browser
+Le navigateur sur desktop, tous ça à un accent, parce que si on a un paquet d’utilisateur, 
+Pour fléchir la tendance il faut qu’on ait plein d’utilisateur
+Pas que pour rigolé et faire les choses en grand
+Donc dans les trucs sympa du fait d’avoir un OS mobile complètement web
+C’est que ça permet d’être créatif au niveau de l’interface
+Alors je pense que c’est assez clair qu’on n’est pas des designers nées chez nous les dev, chez mozilla
+Mais on peut faire des trucs vachement différents
+Ces styles là dans CSS, donc c’est cool
+On peut faire des applications, et la skiner complètement différemment en CSS
+Donc ça, ça peut intéresser des communautés de développeur typiquement pour mobile
+Parce que avec un risque relativement faible de casser l’application, on redéfinir complètement son ergonomie
+Ce n’est pas juste son look & feel, c’est carrément sa façon d’interagir
+C’est en en fonction de la taille de l’écran, de plein de choses 
+Mais quelque part on se dit aussi que ça va intéresser aussi et surtout les fabricants de téléphone
+Et où les opérateurs qui vont enfin pouvoir faire un téléphone à leur image
+Au lieu d’avoir des téléphones android qui se ressemble un peu tous un peu trop
+Ils vont pouvoir faire leur propre look & feel
+Et ça chez Mozilla, on aime beaucoup l’idée
+On aime vraiment beaucoup l’idée, contrairement qui veut imposer une certaine homogénéité de style.
+Je comprends aussi, c’est assez classe d’avoir un truc homogène
+Nous on veut au contraire un maximum de liberté de développement
+(Je peux ajouter une chose ?)
+Tu peux
+Sur ce point, j’aimerai ajouté une chose. On parle avec un certain nombres de constructeur et fournisseur de téléphonie
+Globalement, il y a un certain nombre de préoccupation et de trucs que j’entends
+C’est quelle est la différence entre le téléphone qu’on fait et le téléphone que fait le voisin et le téléphone que fait le troisième
+Donc le matériel n’est pas exactement le même mais du point de vue de l’utilisateur c’est pareil
+A part le nombre de pixels en gros
+Eux ils aimeraient bien injecter des choses un peu différentes
+Parce que par exemple on prend un samsung, il y a un samsung store en plus que personne n’utilise
+Et un samsung note ou quelque chose comme ça que personne n’utilise non plus
+Ok, on ne pourrait même pas s’en rendre compte que ce n’est pas le même téléphone
+Donc les constructeurs, donc ce n’est pas le seul public bien entendu mais nous, nous avons besoin des constructeurs pour arriver à faire quelque chose
+Parce qu’encore une fois, on ne peut fournir d’alternative que si on est crédible
+On est crédible que si il y a des utilisateurs et que si y a pas d’utilisateurs il y aura pas de téléphones pour y allé avec
+Et la raison pour laquelle les constructeurs sont intéressés de travailler sur ce genre de chose. 
+C’est qu’enfin ils vont pouvoir customiser leurs téléphones
+Ils ne seront pas obligé d’avoir l’apparence Google ou Apple
+(…)
+Joker je n’ai pas le droit d’en parler et je ne sais pas qui à le droit d’en parler
+Je crois qu’on a toujours pas le droit d’en parler en fait
+C’est plus secret policy
+Y’en a un qui va être rendu public incessamment sous peu et d’autres je ne peux pas en parler 
+et d’autres qui vont arriver
+Mais globalement pour la première année on va viser des téléphones à très très bas prix quoi
+Moins de 50 dollars 
+(Est-ce qu’il y aura des téléphones, vous savez des téléphones chinois qui sont sur Android)
+Clairement là ces fabricants de téléphone chinois qui font des assez ignoble sur Android
+Qui sont complètement, enfin de vraie limace sur android
+Parce que c’est des téléphones à très vile prix, qui sont destiné au pays émergent 
+C’est naturellement ces constructeurs là qui vont être intéressé par Firefox OS pour la premiere année
 ...
 Un étudiant: Je voulais savoir de quel type sera le noyau minimaliste dont vous parliez au départ ?
 Linux, what else ?
