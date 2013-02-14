@@ -43,6 +43,8 @@ Upcoming release and features:
 =======
 
 Path Note 1.0:
+
 -Full text in french
+
 -Synchronize at 70% with the video conference on SRT
 

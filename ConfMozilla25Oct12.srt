@@ -5315,2502 +5315,2613 @@ Qui sont complètement, enfin de vraie limace sur android
 Parce que c’est des téléphones à très vile prix, qui sont destiné au pays émergent
 
 1319
-02:02:20,870 --> 02:02:27,173
+02:02:20,870 --> 02:02:27,291
 C’est naturellement ces constructeurs là qui vont être intéressé par Firefox OS pour la premiere année
 
 1320
-02:02:27,720 --> 02:02:36,721
-Un étudiant: Je voulais savoir de quel type sera le noyau minimaliste dont vous parliez au départ ?
+02:02:29,135 --> 02:02:30,768
+Absolument pas, je n'en ai jamais entendu parler
 
 1321
-02:02:45,721 --> 02:02:54,722
-Linux, what else ?
-Donc voilà...
+02:02:30,793 --> 02:02:40,144
+Si un utilisateur souhait le look par défaut, et non pas celui imposé par l'opérateur qui vend le téléphone ou le constructeur?
 
 1322
-02:03:03,722 --> 02:03:12,723
-Si David avait une heure de plus il vous aurait parlé du marketplace.
+02:02:45,805 --> 02:02:49,471
+Il y a à priori pas grand chose qui empêche l'utilisateur à faire ce qu'il veut avec sur ce téléphone
 
 1323
-02:03:21,723 --> 02:03:30,724
-Mais c'est typiquement l'idée, c'est qu'on veut casser les silos.
+02:02:49,496 --> 02:02:52,371
+Je n'arrive pas bien a voir comment on pourrait être verrouillé, en fait
 
 1324
-02:03:39,724 --> 02:03:48,725
-On veut remplacer ça par quelque chose de beaucoup plus ouvert.
+02:02:52,396 --> 02:02:53,418
+C'est
 
 1325
-02:03:57,725 --> 02:04:06,726
-Que n'importe quel développeur puisse proposer à peu près n'importe quelle application sur à peu près n'importe quel marketplace.
+02:02:53,419 --> 02:02:58,361
+Pour l'instant, c'est dans un état où c'est pas facil de verrouiller franchement
 
 1326
-02:04:15,726 --> 02:04:24,727
-Le marketplace dans l'idée qu'on s'en fait, y'aura Mozilla qui aura le sien mais ils seront pas exclusifs les uns des autres.
+02:02:58,362 --> 02:02:59,545
+Même on voudrait
 
 1327
-02:04:33,727 --> 02:04:42,728
-On part dans l'idée que le modèle de sécurité sera plus simple parce qu'on pourra faire tourner que des applications Web.
+02:03:03,501 --> 02:03:04,644
+Une question s'il vous plait
 
 1328
-02:04:51,728 --> 02:05:00,729
-Quand vous installez une application iPhone, Android, vous installez du code binaire qui peut taper assez loin dans les entrailles de votre machine.
+02:03:04,644 --> 02:03:07,881
+En fait, j'aimerai connaître un petit détail, c'est pas le look
 
 1329
-02:05:09,729 --> 02:05:18,730
-Sur une application Web, grosso-modo, on est dans les mêmes conditions de sécurité que sur une page Web.
+02:03:07,881 --> 02:03:12,799
+mais la couche, si y a un opérateur qui fabrique une couche
 
 1330
-02:05:27,730 --> 02:05:36,731
-Même meilleur que sur le desktop en fait.
+02:03:12,799 --> 02:03:17,279
+Est ce qu'il y aura grosso modo une fonctionnalitée pour éléminer et de revenir à la version basique
 
 1331
-02:05:45,731 --> 02:05:54,732
-Puisqu'on a déjà des process isolés sur le... toutes les applications différentes sur le mobile.
+02:03:17,304 --> 02:03:19,475
+Alors, si l'opérateur rajoute sa couche à lui
 
 1332
-02:06:03,732 --> 02:06:12,733
-Donc globalement l'idée, pour les utilisateurs, en tout cas pour la première année, c'est de leur offrir un smartphone abordable.
+02:03:19,475 --> 02:03:20,539
+Est ce qu'on peut l'éléminer ou pas?
 
 1333
-02:06:21,733 --> 02:06:30,734
-On imagine.. enfin dans l'idée qu'on s'en fait, les utilisateurs de firefoxOS...
+02:03:20,539 --> 02:03:21,177
+oui
 
 1334
-02:06:39,734 --> 02:06:48,735
-En grande majorité, ce sera leur premier smartphone.
+02:03:21,178 --> 02:03:25,971
+Tout ce qu'on pourrait trouver sur firefox OS, ne sont que des applications web
 
 1335
-02:06:57,735 --> 02:07:06,736
-Enfin moi personnellement, c'est mon premier smartphone.
+02:03:25,972 --> 02:03:28,155
+Offline, des applications HTML5
 
 1336
-02:07:15,736 --> 02:07:24,737
-Et j'étais assez content de mon ?dompro? d'avant.
+02:03:28,355 --> 02:03:30,994
+On peut les installer et supprimer relativement facilement
 
 1337
-02:07:33,737 --> 02:07:42,738
-Et on veut pouvoir permettre une grande grande variété d'applications.
+02:03:30,994 --> 02:03:34,032
+Il y a une application, qu'on ne peut pas supprimer facilement
 
 1338
-02:07:51,738 --> 02:08:00,739
-On veut pas... on veut casser, entre guillemets, toute possibilité de censure sur les applications qu'on pourra faire pour ce genre de machine.
+02:03:34,032 --> 02:03:35,485
+c'est ce qu'on appel système
 
 1339
-02:08:09,739 --> 02:08:18,740
-Unbe application Web... personne peut empêcher quiconque de faire une application Web.
+02:03:35,562 --> 02:03:39,714
+Globalement, c'est celle qui nous fait l'écran d'accueil et qui lance les autres applications
 
 1340
-02:08:27,740 --> 02:08:36,741
-ça tombe bien.
+02:03:40,850 --> 02:03:43,002
+Mais ... il y a ...
 
 1341
-02:08:45,741 --> 02:08:54,742
-Non seulement on va supporter les applications Web mais la démarche c'est de ne supporter que les applications Web.
+02:03:43,757 --> 02:03:45,853
+L'opérateur avec lequel on traite actuellement
 
 1342
-02:09:03,742 --> 02:09:12,743
-On verra en fin d'exposé ce que ça veut dire.
+02:03:45,853 --> 02:03:47,707
+Donc ça sera un secret, c'est telefonica
 
 1343
-02:09:21,743 --> 02:09:30,744
-Donc ça, c'est le genre de graphique que les américains adorents mais que je déteste.
+02:03:47,708 --> 02:03:51,526
+Ils ont essayé longtemps d'avoir leur propre application système
 
 1344
-02:09:39,744 --> 02:09:48,745
-Mais globalement, on a un axe, voilà donc ça c'est les...
+02:03:51,527 --> 02:03:55,306
+Et il se sont vite rendu compte que ça c'est du boulot qu'il fallait laisser à Mozilla
 
 1345
-02:09:57,745 --> 02:10:06,746
-Sur cet axe horizontal, plus on va vers la droite et plus le téléphone il sait faire des choses classes.
+02:03:55,307 --> 02:03:59,250
+Donc pour l'instant il y a 1 seule application système et c'est celle de Mozilla
 
 1346
-02:10:15,746 --> 02:10:24,747
-Et quand on monte là, ça veut dire que le téléphone il coûte cher.
+02:04:04,776 --> 02:04:08,330
+Un étudiant: Je voulais savoir de quel type sera le noyau minimaliste dont vous parliez au départ ?
 
 1347
-02:10:33,747 --> 02:10:42,748
-Donc actuellement y'a une espèce de...
+02:04:08,330 --> 02:04:10,120
+Linux, what else ?
 
 1348
-02:10:51,748 --> 02:11:00,749
-Y'a une espèce de courbe comme ça...
+02:04:13,521 --> 02:04:14,644
+Donc voilà...
 
 1349
-02:11:09,749 --> 02:11:18,750
-Notre idée, c'est de proposer la même chose que ce qui se fait actuellement dans les téléphones à 150-200 dollars mais pour des prix inférieurs à 50.
+02:04:16,248 --> 02:04:18,728
+Si David avait une heure de plus il vous aurait parlé du marketplace
 
 1350
-02:11:27,750 --> 02:11:36,751
-Avec... en utilisant juste firefox comme OS quoi.
+02:04:19,860 --> 02:04:23,810
+Mais c'est typiquement l'idée, c'est qu'on veut casser les silos.
 
 1351
-02:11:45,751 --> 02:11:54,752
-Donc ça, c'est supposé être l'an prochain, 2013.
+02:04:24,244 --> 02:04:27,498
+On veut remplacer ça par quelque chose de beaucoup plus ouvert.
 
 1352
-02:12:03,752 --> 02:12:12,753
-Donc un petit aperçu de... alors vraiment très loin, de l'architecture.
+02:04:28,325 --> 02:04:33,955
+Que n'importe quel développeur puisse proposer à peu près n'importe quelle application sur à peu près n'importe quel marketplace.
 
 1353
-02:12:21,753 --> 02:12:30,754
-Globalement, comme je disais tout à l'heure, on a une architecture qui est beaucoup plus simple.
+02:04:34,339 --> 02:04:39,907
+Le marketplace dans l'idée qu'on s'en fait, y'aura Mozilla qui aura le sien mais ils seront pas exclusifs les uns des autres.
 
 1354
-02:12:39,754 --> 02:12:48,755
-Grosso-modo, tout ce qui est en violet, c'est vraiment ce qui est simple, ce qui est standard, ce qui est partagé par...
+02:04:40,301 --> 02:04:47,459
+On part dans l'idée que le modèle de sécurité sera plus simple parce qu'on pourra faire tourner que des applications Web.
 
 1355
-02:12:57,755 --> 02:13:06,756
-Enfin ce qui est défini par les standards déjà utilisés par des tas de gens.
+02:04:47,821 --> 02:04:55,178
+Quand vous installez une application iPhone, Android, vous installez du code binaire qui peut taper assez loin dans les entrailles de votre machine.
 
 1356
-02:13:15,756 --> 02:13:24,757
-Tout ce qui est bleu, c'est tout ce qui est spécifique, tout ce dans quoi on peut difficilement mettre les mains.
+02:04:56,180 --> 02:04:59,987
+Sur une application Web, grosso-modo, on est dans les mêmes conditions de sécurité que sur une page Web.
 
 1357
-02:13:33,757 --> 02:13:42,758
-Donc là, c'est pas cité, mais c'est globalement, c'est le cas d'Android.
+02:05:00,349 --> 02:05:01,603
+Même meilleur que sur le desktop en fait.
 
 1358
-02:13:51,758 --> 02:14:00,759
-Donc, on a tout un kernel, toute une ROM dans le téléphone et puis après on a un kernel Android donc Android c'est un kernel Linux, c'est une machine virtuelle, je sais pas si on a le droit de dire java mais enfin c'est Dalvik donc c'est... une JVM quoi.
+02:05:01,861 --> 02:05:05,610
+Puisqu'on a déjà des process isolés sur le... toutes les applications différentes sur le mobile.
 
 1359
-02:14:09,759 --> 02:14:18,760
-Plus tout un tas de trucs, et c'est surtout des API natives.
+02:05:08,109 --> 02:05:15,442
+Donc globalement l'idée, pour les utilisateurs, en tout cas pour la première année, c'est de leur offrir un smartphone abordable.
 
 1360
-02:14:27,760 --> 02:14:36,761
-Donc, si je veux faire une application...
+02:05:15,692 --> 02:05:19,579
+On imagine.. enfin dans l'idée qu'on s'en fait, les utilisateurs de firefoxOS...
 
 1361
-02:14:45,761 --> 02:14:54,762
-Actuellement là le truc que j'aime pas, je me suis acheté un vélo.
+02:05:19,861 --> 02:05:23,274
+En grande majorité, ce sera leur premier smartphone.
 
 1362
-02:15:03,762 --> 02:15:12,763
-Je me suis dis "tiens, j'aimerais bien avoir une application qui me suive, qui me fasse ma géolocalisation, qui trace le truc sur Google et qui repère le nombre de dénivelé positifs que j'ai fais, le temps que j'ai mis etcetera, etcetera..."
+02:05:23,564 --> 02:05:25,131
+Enfin moi personnellement, c'est mon premier smartphone.
 
 1363
-02:15:21,763 --> 02:15:30,764
-Je me suis aperçu qu'il y avait pleins d'applications qui existaient pour Android, pleins pour iPhone et c'est du code qui est très différent.
+02:05:26,981 --> 02:05:28,858
+Et j'étais assez content de mon "dom pro" d'avant.
 
 1364
-02:15:39,764 --> 02:15:48,765
-Parce que les API Android, les phones sont très différents, les langages sont très différents.
+02:05:29,468 --> 02:05:33,810
+Et on veut pouvoir permettre une grande grande variété d'applications.
 
 1365
-02:15:57,765 --> 02:16:06,766
-Le ??? est différent aussi, la disparité des modèles fait que les applications sont très différentes.
+02:05:34,108 --> 02:05:40,794
+On veut pas... on veut casser, entre guillemets, toute possibilité de censure sur les applications qu'on pourra faire pour ce genre de machine.
 
 1366
-02:16:15,766 --> 02:16:24,767
-Un jour, quand j'aurais un peu de temps, je ferais la même pour firefoxOS.
+02:05:41,172 --> 02:05:45,170
+Une application Web... personne peut empêcher quiconque de faire une application Web.
 
 1367
-02:16:33,767 --> 02:16:42,768
-Ce qui sera assez cool c'est qu'elle marchera sur les trois terminaux du coup.
+02:05:45,451 --> 02:05:46,618
+ça tombe bien.
 
 1368
-02:16:51,768 --> 02:17:00,769
-Puisque, à priori, à peu près tous les terminaux supportent les technologies Web.
+02:05:47,604 --> 02:05:52,706
+Non seulement on va supporter les applications Web mais la démarche c'est de ne supporter que les applications Web.
 
 1369
-02:17:09,769 --> 02:17:18,770
-La magie va se passer dans cette partie là.
+02:05:53,589 --> 02:05:56,673
+On verra en fin d'exposé ce que ça veut dire.
 
 1370
-02:17:27,770 --> 02:17:36,771
-C'est à dire ce qu'on appelle les Device API.
+02:05:56,948 --> 02:06:02,330
+Donc ça, c'est le genre de graphique que les américains adorents mais que je déteste.
 
 1371
-02:17:45,771 --> 02:17:54,772
-Chez Mozilla on appelle ça les Web API parce que on se place de l'autre côté mais bon...
+02:06:03,531 --> 02:06:06,130
+Mais globalement, on a un axe, voilà donc ça c'est les...
 
 1372
-02:18:03,772 --> 02:18:12,773
-Mais grosso-modo c'est une initiative qui a démarré y'a déjà un moment.
+02:06:07,451 --> 02:06:11,571
+Sur cet axe horizontal, plus on va vers la droite et plus le téléphone il sait faire des choses classes.
 
 1373
-02:18:21,773 --> 02:18:30,774
-Qui consiste à proposer des API Web pour que votre navigateur...
+02:06:12,100 --> 02:06:14,937
+Et quand on monte là, ça veut dire que le téléphone il coûte cher.
 
 1374
-02:18:39,774 --> 02:18:48,775
-ça avait démarré avec quoi ? Ah oui, y'avait un truc qui avait démarré, c'était l'accéléromètre.
+02:06:15,267 --> 02:06:17,994
+Donc actuellement y'a une espèce de...
 
 1375
-02:18:57,775 --> 02:19:06,776
-On voulait pouvoir utiliser sa tablette, la faire pencher et qu'on sache interpréter ça dans une... dans une page Web.
+02:06:19,028 --> 02:06:22,121
+Y'a une espèce de courbe comme ça...
 
 1376
-02:19:15,776 --> 02:19:24,777
-Typiquement, pour des jeux, donc on va commencer à exposer l'API accéléromètre.
+02:06:22,604 --> 02:06:30,913
+Notre idée, c'est de proposer la même chose que ce qui se fait actuellement dans les téléphones à 150-200 dollars mais pour des prix inférieurs à 50.
 
 1377
-02:19:33,777 --> 02:19:42,778
-Je crois qu'il y a une API JoyPad aussi que google a pondu, qui est marrante.
+02:06:31,987 --> 02:06:36,441
+Avec... en utilisant juste firefox comme OS quoi.
 
 1378
-02:19:51,778 --> 02:20:00,779
-Y'a...
+02:06:39,739 --> 02:06:43,666
+Donc ça, c'est supposé être l'an prochain, 2013.
 
 1379
-02:20:09,779 --> 02:20:18,780
-Et puis de fil en aiguille, on sait dit tiens en fait on pourrait faire des API pour à peu près tout.
+02:06:45,109 --> 02:06:50,066
+Donc un petit aperçu de... alors vraiment très loin, de l'architecture.
 
 1380
-02:20:27,780 --> 02:20:36,781
-Et, ce qui y'a de cool quand on bosse pour Mozilla, c'est que quand on fait des API comme ça, des API.
+02:06:50,435 --> 02:06:55,522
+Globalement, comme je disais tout à l'heure, on a une architecture qui est beaucoup plus simple.
 
 1381
-02:20:45,781 --> 02:20:54,782
-On peut les proposer à la standardisation.
+02:06:55,780 --> 02:07:03,570
+Grosso-modo, tout ce qui est en violet, c'est vraiment ce qui est simple, ce qui est standard, ce qui est partagé par...
 
 1382
-02:21:03,782 --> 02:21:12,783
-On peut les implémenter d'abord et les proposer à la standardisation.
+02:07:04,085 --> 02:07:08,522
+Enfin ce qui est défini par les standards déjà utilisés par des tas de gens.
 
 1383
-02:21:21,783 --> 02:21:30,784
-Recevoir des critiques de la part des gens du W3C dessus, modifier etcetera...
+02:07:08,788 --> 02:07:14,812
+Tout ce qui est bleu, c'est tout ce qui est spécifique, tout ce dans quoi on peut difficilement mettre les mains.
 
 1384
-02:21:39,784 --> 02:21:48,785
-Et en faire des standards quoi.
+02:07:15,180 --> 02:07:20,058
+Donc là, c'est pas cité, mais c'est globalement, c'est le cas d'Android.
 
 1385
-02:21:57,785 --> 02:22:06,786
-Donc ça c'est la démarche.
+02:07:20,453 --> 02:07:34,669
+Donc, on a tout un kernel, toute une ROM dans le téléphone et puis après on a un kernel Android donc Android c'est un kernel Linux, c'est une machine virtuelle, je sais pas si on a le droit de dire java mais enfin c'est Dalvik donc c'est... une JVM quoi.
 
 1386
-02:22:15,786 --> 02:22:24,787
-ça c'est l'architecture.
+02:07:35,106 --> 02:07:39,208
+Plus tout un tas de trucs, et c'est surtout des API natives.
 
 1387
-02:22:33,787 --> 02:22:42,788
-Alors, je sais plus d'où sont venu les noms.
+02:07:40,313 --> 02:07:42,072
+Donc, si je veux faire une application...
 
 1388
-02:22:51,788 --> 02:23:00,789
-Mais bref...
+02:07:43,066 --> 02:07:45,304
+Actuellement là le truc que j'aime pas, je me suis acheté un vélo.
 
 1389
-02:23:09,789 --> 02:23:18,790
-Gonk, c'est le kernel.
+02:07:45,658 --> 02:07:56,216
+Je me suis dis "tiens, j'aimerais bien avoir une application qui me suive, qui me fasse ma géolocalisation, qui trace le truc sur Google et qui repère le nombre de dénivelé positifs que j'ai fais, le temps que j'ai mis etcetera, etcetera..."
 
 1390
-02:23:27,790 --> 02:23:36,791
-Donc ça c'est un kernel Linux.
+02:07:56,474 --> 02:08:04,816
+Je me suis aperçu qu'il y avait pleins d'applications qui existaient pour Android, pleins pour iPhone et c'est du code qui est très différent.
 
 1391
-02:23:45,791 --> 02:23:54,792
-On est parti au départ d'un kernel Android dans lequel on a enlevé à peu près tout.
+02:08:05,082 --> 02:08:07,905
+Parce que les API Android, les phones sont très différents, les langages sont très différents.
 
 1392
-02:24:03,792 --> 02:24:12,793
-On a enlevé la JVM, on a enlevé le moteur WebKit, on a enlevé plein plein de choses.
+02:08:08,251 --> 02:08:14,649
+Le look & feel est différent aussi, la disparité des modèles fait que les applications sont très différentes.
 
 1393
-02:24:21,793 --> 02:24:30,794
-Et maintenant on se retrouve avec un moteur qui fait 17 méga je crois, avec un kernel qui fait 17 méga.
+02:08:16,299 --> 02:08:19,138
+Un jour, quand j'aurais un peu de temps, je ferais la même pour firefoxOS.
 
 1394
-02:24:39,794 --> 02:24:48,795
-Donc on a vraiment plus rien dedans.
+02:08:19,578 --> 02:08:22,930
+Ce qui sera assez cool c'est qu'elle marchera sur les trois terminaux du coup.
 
 1395
-02:24:57,795 --> 02:25:06,796
-Et à un moment donné on est allé un poil trop loin, on avait du mal, on avait même plus de quoi faire, enfin, là on peut même plus éditer un fichier avec ce qu'on a dedans.
+02:08:23,547 --> 02:08:27,257
+Puisque, à priori, à peu près tous les terminaux supportent les technologies Web.
 
 1396
-02:25:15,796 --> 02:25:24,797
-Il faut l'éditer en remote, enfin...
+02:08:28,146 --> 02:08:30,337
+La magie va se passer dans cette partie là.
 
 1397
-02:25:33,797 --> 02:25:42,798
-On avait été un poil violent.
+02:08:30,851 --> 02:08:33,921
+C'est à dire ce qu'on appelle les Device API.
 
 1398
-02:25:51,798 --> 02:26:00,799
-Mais dans le doute, on préfère en enlever trop que pas assez.
+02:08:34,971 --> 02:08:38,433
+Chez Mozilla on appelle ça les Web API parce que on se place de l'autre côté mais bon...
 
 1399
-02:26:09,799 --> 02:26:18,800
-La partie noble on va dire, c'est Gecko.
+02:08:38,715 --> 02:08:41,440
+Mais grosso-modo c'est une initiative qui a démarré y'a déjà un moment.
 
 1400
-02:26:27,800 --> 02:26:36,801
-Donc, ça c'est le moteur qui fait tourner Firefox sur les machines des plus avertis d'entres vous.
+02:08:41,705 --> 02:08:46,033
+Qui consiste à proposer des API Web pour que votre navigateur...
 
 1401
-02:26:45,801 --> 02:26:54,802
-Et, avec en plus, toutes ces API Web, toutes ces device API.
+02:08:46,403 --> 02:08:50,945
+ça avait démarré avec quoi ? Ah oui, y'avait un truc qui avait démarré, c'était l'accéléromètre.
 
 1402
-02:27:03,802 --> 02:27:12,803
-Donc, là je sais pas ce que nos infographistes ont voulu représenter là.
+02:08:51,187 --> 02:08:59,128
+On voulait pouvoir utiliser sa tablette, la faire pencher et qu'on sache interpréter ça dans une... dans une page Web.
 
 1403
-02:27:21,803 --> 02:27:30,804
-Bon, ça c'est visiblement l'API téléphone, ça c'est l'API de settings, l'API de son, SMS, photo... enfin bon.
+02:08:59,363 --> 02:09:03,377
+Typiquement, pour des jeux, donc on va commencer à exposer l'API accéléromètre.
 
 1404
-02:27:39,804 --> 02:27:48,805
-Alors, on a pas d'API pour explorer des fichiers.
+02:09:03,545 --> 02:09:07,969
+Je crois qu'il y a une API JoyPad aussi que google a pondu, qui est marrante.
 
 1405
-02:27:57,805 --> 02:28:06,806
-ça fait parti des grandes différences entre faire une application Web et faire une application desktop classique.
+02:09:08,331 --> 02:09:09,465
+Y'a...
 
 1406
-02:28:15,806 --> 02:28:24,807
-Grosso-modo, je pense que la plupart d'entre vous ne veulent pas qu'un site Web puisse accéder à vos fichiers sur desktop.
+02:09:09,796 --> 02:09:13,905
+Et puis de fil en aiguille, on sait dit tiens en fait on pourrait faire des API pour à peu près tout.
 
 1407
-02:28:33,807 --> 02:28:42,808
-ça parait à peu près évident.
+02:09:14,947 --> 02:09:19,345
+Et, ce qui y'a de cool quand on bosse pour Mozilla, c'est que quand on fait des API comme ça, des API.
 
 1408
-02:28:51,808 --> 02:29:00,809
-Par contre, si vous même vous choisissez avec un bouton "Choose File", un fichier sur votre desktop, à ce moment là vous avez fait la démarche de le choisir vous-même, de le sélectionner.
+02:09:19,707 --> 02:09:21,457
+On peut les proposer à la standardisation.
 
 1409
-02:29:09,809 --> 02:29:18,810
-A ce moment là, vous êtes d'accord pour que le site Web en fasse quelquechose.
+02:09:21,827 --> 02:09:24,433
+On peut les implémenter d'abord et les proposer à la standardisation.
 
 1410
-02:29:27,810 --> 02:29:36,811
-Mais bref, on a pleins de restrictions comme ça.
+02:09:24,762 --> 02:09:30,905
+Recevoir des critiques de la part des gens du W3C dessus, modifier etcetera...
 
 1411
-02:29:45,811 --> 02:29:54,812
-Donc typiquement, l'API fichiers c'est super frustrant
+02:09:31,090 --> 02:09:32,553
+Et en faire des standards quoi.
 
 1412
-02:30:03,812 --> 02:30:12,813
-Le monsieur qui est là en plus il peut expliquer plus de choses que ce que je devrais savoir sur l'API fichiers.
+02:09:34,266 --> 02:09:35,288
+Donc ça c'est la démarche.
 
 1413
-02:30:21,813 --> 02:30:30,814
-Donc je sais que c'est pas l'API fichiers puisqu'on en veut pas de l'API fichiers.
+02:09:37,730 --> 02:09:39,825
+ça c'est l'architecture.
 
 1414
-02:30:39,814 --> 02:30:48,815
-Par contre, c'est peut-être média ou je ne sais pas quoi.
+02:09:41,627 --> 02:09:43,361
+Alors, je sais plus d'où sont venu les noms.
 
 1415
-02:30:57,815 --> 02:31:06,816
-Ou peut-être que juste nos infographistes à qui j'ai piqué ce matériel de press, n'ont pas compris qu'on avait pas d'API fichiers.
+02:09:44,231 --> 02:09:44,669
+Mais bref...
 
 1416
-02:31:15,816 --> 02:31:24,817
-Peut-être.
+02:09:45,554 --> 02:09:47,058
+Gonk, c'est le kernel.
 
 1417
-02:31:33,817 --> 02:31:42,818
-J'en sais rien.
+02:09:47,364 --> 02:09:49,638
+Donc ça c'est un kernel Linux.
 
 1418
-02:31:51,818 --> 02:32:00,819
-En tout cas, la partie moche, c'est qu'il y en a beaucoup plus que ça des API spécifique.
+02:09:49,907 --> 02:09:53,968
+On est parti au départ d'un kernel Android dans lequel on a enlevé à peu près tout.
 
 1419
-02:32:09,819 --> 02:32:18,820
-On en a vraiment une bonne grosse flopée.
+02:09:54,945 --> 02:09:59,312
+On a enlevé la JVM, on a enlevé le moteur WebKit, on a enlevé plein plein de choses.
 
 1420
-02:32:27,820 --> 02:32:36,821
-Donc.
+02:09:59,554 --> 02:10:03,687
+Et maintenant on se retrouve avec un moteur qui fait 17 méga je crois, avec un kernel qui fait 17 méga.
 
 1421
-02:32:45,821 --> 02:32:54,822
-ça grosso-modo, c'est une partie qui se fait...
+02:10:03,687 --> 02:10:05,058
+Donc on a vraiment plus rien dedans.
 
 1422
-02:33:03,822 --> 02:33:12,823
-Proche, enfin en collaboration avec les fabricants.
+02:10:05,388 --> 02:10:12,714
+Et à un moment donné on est allé un poil trop loin, on avait du mal, on avait même plus de quoi faire, enfin, là on peut même plus éditer un fichier avec ce qu'on a dedans.
 
 1423
-02:33:21,823 --> 02:33:30,824
-ça, c'est ce qui se fait globalement dans les bureaux en Californie mais aussi un peu à Paris.
+02:10:13,091 --> 02:10:15,425
+Il faut l'éditer en remote, enfin...
 
 1424
-02:33:39,824 --> 02:33:48,825
-David, typiquement, bosse sur cette partie là.
+02:10:15,682 --> 02:10:17,594
+On avait été un poil violent.
 
 1425
-02:33:57,825 --> 02:34:06,826
-Et ça, c'est la partie qui devrait vous intéresser vous.
+02:10:17,761 --> 02:10:19,626
+Mais dans le doute, on préfère en enlever trop que pas assez.
 
 1426
-02:34:15,826 --> 02:34:24,827
-Et j'espère pleins de gens.
+02:10:22,347 --> 02:10:25,625
+La partie noble on va dire, c'est Gecko.
 
 1427
-02:34:33,827 --> 02:34:42,828
-ça c'est la partie interface utilisateur, donc qu'on appelle Gaia.
+02:10:25,859 --> 02:10:31,609
+Donc, ça c'est le moteur qui fait tourner Firefox sur les machines des plus avertis d'entres vous.
 
 1428
-02:34:51,828 --> 02:35:00,829
-Mais bon, Gaia c'est un mot-valise.
+02:10:31,891 --> 02:10:37,313
+Et, avec en plus, toutes ces API Web, toutes ces device API.
 
 1429
-02:35:09,829 --> 02:35:18,830
-Toute la partie visible du téléphone, ce sont des applications Web.
+02:10:37,563 --> 02:10:41,138
+Donc, là je sais pas ce que nos infographistes ont voulu représenter là.
 
 1430
-02:35:27,830 --> 02:35:36,831
-Et on a des applications qui sont livrées d'origine avec le téléphone, donc tout cet ensemble d'applications on appelle ça Gaia.
+02:10:41,347 --> 02:10:48,393
+Bon, ça c'est visiblement l'API téléphone, ça c'est l'API de settings, l'API de son, SMS, photo... enfin bon.
 
 1431
-02:35:45,831 --> 02:35:54,832
-Mais y'a pleins d'applications qui sont retirés ou ajoutés au dernier moment et qu'on mettra au marketplace à la place.
+02:10:48,987 --> 02:10:51,218
+Alors, on a pas d'API pour explorer des fichiers.
 
 1432
-02:36:03,832 --> 02:36:12,833
-Y'a pas de différences, de vraies différences entre une application du marketplace Mozilla ou une application Gaia en fait.
+02:10:51,403 --> 02:10:56,042
+ça fait parti des grandes différences entre faire une application Web et faire une application desktop classique.
 
 1433
-02:36:21,833 --> 02:36:30,834
-La différence c'est que l'application Gaia elle sera livrée dans le téléphone par défaut.
+02:10:57,211 --> 02:11:03,001
+Grosso-modo, je pense que la plupart d'entre vous ne veulent pas qu'un site Web puisse accéder à vos fichiers sur desktop.
 
 1434
-02:36:39,834 --> 02:36:48,835
-Mais, c'est une application Web comme une autre.
+02:11:03,266 --> 02:11:04,762
+ça parait à peu près évident.
 
 1435
-02:36:57,835 --> 02:37:06,836
-Enfin comme une autre...
+02:11:04,962 --> 02:11:14,113
+Par contre, si vous même vous choisissez avec un bouton "Choose File", un fichier sur votre desktop, à ce moment là vous avez fait la démarche de le choisir vous-même, de le sélectionner.
 
 1436
-02:37:15,836 --> 02:37:24,837
-Qui peut profiter de ces API là, la différence essentielle c'est ça.
+02:11:14,404 --> 02:11:19,530
+A ce moment là, vous êtes d'accord pour que le site Web en fasse quelquechose.
 
 1437
-02:37:33,837 --> 02:37:42,838
-Donc voilà, pour revenir un peu sur Gonk pour les plus chevronnés d'entre vous.
+02:11:19,771 --> 02:11:21,490
+Mais bref, on a pleins de restrictions comme ça.
 
 1438
-02:37:51,838 --> 02:38:00,839
-On a un bout de... d'abstraction layer, de couche d'abstraction matérielle.
+02:11:21,675 --> 02:11:23,385
+Donc typiquement, l'API fichiers c'est super frustrant
 
 1439
-02:38:09,839 --> 02:38:18,840
-Donc globalement, l'API de Gonk, elle nous sert à faire en sorte que les gens qui bossent sur Gecko n'aient pas trop à se soucier du matériel.
+02:11:23,619 --> 02:11:28,778
+Le monsieur qui est là en plus il peut expliquer plus de choses que ce que je devrais savoir sur l'API fichiers.
 
 1440
-02:38:27,840 --> 02:38:36,841
-Donc on a des équipes qui bossent uniquement pour, on va dire, la compatibilité matérielle du téléphone.
+02:11:29,068 --> 02:11:32,186
+Donc je sais que c'est pas l'API fichiers puisqu'on en veut pas de l'API fichiers.
 
 1441
-02:38:45,841 --> 02:38:54,842
-Donc, le rôle de cette API Gonk c'est d'exposer les API matérielles à Gecko.
+02:11:32,320 --> 02:11:33,906
+Par contre, c'est peut-être média ou je ne sais pas quoi.
 
 1442
-02:39:03,842 --> 02:39:12,843
-Gecko, je sais pas pourquoi on le présente encore mais...
+02:11:34,284 --> 02:11:39,626
+Ou peut-être que juste nos infographistes à qui j'ai piqué ce matériel de press, n'ont pas compris qu'on avait pas d'API fichiers.
 
 1443
-02:39:21,843 --> 02:39:30,844
-Le meilleur moteur javascript du monde.
+02:11:40,931 --> 02:11:41,529
+Peut-être.
 
 1444
-02:39:39,844 --> 02:39:48,845
-Presque le meilleur moteur de rendu du monde.
+02:11:41,963 --> 02:11:42,745
+J'en sais rien.
 
 1445
-02:39:57,845 --> 02:40:06,846
-On y travaille.
+02:11:42,987 --> 02:11:46,937
+En tout cas, la partie moche, c'est qu'il y en a beaucoup plus que ça des API spécifique.
 
 1446
-02:40:15,846 --> 02:40:24,847
-Et surtout là, le Gecko qu'on va chipper dans FirefoxOS, c'est un Gecko qui expose un grand nombre d'API pour contrôler votre device.
+02:11:47,292 --> 02:11:50,153
+On en a vraiment une bonne grosse flopée.
 
 1447
-02:40:33,847 --> 02:40:42,848
-Qui sont pas activés par défaut dans le desktop, sur la version laptop.
+02:11:52,188 --> 02:11:53,186
+Donc.
 
 1448
-02:40:51,848 --> 02:41:00,849
-Et donc Gaia...
+02:11:53,595 --> 02:11:57,465
+ça grosso-modo, c'est une partie qui se fait...
 
 1449
-02:41:09,849 --> 02:41:18,850
-Alors...
+02:11:57,635 --> 02:12:00,641
+Proche, enfin en collaboration avec les fabricants.
 
 1450
-02:41:27,850 --> 02:41:36,851
-Y'a un terme en fait...
+02:12:01,106 --> 02:12:06,882
+ça, c'est ce qui se fait globalement dans les bureaux en Californie mais aussi un peu à Paris.
 
 1451
-02:41:45,851 --> 02:41:54,852
-qui est assez malheureux, c'est...
+02:12:07,412 --> 02:12:09,234
+David, typiquement, bosse sur cette partie là.
 
 1452
-02:42:03,852 --> 02:42:12,853
-le terme "Webapps" parce que en fait on ne sait jamais trop ce que ça veut dire une "Webapps".
+02:12:10,332 --> 02:12:12,922
+Et ça, c'est la partie qui devrait vous intéresser vous.
 
 1453
-02:42:21,853 --> 02:42:30,854
-Une application Web, ça peut être quelque chose qui...
+02:12:13,348 --> 02:12:15,505
+Et j'espère pleins de gens.
 
 1454
-02:42:39,854 --> 02:42:48,855
-qui se passe entièrement du côté du serveur.
+02:12:16,099 --> 02:12:20,738
+ça c'est la partie interface utilisateur, donc qu'on appelle Gaia.
 
 1455
-02:42:57,855 --> 02:43:06,856
-Et sur lequel finalement vous n'avez pas trop de contrôle.
+02:12:21,018 --> 02:12:22,618
+Mais bon, Gaia c'est un mot-valise.
 
 1456
-02:43:15,856 --> 02:43:24,857
-Et, en fait, quand on parle de "Webapp" dans le projet FirefoxOS, on parle d'applications Web qui tournent entièrement sur le téléphone.
+02:12:22,835 --> 02:12:28,881
+Toute la partie visible du téléphone, ce sont des applications Web.
 
 1457
-02:43:33,857 --> 02:43:42,858
-Donc, on utilise les derniers gadgets de HTML5.
+02:12:30,956 --> 02:12:37,745
+Et on a des applications qui sont livrées d'origine avec le téléphone, donc tout cet ensemble d'applications on appelle ça Gaia.
 
 1458
-02:43:51,858 --> 02:44:00,859
-Comme "offline cache", parfois "localStorage" quand on en laisse passer.
+02:12:38,579 --> 02:12:44,506
+Mais y'a pleins d'applications qui sont retirés ou ajoutés au dernier moment et qu'on mettra au marketplace à la place.
 
 1459
-02:44:09,859 --> 02:44:18,860
-Et donc ce sont des applications qui tournent entièrement sur votre téléphone.
+02:12:44,796 --> 02:12:51,753
+Y'a pas de différences, de vraies différences entre une application du marketplace Mozilla ou une application Gaia en fait.
 
 1460
-02:44:27,860 --> 02:44:36,861
-Si, si y'a pas de réseau, comme c'est le cas souvent ici, ça marche quand même.
+02:12:51,931 --> 02:12:54,770
+La différence c'est que l'application Gaia elle sera livrée dans le téléphone par défaut.
 
 1461
-02:44:45,861 --> 02:44:54,862
-Donc, quand on parle d'"Open WebApp" ou de "WebApp" dans le reste de cette présentation, c'est de ce genre d'application Web dont on parle.
+02:12:55,692 --> 02:12:58,930
+Mais, c'est une application Web comme une autre.
 
 1462
-02:45:03,862 --> 02:45:12,863
-Donc, je crois que la liste n'est pas complète parce qu'on on a rajoutés depuis.
+02:12:59,203 --> 02:13:00,241
+Enfin comme une autre...
 
 1463
-02:45:21,863 --> 02:45:30,864
-Mais ça c'est un aperçu de toutes les API qu'on a dû implémenter dans GAIA.
+02:13:02,035 --> 02:13:06,129
+Qui peut profiter de ces API là, la différence essentielle c'est ça.
 
 1464
-02:45:39,864 --> 02:45:48,865
-Et le plus dingue c'est qu'à chaque fois on fait des documents pour le W3C, pour expliquer ce qu'on fait.
+02:13:09,595 --> 02:13:13,930
+Donc voilà, pour revenir un peu sur Gonk pour les plus chevronnés d'entre vous.
 
 1465
-02:45:57,865 --> 02:46:06,866
-Et avoir leur feedback parce qu'on veut...
+02:13:14,924 --> 02:13:19,538
+On a un bout de... d'abstraction layer, de couche d'abstraction matérielle.
 
 1466
-02:46:15,866 --> 02:46:24,867
-Le but du jeu, c'est que tout cet ensemble d'API devienne un standard.
+02:13:19,747 --> 02:13:27,929
+Donc globalement, l'API de Gonk, elle nous sert à faire en sorte que les gens qui bossent sur Gecko n'aient pas trop à se soucier du matériel.
 
 1467
-02:46:33,867 --> 02:46:42,868
-C'est au moins aussi important que d'avoir un téléphone fonctionnel pour nous.
+02:13:28,283 --> 02:13:33,153
+Donc on a des équipes qui bossent uniquement pour, on va dire, la compatibilité matérielle du téléphone.
 
 1468
-02:46:51,868 --> 02:47:00,869
+02:13:33,539 --> 02:13:38,698
+Donc, le rôle de cette API Gonk c'est d'exposer les API matérielles à Gecko.
+
+1469
+02:13:40,684 --> 02:13:43,121
+Gecko, je sais pas pourquoi on le présente encore mais...
+
+1470
+02:13:47,148 --> 02:13:48,905
+Le meilleur moteur javascript du monde.
+
+1471
+02:13:49,266 --> 02:13:51,466
+Presque le meilleur moteur de rendu du monde.
+
+1472
+02:13:51,732 --> 02:13:52,489
+On y travaille.
+
+1473
+02:13:52,980 --> 02:14:03,762
+Et surtout là, le Gecko qu'on va chipper dans FirefoxOS, c'est un Gecko qui expose un grand nombre d'API pour contrôler votre device.
+
+1474
+02:14:03,897 --> 02:14:07,986
+Qui sont pas activés par défaut dans le desktop, sur la version laptop.
+
+1475
+02:14:09,604 --> 02:14:10,618
+Et donc Gaia...
+
+1476
+02:14:11,699 --> 02:14:12,546
+Alors...
+
+1477
+02:14:12,900 --> 02:14:14,586
+Y'a un terme en fait...
+
+1478
+02:14:14,747 --> 02:14:16,665
+qui est assez malheureux, c'est...
+
+1479
+02:14:17,451 --> 02:14:20,650
+le terme "Webapps" parce que en fait on ne sait jamais trop ce que ça veut dire une "Webapps".
+
+1480
+02:14:20,987 --> 02:14:24,153
+Une application Web, ça peut être quelque chose qui...
+
+1481
+02:14:24,579 --> 02:14:26,530
+qui se passe entièrement du côté du serveur.
+
+1482
+02:14:26,812 --> 02:14:29,154
+Et sur lequel finalement vous n'avez pas trop de contrôle.
+
+1483
+02:14:30,124 --> 02:14:38,537
+Et, en fait, quand on parle de "Webapp" dans le projet FirefoxOS, on parle d'applications Web qui tournent entièrement sur le téléphone.
+
+1484
+02:14:39,051 --> 02:14:43,050
+Donc, on utilise les derniers gadgets de HTML5.
+
+1485
+02:14:43,628 --> 02:14:47,977
+Comme "offline cache", parfois "localStorage" quand on en laisse passer.
+
+1486
+02:14:49,075 --> 02:14:51,905
+Et donc ce sont des applications qui tournent entièrement sur votre téléphone.
+
+1487
+02:14:52,154 --> 02:14:56,218
+Si, si y'a pas de réseau, comme c'est le cas souvent ici, ça marche quand même.
+
+1488
+02:14:57,011 --> 02:15:04,058
+Donc, quand on parle d'"Open WebApp" ou de "WebApp" dans le reste de cette présentation, c'est de ce genre d'application Web dont on parle.
+
+1489
+02:15:05,740 --> 02:15:08,970
+Donc, je crois que la liste n'est pas complète parce qu'on on a rajoutés depuis.
+
+1490
+02:15:09,163 --> 02:15:17,170
+Mais ça c'est un aperçu de toutes les API qu'on a dû implémenter dans GAIA.
+
+1491
+02:15:18,124 --> 02:15:23,489
+Et le plus dingue c'est qu'à chaque fois on fait des documents pour le W3C, pour expliquer ce qu'on fait.
+
+1492
+02:15:23,835 --> 02:15:26,522
+Et avoir leur feedback parce qu'on veut...
+
+1493
+02:15:26,675 --> 02:15:31,098
+Le but du jeu, c'est que tout cet ensemble d'API devienne un standard.
+
+1494
+02:15:31,452 --> 02:15:34,698
+C'est au moins aussi important que d'avoir un téléphone fonctionnel pour nous.
+
+1495
+02:15:39,268 --> 02:15:41,890
 ça, c'est le tableau qui fait peur.
 Enfin surtout à moi.
 
-1469
-02:47:09,869 --> 02:47:18,870
+1496
+02:15:42,114 --> 02:15:43,578
 Parce que c'est un remap.
 
-1470
-02:47:27,870 --> 02:47:36,871
+1497
+02:15:44,474 --> 02:15:46,690
 Mais globalement ça vous explique comment on fonctionne
 
-1471
-02:47:45,871 --> 02:47:54,872
+1498
+02:15:47,803 --> 02:15:50,714
 On a toutes ces API là donc vous avez eu un aperçu.
 
-1472
-02:48:03,872 --> 02:48:12,873
+1499
+02:15:50,948 --> 02:15:53,170
 Bon, bah on y a réfléchi, on les implémente.
 
-1473
-02:48:21,873 --> 02:48:30,874
+1500
+02:15:53,420 --> 02:16:00,001
 Et on a nos collègues, essentiellement en Californie, qui ont bossé dessus.
 
-1474
-02:48:39,874 --> 02:48:48,875
+1501
+02:16:00,219 --> 02:16:01,426
 Pour les implémenter pas mal.
 
-1475
-02:48:57,875 --> 02:49:06,876
+1502
+02:16:01,813 --> 02:16:05,273
 Et pendant ce temps-là, nous à Paris...
 
-1476
-02:49:15,876 --> 02:49:24,877
+1503
+02:16:06,748 --> 02:16:09,018
 On a eu des gens qui ont fait des spéc.
 
-1477
-02:49:33,877 --> 02:49:42,878
+1504
+02:16:09,499 --> 02:16:14,594
 Alors UX, user experienced, c'est tout ce qui est ergonomie logiciel.
 
-1478
-02:49:51,878 --> 02:50:00,879
+1505
+02:16:15,010 --> 02:16:19,753
 Ils ont fait, ils ont imaginés comment devaient se comporter les applications, tout ça.
 
-1479
-02:50:09,879 --> 02:50:18,880
+1506
+02:16:19,979 --> 02:16:21,105
 On les a implémentés.
 
-1480
-02:50:27,880 --> 02:50:36,881
+1507
+02:16:21,524 --> 02:16:23,411
 Et actuellement on est dans cette phase là.
 
-1481
-02:50:45,881 --> 02:50:54,882
+1508
+02:16:23,804 --> 02:16:27,378
 C'est à dire qu'on a figé nos fonctionnalités.
 
-1482
-02:51:03,882 --> 02:51:12,883
+1509
+02:16:27,612 --> 02:16:29,523
 On ne rentre plus aucune nouvelle fonctionnalité.
 
-1483
-02:51:21,883 --> 02:51:30,884
+1510
+02:16:29,649 --> 02:16:32,786
 On est en train de débuguer, de peaufiner.
 
-1484
-02:51:39,884 --> 02:51:48,885
+1511
+02:16:33,025 --> 02:16:34,554
 Et de résoudre les bugs...
 
-1485
-02:51:57,885 --> 02:52:06,886
+1512
+02:16:34,723 --> 02:16:39,258
 Enfin, les histoires de performance, les glitch d'affichage et tout ça.
 
-1486
-02:52:15,886 --> 02:52:24,887
+1513
+02:16:39,401 --> 02:16:40,801
 Et, on a du boulot.
 
-1487
-02:52:33,887 --> 02:52:42,888
+1514
+02:16:41,627 --> 02:16:44,850
 La bonne nouvelle c'est que je crois qu'on nous a annoncés qu'on avait droit à un mois de plus là.
 
-1488
-02:52:51,888 --> 02:53:00,889
+1515
+02:16:45,948 --> 02:16:47,282
 Mais globalement, voilà.
 
-1489
-02:53:09,889 --> 02:53:18,890
+1516
+02:16:47,659 --> 02:16:52,833
 Décembre: GAIA v1 est sur les rails.
 
-1490
-02:53:27,890 --> 02:53:36,891
+1517
+02:16:53,051 --> 02:16:58,425
 Après y'a tout un processus compliqué pour que ça passe l'autorité de certification, pour que ça puisse être mis sur le marché.
 
-1491
-02:53:45,891 --> 02:53:54,892
+1518
+02:16:58,691 --> 02:17:02,305
 Parce que un téléphone mobile c'est pas tout à fait un ordinateur comme un autre.
 
-1492
-02:54:03,892 --> 02:54:12,893
+1519
+02:17:03,413 --> 02:17:05,689
 Et on commencera d'ores et déjà à bosser sur GAIA v2.
 
-1493
-02:54:21,893 --> 02:54:30,894
+1520
+02:17:07,788 --> 02:17:09,603
 Pour... l'année d'après.
 
-1494
-02:54:39,894 --> 02:54:48,895
+1521
+02:17:09,947 --> 02:17:11,577
 Donc, GAIA v1 qu'on va finir là.
 
-1495
-02:54:57,895 --> 02:55:06,896
-Il devrait être ?"chiper"?, ça commencera par le brésil.
-
-1496
-02:55:15,896 --> 02:55:24,897
-Autour du printemps-été prochain.
-
-1497
-02:55:33,897 --> 02:55:42,898
-Toute la mise à jour pour l'instant se fait ????
-
-1498
-02:55:51,898 --> 02:56:00,899
-Pour l'instant, la seule chose qu'on sache pas mettre à jour c'est cette partie là.
-
-1499
-02:56:09,899 --> 02:56:18,900
-Et, on...
-
-1500
-02:56:27,900 --> 02:56:36,901
-Comme on est en phase de stabilisation là.
-
-1501
-02:56:45,901 --> 02:56:54,902
-On a déjà des gars chez nous qui refusent de flasher leur téléphone.
-
-1502
-02:57:03,902 --> 02:57:12,903
-Typiquement là, partout où je me déplace, ça m'arrive de le faire dans le RER ou dans le métro.
-
-1503
-02:57:21,903 --> 02:57:30,904
-J'ai une idée, je la code et j'ai mon cordon USB, je fuiiiiiiit...
-
-1504
-02:57:39,904 --> 02:57:48,905
-Et j'envoie dans le téléphone, ça prend 10 secondes.
-
-1505
-02:57:57,905 --> 02:58:06,906
-Et, enfin le fait de l'envoyer, le fait de la coder ça me prend malheureusement plus de temps.
-
-1506
-02:58:15,906 --> 02:58:24,907
-Et, on a des gars chez nous qui disent: "nan mais maintenant c'est fini, je refuse de brancher mon téléphone sur un ordi. ça doit marcher".
-
-1507
-02:58:33,907 --> 02:58:42,908
-Donc, y'a des fois des cas un poil pénible, où en fait une version bugguée est arrivée et a cassée des trucs.
-
-1508
-02:58:51,908 --> 02:59:00,909
-Et du coup on essaie de réfléchir, de savoir comment on peut faire, par mise à jour successive, pour résoudre le problème.
-
-1509
-02:59:09,909 --> 02:59:18,910
-C'est un nouveau métier quoi, je suis pas sûr de l'aimer celui-là.
-
-1510
-02:59:27,910 --> 02:59:36,911
-Mais oué on y arrive.
-
-1511
-02:59:45,911 --> 02:59:54,912
-On y arrive globalement.
-
-1512
-03:00:03,912 --> 03:00:12,913
-Le seul truc pour lequel pour l'instant on sait pas trop comment faire, c'est cette partie là.
-
-1513
-03:00:21,913 --> 03:00:30,914
-Cette partie-là pour l'instant, je sais pas trop ce qui est prévu de faire.
-
-1514
-03:00:39,914 --> 03:00:48,915
-Je suis un peu plus inquiet là-dessus.
-
-1515
-03:00:57,915 --> 03:01:06,916
-Mais sinon on est capable de péter tout le reste.
-
-1516
-03:01:15,916 --> 03:01:24,917
-On a figé la version de Gecko qu'on va ?"chiper"?.
-
-1517
-03:01:33,917 --> 03:01:42,918
-C'est le Gecko 18.
-
-1518
-03:01:51,918 --> 03:02:00,919
-Donc c'est le firefox qui est actuellement en version Aurora qui sera le firefox stable dans 12 semaines, dans 3 mois.
-
-1519
-03:02:09,919 --> 03:02:18,920
-Donc, tout ça normalement, y'a pas de raison d'être plus inquiet que...
-
-1520
-03:02:27,920 --> 03:02:36,921
-Pour l'instant, y'a un terminal.
-
-1521
-03:02:45,921 --> 03:02:54,922
-Enfin un terminal, on sait pas encore exactement lequel.
-
 1522
-03:03:03,922 --> 03:03:12,923
-Mais la première phase de déploiement de firefoxOS, ça va être :
+02:17:11,842 --> 02:17:15,138
+Il devrait être shipped, ça commencera par le brésil.
 
 1523
-03:03:21,923 --> 03:03:30,924
-un terminal, qui va être vendu au Brésil et on espère qu'il va être bien vendu.
+02:17:17,193 --> 02:17:18,839
+Autour du printemps-été prochain.
 
 1524
-03:03:39,924 --> 03:03:48,925
-Et qu'il va nous permettre de voir comment on est capable de faire des mises à jour dans plusieurs millions d'unités comme ça d'un coup.
+02:17:32,617 --> 02:17:36,144
+Toute la mise à jour pour l'instant se fait à l'ordinateur
 
 1525
-03:03:57,925 --> 03:04:06,926
-Actuellement, on fait des mises à jour sur, comme disait David tout à l'heure, sur un demi-milliard de postes toutes les 6 semaines.
+02:17:39,554 --> 02:17:42,112
+Pour l'instant, la seule chose qu'on sache pas mettre à jour c'est cette partie là.
 
 1526
-03:04:15,926 --> 03:04:24,927
-Donc, ça nous fait pas plus peur que ça.
+02:17:44,395 --> 02:17:45,488
+Et, on...
 
 1527
-03:04:33,927 --> 03:04:42,928
-Ce qui nous fait peur c'est de...
+02:17:46,817 --> 02:17:48,881
+Comme on est en phase de stabilisation là.
 
 1528
-03:04:51,928 --> 03:05:00,929
-C'est facile de faire une mise à jour sur un desktop.
+02:17:49,418 --> 02:17:54,196
+On a déjà des gars chez nous qui refusent de flasher leur téléphone.
 
 1529
-03:05:09,929 --> 03:05:18,930
-Sur un pays comme le Brésil ou l'amérique latine plus généralement où la connectivité est pas toujours au top...
+02:17:54,430 --> 02:17:58,716
+Typiquement là, partout où je me déplace, ça m'arrive de le faire dans le RER ou dans le métro.
 
 1530
-03:05:27,930 --> 03:05:36,931
-Ou le gars il peut se retrouver en bout de son forfait data alors qu'il a pas fini de télécharger ses mises à jour, etcetera, etcetera...
+02:17:59,119 --> 02:18:02,717
+J'ai une idée, je la code et j'ai mon cordon USB, je fuiiiiiiit...
 
 1531
-03:05:45,931 --> 03:05:54,932
-On a... pas mal de petit...
+02:18:02,981 --> 02:18:05,340
+Et j'envoie dans le téléphone, ça prend 10 secondes.
 
 1532
-03:06:03,932 --> 03:06:12,933
-Enfin...
+02:18:05,718 --> 02:18:09,188
+Et, enfin le fait de l'envoyer, le fait de la coder ça me prend malheureusement plus de temps.
 
 1533
-03:06:21,933 --> 03:06:30,934
-On va certainement découvrir des problèmes.
+02:18:09,718 --> 02:18:18,476
+Et, on a des gars chez nous qui disent: "nan mais maintenant c'est fini, je refuse de brancher mon téléphone sur un ordi. ça doit marcher".
 
 1534
-03:06:39,934 --> 03:06:48,935
-Je pense.
+02:18:18,773 --> 02:18:28,124
+Donc, y'a des fois des cas un poil pénible, où en fait une version bugguée est arrivée et a cassée des trucs.
 
 1535
-03:06:57,935 --> 03:07:06,936
-Y'a pas de raison que ça se passe bien du premier coup.
+02:18:28,285 --> 02:18:33,972
+Et du coup on essaie de réfléchir, de savoir comment on peut faire, par mise à jour successive, pour résoudre le problème.
 
 1536
-03:07:15,936 --> 03:07:24,937
-Alors, on fait pas ça que parce qu'on peut le faire.
+02:18:35,023 --> 02:18:37,581
+C'est un nouveau métier quoi, je suis pas sûr de l'aimer celui-là.
 
 1537
-03:07:33,937 --> 03:07:42,938
-Y'a pas mal de développement, enfin de choses qui se font en Web.
+02:18:37,855 --> 02:18:40,325
+Mais oué on y arrive.
 
 1538
-03:07:51,938 --> 03:08:00,939
-Où, quand on pose la question: mais pourquoi vous faites ça dans un navigateur Web alors que ça existe dans des applications desktop ?
+02:18:40,558 --> 02:18:41,429
+On y arrive globalement.
 
 1539
-03:08:09,939 --> 03:08:18,940
-Souvent le gars il dit: bah parce que je pouvais le faire, alors je l'ai fais.
+02:18:41,766 --> 02:18:44,507
+Le seul truc pour lequel pour l'instant on sait pas trop comment faire, c'est cette partie là.
 
 1540
-03:08:27,940 --> 03:08:36,941
-Y'a un peu de ça, c'est pas parti de ça au début.
+02:18:44,702 --> 02:18:48,372
+Cette partie-là pour l'instant, je sais pas trop ce qui est prévu de faire.
 
 1541
-03:08:45,941 --> 03:08:54,942
-Mais, clairement, si on le fait et qu'on investit autant de temps et d'énergie là dedans, c'est parce qu'il y a des bénéfices pour le développeur auxquels on croit beaucoup.
+02:18:48,654 --> 02:18:50,340
+Je suis un peu plus inquiet là-dessus.
 
 1542
-03:09:03,942 --> 03:09:12,943
-Le premier de ces bénéfices, c'est que c'est facile de commencer à développer pour une application mobile type firefoxOS.
+02:18:50,517 --> 02:18:51,980
+Mais sinon on est capable de péter tout le reste.
 
 1543
-03:09:21,943 --> 03:09:30,944
-Est-ce qu'il y en a qui ont déjà développés des applications pour Android ou pour iOS ? Parmis vous.
+02:18:53,935 --> 02:18:55,972
+On a figé la version de Gecko qu'on va shipped.
 
 1544
-03:09:39,944 --> 03:09:48,945
+02:18:56,399 --> 02:18:58,476
+C'est le Gecko 18.
+
+1545
+02:18:58,620 --> 02:19:04,324
+Donc c'est le firefox qui est actuellement en version Aurora qui sera le firefox stable dans 12 semaines, dans 3 mois.
+
+1546
+02:19:04,694 --> 02:19:12,453
+Donc, tout ça normalement, y'a pas de raison d'être plus inquiet que...
+
+1547
+02:19:17,815 --> 02:19:21,110
+Pour l'instant, y'a un terminal.
+
+1548
+02:19:21,630 --> 02:19:23,595
+Enfin un terminal, on sait pas encore exactement lequel.
+
+1549
+02:19:23,870 --> 02:19:29,245
+Mais la première phase de déploiement de firefoxOS, ça va être :
+
+1550
+02:19:29,361 --> 02:19:34,627
+un terminal, qui va être vendu au Brésil et on espère qu'il va être bien vendu.
+
+1551
+02:19:34,837 --> 02:19:41,835
+Et qu'il va nous permettre de voir comment on est capable de faire des mises à jour dans plusieurs millions d'unités comme ça d'un coup.
+
+1552
+02:19:42,102 --> 02:19:48,700
+Actuellement, on fait des mises à jour sur, comme disait David tout à l'heure, sur un demi-milliard de postes toutes les 6 semaines.
+
+1553
+02:19:49,360 --> 02:19:50,784
+Donc, ça nous fait pas plus peur que ça.
+
+1554
+02:19:51,002 --> 02:19:52,425
+Ce qui nous fait peur c'est de...
+
+1555
+02:19:52,991 --> 02:19:54,773
+C'est facile de faire une mise à jour sur un desktop.
+
+1556
+02:19:55,135 --> 02:20:00,948
+Sur un pays comme le Brésil ou l'amérique latine plus généralement où la connectivité est pas toujours au top...
+
+1557
+02:20:01,231 --> 02:20:09,889
+Ou le gars il peut se retrouver en bout de son forfait data alors qu'il a pas fini de télécharger ses mises à jour, etcetera, etcetera...
+
+1558
+02:20:10,402 --> 02:20:12,663
+On a... pas mal de petit...
+
+1559
+02:20:12,663 --> 02:20:13,220
+Enfin...
+
+1560
+02:20:14,488 --> 02:20:15,983
+On va certainement découvrir des problèmes.
+
+1561
+02:20:16,736 --> 02:20:17,492
+Je pense.
+
+1562
+02:20:18,269 --> 02:20:20,013
+Y'a pas de raison que ça se passe bien du premier coup.
+
+1563
+02:20:25,277 --> 02:20:30,425
+Alors, on fait pas ça que parce qu'on peut le faire.
+
+1564
+02:20:30,869 --> 02:20:33,852
+Y'a pas mal de développement, enfin de choses qui se font en Web.
+
+1565
+02:20:34,814 --> 02:20:42,920
+Où, quand on pose la question: mais pourquoi vous faites ça dans un navigateur Web alors que ça existe dans des applications desktop ?
+
+1566
+02:20:43,376 --> 02:20:46,477
+Souvent le gars il dit: bah parce que je pouvais le faire, alors je l'ai fais.
+
+1567
+02:20:47,586 --> 02:20:50,442
+Y'a un peu de ça, c'est pas parti de ça au début.
+
+1568
+02:20:50,666 --> 02:21:02,178
+Mais, clairement, si on le fait et qu'on investit autant de temps et d'énergie là dedans, c'est parce qu'il y a des bénéfices pour le développeur auxquels on croit beaucoup.
+
+1569
+02:21:03,005 --> 02:21:09,098
+Le premier de ces bénéfices, c'est que c'est facile de commencer à développer pour une application mobile type firefoxOS.
+
+1570
+02:21:09,426 --> 02:21:15,197
+Est-ce qu'il y en a qui ont déjà développés des applications pour Android ou pour iOS ? Parmis vous.
+
+1571
+02:21:15,487 --> 02:21:16,501
 Android ?
 iOS ?
 
-1545
-03:09:57,945 --> 03:10:06,946
+1572
+02:21:18,064 --> 02:21:18,742
 Android ?
 
-1546
-03:10:15,946 --> 03:10:24,947
+1573
+02:21:20,132 --> 02:21:25,975
 C'est pas juste du bonheur le truc Android là, avec leur... tu utilisais le plugin Eclipse ?
 
-1547
-03:10:33,947 --> 03:10:42,948
+1574
+02:21:26,419 --> 02:21:33,524
 ça fait rêver, non ?
 Là, on a besoin d'un éditeur texte.
 
-1548
-03:10:51,948 --> 03:11:00,949
+1575
+02:21:33,880 --> 02:21:35,515
 Et d'un navigateur.
 
-1549
-03:11:09,949 --> 03:11:18,950
+1576
+02:21:35,714 --> 02:21:39,195
 iOS, c'est déjà un problème mieux foutu leur truc.
 
-1550
-03:11:27,950 --> 03:11:36,951
+1577
+02:21:39,323 --> 02:21:43,109
 Parce qu'ils ont un régulateur de device où on peut jouer et tout ça mais bon.
 
-1551
-03:11:45,951 --> 03:11:54,952
+1578
+02:21:43,234 --> 02:21:49,057
 Il faut... bah un Mac, il faut la licence Xcode et il faut l'inscription... 100 dollars je crois...
 
-1552
-03:12:03,952 --> 03:12:12,953
+1579
+02:21:57,538 --> 02:21:59,906
 Clairement, nous l'idée, c'est qu'on puisse...
 
-1553
-03:12:21,953 --> 03:12:30,954
+1580
+02:22:00,418 --> 02:22:01,941
 On vise les marchés émergents.
 
-1554
-03:12:39,954 --> 03:12:48,955
+1581
+02:22:02,185 --> 02:22:06,349
 On voudrait que toute cette population du monde puisse créer ses propres applications mobiles.
 
-1555
-03:12:57,955 --> 03:13:06,956
+1582
+02:22:06,525 --> 02:22:09,455
 C'est des gens qui vont pas connaître le desktop en fait.
 
-1556
-03:13:15,956 --> 03:13:24,957
+1583
+02:22:09,603 --> 02:22:16,002
 Ils arrivent à cet âge d'or de l'information directement par la tablette, le mobile et tout.
 
-1557
-03:13:33,957 --> 03:13:42,958
+1584
+02:22:16,150 --> 02:22:19,643
 Et on veut pas mettre la barrière d'entrée trop haute pour eux.
 
-1558
-03:13:51,958 --> 03:14:00,959
+1585
+02:22:19,739 --> 02:22:22,101
 On veut qu'ils puissent développer leurs propres trucs comme ça, paf !
 
-1559
-03:14:09,959 --> 03:14:18,960
+1586
+02:22:22,707 --> 02:22:24,206
 Surtout qu'on peut le faire, y'a pas de raisons de s'emmerder.
 
-1560
-03:14:27,960 --> 03:14:36,961
+1587
+02:22:26,063 --> 02:22:27,950
 Les environnements de développement existent déjà.
 
-1561
-03:14:45,961 --> 03:14:54,962
+1588
+02:22:28,642 --> 02:22:31,016
 Bon, globalement, c'est firebug.
 
-1562
-03:15:03,962 --> 03:15:12,963
+1589
+02:22:31,266 --> 02:22:36,520
 Et, euh, y'a plein d'autres choses pour ceux qui sont calés en développement Web, JS.
 
-1563
-03:15:21,963 --> 03:15:30,964
+1590
+02:22:36,773 --> 02:22:41,451
 Y'a des frameworks, y'a des langages, y compris comme JS, enfin y'a pleins de choses.
 
-1564
-03:15:39,964 --> 03:15:48,965
-Y'a pleins de choses.
-
-1565
-03:15:57,965 --> 03:16:06,966
-Et puis, c'est finalement une façon qui est pas mal, qui est assez pertinente pour résoudre le problème de ce que les "Appleistes" appellent la fragmentation du marché Android.
-
-1566
-03:16:15,966 --> 03:16:24,967
-En fait, ils détestent travailler sur Android parce qu'ils ne savent pas à l'avance qu'elle va être la résolution, qu'elle va être la puissance de calcul du terminal etcetera...
-
-1567
-03:16:33,967 --> 03:16:42,968
-Quand on travaille sur iOS, normalement on le sait.
-
-1568
-03:16:51,968 --> 03:17:00,969
-A peu près.
-
-1569
-03:17:09,969 --> 03:17:18,970
-Quand on travaille chez Android, on sait pas.
-
-1570
-03:17:27,970 --> 03:17:36,971
-Hey bien nous on dit on sait pas mais on s'en fout parce que on est habitués à faire ça, on est habitués à faire des design réactifs en CSS.
-
-1571
-03:17:45,971 --> 03:17:54,972
-On utilise des media queries CSS3 pour s'adapter à différentes résolutions.
-
-1572
-03:18:03,972 --> 03:18:12,973
-Globalement, la démarche c'est :
-
-1573
-03:18:21,973 --> 03:18:30,974
-on commence par créer une application pour le cas le plus pénalisant, c'est à dire le device bah celui que j'ai dans la poche.
-
-1574
-03:18:39,974 --> 03:18:48,975
-Celui qui a le CPU le plus faible, qui a l'écran le plus pourri...
-
-1575
-03:18:57,975 --> 03:19:06,976
-Et après rajoute à coup de media queries des fonctionnalités au fur et à mesure que l'écran soit plus grand, que le CPU nous donne plus de choses, etcetera...
-
-1576
-03:19:15,976 --> 03:19:24,977
-Donc, c'est finalement pas mal.
-
-1577
-03:19:33,977 --> 03:19:42,978
-On casse enfin la dépendance à la plateforme et au navigateur, on casse la dépendance au marketplace, dont David vous a parlé.
-
-1578
-03:19:51,978 --> 03:20:00,979
-Et oui, ça fonctionne offline.
-
-1579
-03:20:09,979 --> 03:20:18,980
-C'est pas parce qu'on fait du HTML que on a forcément besoin d'une connexion Internet.
-
-1580
-03:20:27,980 --> 03:20:36,981
-Alors, ça c'est la partie...
-
-1581
-03:20:45,981 --> 03:20:54,982
-ça c'est la partie...
-
-1582
-03:21:03,982 --> 03:21:12,983
-C'est vraiment parce que c'est Mozilla que ça peut se passer comme ça.
-
-1583
-03:21:21,983 --> 03:21:30,984
-La grande différence entre Maemo, Tizen, maintenant Mer et compagnie.
-
-1584
-03:21:39,984 --> 03:21:48,985
-Toute cette lignée là d'OS pour mobile qui étaient basés sur un noyau Linux aussi et qui utilisaient aussi des technos Web...
-
-1585
-03:21:57,985 --> 03:22:06,986
-WebOS typiquement, rentre dans cette catégorie là.
-
-1586
-03:22:15,986 --> 03:22:24,987
-C'est qu'ils avaient leurs API spécifiques pour le matériel et pour le système d'exploitation plus la techno Web.
-
-1587
-03:22:33,987 --> 03:22:42,988
-Ce qui fait que pour développer pour ces machines là il falait connaitre les deux.
-
-1588
-03:22:51,988 --> 03:23:00,989
-C'était bien vu de connaitre les deux en tout cas.
-
-1589
-03:23:09,989 --> 03:23:18,990
-Nous, on s'interdit, même pour nous, parce que on pourrait très bien, y'a pleins de fois où on s'arrache les cheveux, on perd des semaines de développements pour un truc qu'on pourrait faire en quelques lignes de XPCOM ou de trucs comme ça.
-
-1590
-03:23:27,990 --> 03:23:36,991
-Et, l'équivalent du NaCL de Google, on sait faire ça chez Mozilla.
-
 1591
-03:23:45,991 --> 03:23:54,992
-On s'interdit de le faire parce que l'idée c'est de faire du Web Only.
+02:22:41,726 --> 02:22:43,279
+qu'on aime ou pas, enfin ça existe
 
 1592
-03:24:03,992 --> 03:24:12,993
-Donc, si y'a quelque chose qu'on sait pas faire, c'est un bug, c'est pas normal.
+02:22:44,357 --> 02:22:56,712
+Et puis, c'est finalement une façon qui est pas mal, qui est assez pertinente pour résoudre le problème de ce que les "Appleistes" appellent la fragmentation du marché Android.
 
 1593
-03:24:21,993 --> 03:24:30,994
-Donc c'est quelque chose qu'il faut corriger au niveau de Gecko.
+02:22:57,049 --> 02:23:03,681
+En fait, ils détestent travailler sur Android parce qu'ils ne savent pas à l'avance qu'elle va être la résolution, qu'elle va être la puissance de calcul du terminal etcetera...
 
 1594
-03:24:39,994 --> 03:24:48,995
-Donc quand y'a quelque chose qu'on sait pas faire du côté de GAIA, on le corrige dans Gecko.
+02:23:03,954 --> 02:23:06,391
+Quand on travaille sur iOS, normalement on le sait.
 
 1595
-03:24:57,995 --> 03:25:06,996
-Donc, quand on veut optimiser nos applications pour des terminaux vraiment, vraiment à ???? prix.
+02:23:06,633 --> 02:23:07,312
+A peu près.
 
 1596
-03:25:15,996 --> 03:25:24,997
-Hey bien ça nous oblige à faire progresser le moteur Gecko.
+02:23:07,593 --> 02:23:08,936
+Quand on travaille chez Android, on sait pas.
 
 1597
-03:25:33,997 --> 03:25:42,998
-Parce que il faut optimiser son rendu.
+02:23:10,009 --> 02:23:16,527
+Hey bien nous on dit on sait pas mais on s'en fout parce que on est habitués à faire ça, on est habitués à faire des design réactifs en CSS.
 
 1598
-03:25:51,998 --> 03:26:00,999
-Il faut faire en sorte que quand on a besoin d'une API, par exemple pour contrôler la consommation d'énergie, etcetera...
+02:23:16,831 --> 02:23:21,178
+On utilise des media queries CSS3 pour s'adapter à différentes résolutions.
 
 1599
-03:26:09,999 --> 03:26:19,000
-Et bien il faut faire en sorte que cette API soit définie dans Gecko, proposée au W3C, standardisée et implémentée dans le device.
+02:23:21,477 --> 02:23:23,030
+Globalement, la démarche c'est :
 
 1600
-03:26:28,000 --> 03:26:37,001
-Donc on fait globalement les choses proprement.
+02:23:23,250 --> 02:23:29,454
+on commence par créer une application pour le cas le plus pénalisant, c'est à dire le device bah celui que j'ai dans la poche.
 
 1601
-03:26:46,001 --> 03:26:55,002
-On fait tout en sorte pour que le développement reste du développement Web le plus simple possible au final.
+02:23:29,547 --> 02:23:33,647
+Celui qui a le CPU le plus faible, qui a l'écran le plus pourri...
 
 1602
-03:27:04,002 --> 03:27:13,003
-Alors, dans les trucs qu'il va nous falloir faire aussi c'est faire en sorte que les outils des développeurs fonctionnent sur le remote device.
+02:23:33,819 --> 02:23:43,598
+Et après rajoute à coup de media queries des fonctionnalités au fur et à mesure que l'écran soit plus grand, que le CPU nous donne plus de choses, etcetera...
 
 1603
-03:27:22,003 --> 03:27:31,004
-Donc ça c'est typiquement le truc qui me rendait fou sur Android.
+02:23:43,824 --> 02:23:46,059
+Donc, c'est finalement pas mal.
 
 1604
-03:27:40,004 --> 03:27:49,005
-Qui marche un poil mieux sur iOS.
+02:23:46,528 --> 02:23:55,287
+On casse enfin la dépendance à la plateforme et au navigateur, on casse la dépendance au marketplace, dont David vous a parlé.
 
 1605
-03:27:58,005 --> 03:28:07,006
-Mais globalement, si je pouvais faire tourner mon firebug sur le device par l'intermédiaire du cordon USB, c'est quand même vahchement mieux que les alternatives xcode ou android.
+02:23:56,440 --> 02:23:57,440
+Et oui, ça fonctionne offline.
 
 1606
-03:28:16,006 --> 03:28:25,007
-Alors, c'est en train d'arriver.
+02:23:57,655 --> 02:24:01,350
+C'est pas parce qu'on fait du HTML que on a forcément besoin d'une connexion Internet.
 
 1607
-03:28:34,007 --> 03:28:43,008
-On a commencé à jouer avec cette semaine.
+02:24:05,223 --> 02:24:06,390
+Alors, ça c'est la partie...
 
 1608
-03:28:52,008 --> 03:29:01,009
-J'aurais bien voulu faire une démo mais...
+02:24:09,431 --> 02:24:10,871
+ça c'est la partie...
 
 1609
-03:29:10,009 --> 03:29:19,010
-C'est pas encore bien sec.
+02:24:12,088 --> 02:24:15,278
+C'est vraiment parce que c'est Mozilla que ça peut se passer comme ça.
 
 1610
-03:29:28,010 --> 03:29:37,011
-Plus généralement, on se rend compte que faire des applications, un système complet en javascript, html, JS...
+02:24:15,551 --> 02:24:20,813
+La grande différence entre Maemo, Tizen, maintenant Mer et compagnie.
 
 1611
-03:29:46,011 --> 03:29:55,012
-HTML, CSS, c'est pas toujours simple.
+02:24:20,991 --> 02:24:27,487
+Toute cette lignée là d'OS pour mobile qui étaient basés sur un noyau Linux aussi et qui utilisaient aussi des technos Web...
 
 1612
-03:30:04,012 --> 03:30:13,013
-C'est des fois même un poil frustrant.
+02:24:27,696 --> 02:24:30,381
+WebOS typiquement, rentre dans cette catégorie là.
 
 1613
-03:30:22,013 --> 03:30:31,014
-Et, en fait, on se dit bon on pourrait résoudre ça avec un framework javascript.
+02:24:31,603 --> 02:24:39,039
+C'est qu'ils avaient leurs API spécifiques pour le matériel et pour le système d'exploitation plus la techno Web.
 
 1614
-03:30:40,014 --> 03:30:49,015
-Mais typiquement, on se dit à nouveau, c'est une décision qu'on a prise dès le début du projet...
+02:24:39,230 --> 02:24:41,375
+Ce qui fait que pour développer pour ces machines là il falait connaitre les deux.
 
 1615
-03:30:58,015 --> 03:31:07,016
-Si on doit faire un framework, à nouveau c'est qu'on s'est trompé.
+02:24:43,295 --> 02:24:45,047
+C'était bien vu de connaitre les deux en tout cas.
 
 1616
-03:31:16,016 --> 03:31:25,017
-Donc, ça devrait fonctionner "from scratch", comme ça.
+02:24:45,239 --> 02:24:57,573
+Nous, on s'interdit, même pour nous, parce que on pourrait très bien, y'a pleins de fois où on s'arrache les cheveux, on perd des semaines de développements pour un truc qu'on pourrait faire en quelques lignes de XPCOM ou de trucs comme ça.
 
 1617
-03:31:34,017 --> 03:31:43,018
-La grande différence entre deux langages qu'on utilise pas mal côté serveur actuellement.
+02:24:58,633 --> 02:25:03,274
+Et, l'équivalent du NaCL de Google, on sait faire ça chez Mozilla.
 
 1618
-03:31:52,018 --> 03:32:01,019
-Entre Python et PHP, enfin y'a pleins de différences.
+02:25:03,507 --> 02:25:07,550
+On s'interdit de le faire parce que l'idée c'est de faire du Web Only.
 
 1619
-03:32:10,019 --> 03:32:19,020
-Mais, une des grandes différence c'est que dans PHP il a fallu faire des framework parce que y'avait des choses qui ont été conçu un peu de travers au départ et sur lesquels ils ont pas voulu revenir en arrière.
+02:25:07,759 --> 02:25:11,668
+Donc, si y'a quelque chose qu'on sait pas faire, c'est un bug, c'est pas normal.
 
 1620
-03:32:28,020 --> 03:32:37,021
-C'est ce qui permet que votre application PHP elle est écrite un jour et dans deux ans elle continuera à tourner.
+02:25:11,785 --> 02:25:14,198
+Donc c'est quelque chose qu'il faut corriger au niveau de Gecko.
 
 1621
-03:32:46,021 --> 03:32:55,022
-Et que par contre le code sera moyennement classe à lire.
+02:25:14,392 --> 02:25:18,143
+Donc quand y'a quelque chose qu'on sait pas faire du côté de GAIA, on le corrige dans Gecko.
 
 1622
-03:33:04,022 --> 03:33:13,023
-Côté Python, ils se sont dit on veut que le code soit propre.
+02:25:18,279 --> 02:25:26,157
+Donc, quand on veut optimiser nos applications pour des terminaux vraiment, vraiment à vile prix.
 
 1623
-03:33:22,023 --> 03:33:31,024
-Donc, si on a besoin de frameworks, c'est qu'on s'est raté.
+02:25:26,596 --> 02:25:28,728
+Hey bien ça nous oblige à faire progresser le moteur Gecko.
 
 1624
-03:33:40,024 --> 03:33:49,025
-Donc, du coup on réécrit le langage.
+02:25:29,090 --> 02:25:30,641
+Parce que il faut optimiser son rendu.
 
 1625
-03:33:58,025 --> 03:34:07,026
-Je sais pas si vous avez essayé de migrer vos scripts python 2.7 à python 3...
+02:25:31,832 --> 02:25:37,032
+Il faut faire en sorte que quand on a besoin d'une API, par exemple pour contrôler la consommation d'énergie, etcetera...
 
 1626
-03:34:16,026 --> 03:34:25,027
-ça fait mal.
+02:25:37,245 --> 02:25:44,194
+Et bien il faut faire en sorte que cette API soit définie dans Gecko, proposée au W3C, standardisée et implémentée dans le device.
 
 1627
-03:34:34,027 --> 03:34:43,028
-Donc, on essaie de réfléchir à savoir comment est-ce qu'on pourrait amener de façon incrémentale sans casser l'existant des outils pour faire du développement pas juste que de quelques applications comme ça mais de tout un système d'information en HTML, CSS, JS.
+02:25:44,393 --> 02:25:46,745
+Donc on fait globalement les choses proprement.
 
 1628
-03:34:52,028 --> 03:35:01,029
-Y'a des idées qui émergent.
+02:25:47,213 --> 02:25:53,719
+On fait tout en sorte pour que le développement reste du développement Web le plus simple possible au final.
 
 1629
-03:35:10,029 --> 03:35:19,030
-A chaque fois c'est la même ????? chez Mozilla, on veut que ce soit un standard.
+02:25:55,211 --> 02:26:02,279
+Alors, dans les trucs qu'il va nous falloir faire aussi c'est faire en sorte que les outils des développeurs fonctionnent sur le remote device.
 
 1630
-03:35:28,030 --> 03:35:37,031
-On veut que le standard soit implémentable par tout le monde, par Microsoft, Google, Apple, d'autres...
+02:26:02,489 --> 02:26:04,931
+Donc ça c'est typiquement le truc qui me rendait fou sur Android.
 
 1631
-03:35:46,031 --> 03:35:55,032
-Là typiquement on espère que ça va nous amener quelque chose sur les Web Open Apps.
+02:26:05,173 --> 02:26:07,210
+Qui marche un poil mieux sur iOS.
 
 1632
-03:36:04,032 --> 03:36:13,033
-Mais globalement voilà, tout ça ça nous sert à faire en sorte que le Web ça devienne vraiment une plate-forme de développement pour le mobile.
+02:26:07,435 --> 02:26:19,467
+Mais globalement, si je pouvais faire tourner mon firebug sur le device par l'intermédiaire du cordon USB, c'est quand même vahchement mieux que les alternatives xcode ou android.
 
 1633
-03:36:22,033 --> 03:36:31,034
-Alors, quelques chiffres en passant.
+02:26:20,011 --> 02:26:21,987
+Alors, c'est en train d'arriver.
 
 1634
-03:36:40,034 --> 03:36:49,035
-Les colonnes sont pas à l'échelle parce que je suis nul... pour les histoires d'infographie.
+02:26:22,651 --> 02:26:23,947
+On a commencé à jouer avec cette semaine.
 
 1635
-03:36:58,035 --> 03:37:07,036
-Mais y'a...
+02:26:24,155 --> 02:26:25,339
+J'aurais bien voulu faire une démo mais...
 
 1636
-03:37:16,036 --> 03:37:25,037
-environ 100 000 applications iOS, 450 000 android et 8 millions d'applications Web en tout genre.
+02:26:26,467 --> 02:26:27,276
+C'est pas encore bien sec.
 
 1637
-03:37:34,037 --> 03:37:43,038
-C'est un chiffre un peu valise.
+02:26:29,931 --> 02:26:37,691
+Plus généralement, on se rend compte que faire des applications, un système complet en javascript, html, JS...
 
 1638
-03:37:52,038 --> 03:38:01,039
-Ce qui est clair c'est que, pour l'instant, on est loin d'avoir un parc d'applications aussi élevé que sur iOS ou android.
+02:26:39,187 --> 02:26:42,049
+HTML, CSS, c'est pas toujours simple.
 
 1639
-03:38:10,039 --> 03:38:19,040
-Par contre, ce qu'on garde en tête, comme on n'est pas une société à but non lucratif, on est pas pressé non plus.
+02:26:42,195 --> 02:26:44,026
+C'est des fois même un poil frustrant.
 
 1640
-03:38:28,040 --> 03:38:37,041
-On sait que le potentiel est élevé. On sait qu'à terme on devrait pouvoir avoir beaucoup plus d'applications que sur iOS et sur Android.
+02:26:44,219 --> 02:26:49,466
+Et, en fait, on se dit bon on pourrait résoudre ça avec un framework javascript.
 
 1641
-03:38:46,041 --> 03:38:55,042
-Et avec cette démarche permanente de vouloir standardiser tout ce qu'on ajoute, tout ce dont on a besoin pour faire du développement Web.
+02:26:50,682 --> 02:26:54,826
+Mais typiquement, on se dit à nouveau, c'est une décision qu'on a prise dès le début du projet...
 
 1642
-03:39:04,042 --> 03:39:13,043
-On espère aussi que iOS et Android réimplémenteront peut-être pas toutes nos APIs mais au moins les APIs qui seront les plus utilisées.
+02:26:55,019 --> 02:26:58,650
+Si on doit faire un framework, à nouveau c'est qu'on s'est trompé.
 
 1643
-03:39:22,043 --> 03:39:31,044
-Et que ça permettra donc à un maximum d'applications d'être développées qu'une seule fois en HTML et qu'elles fonctionneront comme, globalement, ce qu'on a fait pour les standards du Web depuis la fin des années 90.
+02:26:58,867 --> 02:27:01,610
+Donc, ça devrait fonctionner "from scratch", comme ça.
 
 1644
-03:39:40,044 --> 03:39:49,045
-Clairement, clairement, Google, leur truc, pour eux le Web c'est leur environnement de travail donc plus on saura faire des applications Web pures plus ils seront intéressés.
+02:27:01,795 --> 02:27:05,924
+La grande différence entre deux langages qu'on utilise pas mal côté serveur actuellement.
 
 1645
-03:39:58,045 --> 03:40:07,046
-Les seuls que ça emmerdera un pue c'est Apple mais Apple utilisant les moteurs essentiellement développés par Google, enfin je pense à WebKit.
+02:27:06,312 --> 02:27:08,548
+Entre Python et PHP, enfin y'a pleins de différences.
 
 1646
-03:40:16,046 --> 03:40:25,047
-Ils suivront, qu'ils le veuillent ou non.
+02:27:08,797 --> 02:27:18,749
+Mais, une des grandes différence c'est que dans PHP il a fallu faire des framework parce que y'avait des choses qui ont été conçu un peu de travers au départ et sur lesquels ils ont pas voulu revenir en arrière.
 
 1647
-03:40:34,047 --> 03:40:43,048
-Alors, juste pour montrer que je suis pas en train de vous ?faker?, j'ai un téléphone.
+02:27:19,031 --> 02:27:23,460
+C'est ce qui permet que votre application PHP elle est écrite un jour et dans deux ans elle continuera à tourner.
 
 1648
-03:40:52,048 --> 03:41:01,049
-La marque c'est ?Pomaro?
-Et j'ai, alors...
+02:27:23,629 --> 02:27:27,124
+Et que par contre le code sera moyennement classe à lire.
 
 1649
-03:41:10,049 --> 03:41:19,050
-J'y crois !
+02:27:27,246 --> 02:27:30,061
+Côté Python, ils se sont dit on veut que le code soit propre.
 
 1650
-03:41:28,050 --> 03:41:37,051
-Alors, ça c'est un... on va dire que ça c'est un espèce de firefox sans contrôle, c'est juste une surface de rendu, donc ça, ça se télécharge sur le site de Mozilla.
+02:27:30,190 --> 02:27:32,907
+Donc, si on a besoin de frameworks, c'est qu'on s'est raté.
 
 1651
-03:41:46,051 --> 03:41:55,052
-Vous pouvez le tester vous-même.
+02:27:33,078 --> 02:27:35,525
+Donc, du coup on réécrit le langage.
 
 1652
-03:42:04,052 --> 03:42:13,053
-Donc, le petit truc qui m'amuse c'est que ça c'est le vrai niveau de batterie de mon laptop parce que c'est l'API Battery et que elle est implémentée et que voilà.
+02:27:35,762 --> 02:27:39,189
+Je sais pas si vous avez essayé de migrer vos scripts python 2.7 à python 3...
 
 1653
-03:42:22,053 --> 03:42:31,054
-Du coup j'ai mon niveau de batterie.
+02:27:39,333 --> 02:27:41,519
+ça fait mal.
 
 1654
-03:42:40,054 --> 03:42:49,055
-Euh, un petit apperçu des applications, donc tout ça c'est donc du HTML.
+02:27:41,653 --> 02:27:58,688
+Donc, on essaie de réfléchir à savoir comment est-ce qu'on pourrait amener de façon incrémentale sans casser l'existant des outils pour faire du développement pas juste que de quelques applications comme ça mais de tout un système d'information en HTML, CSS, JS.
 
 1655
-03:42:58,055 --> 03:43:07,056
-Là je vous présente l'application "Settings" parce que elle a été développée par des gens bien et parce que je voudraisd tout de suite enlever le verrouillage de l'écran.
+02:27:59,688 --> 02:28:00,908
+Y'a des idées qui émergent.
 
 1656
-03:43:16,056 --> 03:43:25,057
-Vous comprendrez pourquoi dans pas longtemps.
+02:28:01,085 --> 02:28:04,646
+A chaque fois c'est la même Italie chez Mozilla, on veut que ce soit un standard.
 
 1657
-03:43:34,057 --> 03:43:43,058
-Donc, euh...
+02:28:04,868 --> 02:28:09,854
+On veut que le standard soit implémentable par tout le monde, par Microsoft, Google, Apple, d'autres...
 
 1658
-03:43:52,058 --> 03:44:01,059
-ça, ça va pas le faire, non ça va pas le faire...
+02:28:10,640 --> 02:28:15,549
+Là typiquement on espère que ça va nous amener quelque chose sur les Web Open Apps.
 
 1659
-03:44:10,059 --> 03:44:19,060
-Y'a plein de trucs qui du coup ne sont pas... exploités, qui ne sont pas exposés par le clavier donc là typiquement...
+02:28:15,752 --> 02:28:24,070
+Mais globalement voilà, tout ça ça nous sert à faire en sorte que le Web ça devienne vraiment une plate-forme de développement pour le mobile.
 
 1660
-03:44:28,060 --> 03:44:37,061
-petit truc classique, vous savez les boutons Select pour faire une ?dropbox?
+02:28:27,120 --> 02:28:28,406
+Alors, quelques chiffres en passant.
 
 1661
-03:44:46,061 --> 03:44:55,062
-en mobile ça devient ça, alors idéalement ça devrait être aligné correctement et pas déborder, et pas se retrouver comme ça.
+02:28:28,646 --> 02:28:32,814
+Les colonnes sont pas à l'échelle parce que je suis nul... pour les histoires d'infographie.
 
 1662
-03:45:04,062 --> 03:45:13,063
-Mais ça c'est juste parce que j'ai pas encore fais le ?paging layout?
+02:28:33,583 --> 02:28:34,286
+Mais y'a...
 
 1663
-03:45:22,063 --> 03:45:31,064
-Mais voilà comment on choisit les trucs comme ça.
+02:28:35,584 --> 02:28:41,366
+environ 100 000 applications iOS, 450 000 android et 8 millions d'applications Web en tout genre.
 
 1664
-03:45:40,064 --> 03:45:49,065
-ça c'est des boutons, c'est des checkbox classiques.
+02:28:41,655 --> 02:28:43,374
+C'est un chiffre un peu valise.
 
 1665
-03:45:58,065 --> 03:46:07,066
-ça c'est un input type=???
+02:28:43,654 --> 02:28:49,741
+Ce qui est clair c'est que, pour l'instant, on est loin d'avoir un parc d'applications aussi élevé que sur iOS ou android.
 
 1666
-03:46:16,066 --> 03:46:25,067
-Tout ça c'est des éléments HTML standards en fait.
+02:28:49,927 --> 02:28:55,494
+Par contre, ce qu'on garde en tête, comme on n'est pas une société à but non lucratif, on est pas pressé non plus.
 
 1667
-03:46:34,067 --> 03:46:43,068
-Alors, ce qui nous manque là c'est le bouton "Home", je l'ai sur mon truc, hop je reviens au "Home" mais là bêtement y'a comme un genre de bug quoi.
+02:28:56,464 --> 02:29:03,590
+On sait que le potentiel est élevé. On sait qu'à terme on devrait pouvoir avoir beaucoup plus d'applications que sur iOS et sur Android.
 
 1668
-03:46:52,068 --> 03:47:01,069
-Et ce qui est cool c'est paf, ça redémarre vite.
+02:29:04,440 --> 02:29:11,238
+Et avec cette démarche permanente de vouloir standardiser tout ce qu'on ajoute, tout ce dont on a besoin pour faire du développement Web.
 
 1669
-03:47:10,069 --> 03:47:19,070
-Et qu'en plus on a enlevé le ?langage écran? donc c'est plus rapide
+02:29:12,064 --> 02:29:18,702
+On espère aussi que iOS et Android réimplémenteront peut-être pas toutes nos APIs mais au moins les APIs qui seront les plus utilisées.
 
 1670
-03:47:28,070 --> 03:47:37,071
-Donc, voilà quelques applications, je pense que j'ai le temps, je vais m'asseoir.
+02:29:18,895 --> 02:29:33,574
+Et que ça permettra donc à un maximum d'applications d'être développées qu'une seule fois en HTML et qu'elles fonctionneront comme, globalement, ce qu'on a fait pour les standards du Web depuis la fin des années 90.
 
 1671
-03:47:46,071 --> 03:47:55,072
-C'est des choses que vous pouvez tester rapidement sur votre... en téléchargeant ça.
+02:29:47,487 --> 02:30:00,198
+Clairement, clairement, Google, leur truc, pour eux le Web c'est leur environnement de travail donc plus on saura faire des applications Web pures plus ils seront intéressés.
 
 1672
-03:48:04,072 --> 03:48:13,073
-C'est globalement, on est parti sur l'idée qu'on voulait pour toutes nos applications une interface aussi minimaliste que possible, qu'on voulait donner... privilégier le contenu.
+02:30:00,307 --> 02:30:08,785
+Les seuls que ça emmerdera un peu c'est Apple mais Apple utilisant les moteurs essentiellement développés par Google, enfin je pense à WebKit.
 
 1673
-03:48:22,073 --> 03:48:31,074
-Hop là !
+02:30:10,307 --> 02:30:11,601
+Ils suivront, qu'ils le veuillent ou non.
 
 1674
-03:48:40,074 --> 03:48:49,075
-Donc, à chaque fois on a voulu faire des applications relativement simple.
+02:30:23,059 --> 02:30:26,665
+Alors, juste pour montrer que je suis pas en train de vous fake, j'ai un téléphone.
 
 1675
-03:48:58,075 --> 03:49:07,076
-Alors, je sais plus comment on sort de celle là.
+02:30:31,420 --> 02:30:33,647
+La marque c'est "Pomaro"
+T'as vu?
 
 1676
-03:49:16,076 --> 03:49:25,077
+02:30:37,383 --> 02:30:38,607
+Et j'ai, alors...
+
+1677
+02:30:59,755 --> 02:31:00,768
+J'y crois !
+
+1678
+02:31:13,863 --> 02:31:24,252
+Alors, ça c'est un... on va dire que ça c'est un espèce de firefox sans contrôle, c'est juste une surface de rendu, donc ça, ça se télécharge sur le site de Mozilla.
+
+1679
+02:31:24,574 --> 02:31:25,477
+Vous pouvez le tester vous-même.
+
+1680
+02:31:31,902 --> 02:31:39,637
+Donc, le petit truc qui m'amuse c'est que ça c'est le vrai niveau de batterie de mon laptop parce que c'est l'API Battery et que elle est implémentée et que voilà.
+
+1681
+02:31:39,895 --> 02:31:41,340
+Du coup j'ai mon niveau de batterie.
+
+1682
+02:31:42,566 --> 02:31:47,605
+Euh, un petit apperçu des applications, donc tout ça c'est donc du HTML.
+
+1683
+02:31:47,887 --> 02:31:56,610
+Là je vous présente l'application "Settings" parce que elle a été développée par des gens bien et parce que je voudrai tout de suite enlever le verrouillage de l'écran.
+
+1684
+02:31:57,124 --> 02:31:58,683
+Vous comprendrez pourquoi dans pas longtemps.
+
+1685
+02:32:00,580 --> 02:32:02,889
+Donc, euh...
+
+1686
+02:32:06,364 --> 02:32:08,547
+ça, ça va pas le faire, non ça va pas le faire...
+
+1687
+02:32:09,420 --> 02:32:16,153
+Y'a plein de trucs qui du coup ne sont pas... exploités, qui ne sont pas exposés par le clavier donc là typiquement...
+
+1688
+02:32:16,804 --> 02:32:21,048
+petit truc classique, vous savez les boutons Select pour faire une drag & drop on box
+
+1689
+02:32:21,922 --> 02:32:27,744
+en mobile ça devient ça, alors idéalement ça devrait être aligné correctement et pas déborder, et pas se retrouver comme ça.
+
+1690
+02:32:28,114 --> 02:32:31,534
+Mais ça c'est juste parce que j'ai pas encore fais le Patch qui va bien
+
+1691
+02:32:32,328 --> 02:32:35,334
+Mais voilà comment on choisit les trucs comme ça.
+
+1692
+02:32:35,688 --> 02:32:37,550
+ça c'est des boutons, c'est des checkbox classiques.
+
+1693
+02:32:37,888 --> 02:32:40,269
+ça c'est un input type=range
+
+1694
+02:32:40,503 --> 02:32:43,629
+Tout ça c'est des éléments HTML standards en fait.
+
+1695
+02:32:43,823 --> 02:32:55,389
+Alors, ce qui nous manque là c'est le bouton "Home", je l'ai sur mon truc, hop je reviens au "Home" mais là bêtement y'a comme un genre de bug quoi.
+
+1696
+02:32:55,750 --> 02:32:57,950
+Et ce qui est cool c'est paf, ça redémarre vite.
+
+1697
+02:32:58,159 --> 02:33:00,760
+Et qu'en plus on a enlevé le verrouillage écran donc c'est plus rapide
+
+1698
+02:33:02,061 --> 02:33:08,122
+Donc, voilà quelques applications, je pense que j'ai le temps, je vais m'asseoir.
+
+1699
+02:33:10,915 --> 02:33:16,338
+C'est des choses que vous pouvez tester rapidement sur votre... en téléchargeant ça.
+
+1700
+02:33:18,228 --> 02:33:27,258
+C'est globalement, on est parti sur l'idée qu'on voulait pour toutes nos applications une interface aussi minimaliste que possible, qu'on voulait donner... privilégier le contenu.
+
+1701
+02:33:27,380 --> 02:33:28,503
+Hop là !
+
+1702
+02:33:29,758 --> 02:33:39,423
+Donc, à chaque fois on a voulu faire des applications relativement simple.
+
+1703
+02:33:40,512 --> 02:33:41,839
+Alors, je sais plus comment on sort de celle là.
+
+1704
+02:33:42,120 --> 02:33:44,943
 ça doit être comme ça je crois.
 Voilà, jpaf !
 
-1677
-03:49:34,077 --> 03:49:43,078
+1705
+02:33:47,386 --> 02:33:49,832
 Alors, pour la tourner, c'est simple, on a un bouton "Edit", là tac.
 
-1678
-03:49:52,078 --> 03:50:01,079
+1706
+02:33:50,178 --> 02:33:53,791
 Et comme tu vois, c'est pas encore tout à fait fini d'être implémenté
 
-1679
-03:50:10,079 --> 03:50:19,080
-Je crois qu'on peut pas en sortir à cause d'un ???
+1707
+02:33:57,105 --> 02:33:59,635
+Je crois qu'on peut pas en sortir à cause d'un "fork" à la con
 
-1680
-03:50:28,080 --> 03:50:37,081
+1708
+02:34:02,243 --> 02:34:04,626
 Mais heureusement, paf, ça redémarre vachement vite.
 
-1681
-03:50:46,081 --> 03:50:55,082
-ça c'est cool comme ???????
+1709
+02:34:06,556 --> 02:34:08,245
+ça c'est cool comme ça redemarre vite
 
-1682
-03:51:04,082 --> 03:51:13,083
+1710
+02:34:11,395 --> 02:34:13,376
 La radio FM j'ai trouvé ça sympa aussi
 
-1683
-03:51:22,083 --> 03:51:31,084
+1711
+02:34:15,114 --> 02:34:19,575
 Là, comme ça on peut se mettre des... tiens 89.3
 
-1684
-03:51:40,084 --> 03:51:49,085
+1712
+02:34:21,497 --> 02:34:25,416
 Ok, évidemment là on entend rien parce que j'ai pas de radios dans ce machin là mais sur le principe, c'est classe.
 
-1685
-03:51:58,085 --> 03:52:07,086
+1713
+02:34:28,186 --> 02:34:30,432
 Je suis vraiment désolé pour l'écoute mais bon...
 
-1686
-03:52:16,086 --> 03:52:25,087
+1714
+02:34:31,810 --> 02:34:34,720
 L'agenda, ah l'agenda ça fait parti des applications qui sont toutes récentes.
 
-1687
-03:52:34,087 --> 03:52:43,088
+1715
+02:34:36,465 --> 02:34:37,391
 Parce que celle là
 
-1688
-03:52:52,088 --> 03:53:01,089
+1716
+02:34:38,442 --> 02:34:41,144
 Déjà elle a pas besoin d'un téléphone pour fonctionner.
 
-1689
-03:53:10,089 --> 03:53:19,090
+1717
+02:34:41,713 --> 02:34:44,528
 Elle doit marcher niquel dans votre PC.
 
-1690
-03:53:28,090 --> 03:53:37,091
+1718
+02:34:44,729 --> 02:34:50,392
 Je suis même quasiment certain qu'elle est utilisable ou vraiment pas loin quoi...
 
-1691
-03:53:46,091 --> 03:53:55,092
+1719
+02:34:50,577 --> 02:34:52,768
 Qu'elle peut remplacer votre gestionnaire d'agenda actuel.
 
-1692
-03:54:04,092 --> 03:54:13,093
+1720
+02:34:53,761 --> 02:35:01,967
 Elle est faite de façon à peu près intelligente et on est en train de regarder comment on peut faire en sorte que sur le PC, ça se soit une side bar en fait.
 
-1693
-03:54:22,093 --> 03:54:31,094
+1721
+02:35:02,873 --> 02:35:07,705
 Sur le PC on a plus de place donc du coup on voudrait faire une interface multi-panneaux dès le départ...
 
-1694
-03:54:40,094 --> 03:54:49,095
+1722
+02:35:08,548 --> 02:35:18,225
 Et peut être présenter des vues un peu différentes mais tout ça c'est vraiment du boulot de styliste donc si y'en a parmis vous qui sont bricoleurs en CSS et tout.
 
-1695
-03:54:58,095 --> 03:55:07,096
+1723
+02:35:18,411 --> 02:35:23,626
 Cette application Calendar, vous pouvez l'utiliser dès maintenant sur un Desktop et commencer à jouer avec.
 
-1696
-03:55:16,096 --> 03:55:25,097
+1724
+02:35:23,852 --> 02:35:27,888
 Alors, par contre pour le code, c'est du code à framework, c'est un Modèle-Vue-Contrôleur
 
-1697
-03:55:34,097 --> 03:55:43,098
+1725
+02:35:29,266 --> 02:35:30,153
 Y'en a qui sont fans...
 
-1698
-03:55:52,098 --> 03:56:01,099
+1726
+02:35:31,139 --> 02:35:32,328
 C'est malheureusement pas mon cas.
 
-1699
-03:56:10,099 --> 03:56:19,100
+1727
+02:35:33,250 --> 02:35:37,553
 Mais côté CSS en tout cas, c'est bien fait.
 
-1700
-03:56:28,100 --> 03:56:37,101
+1728
+02:35:37,811 --> 02:35:46,530
 L'application email est dans le même délire, l'application email elle est faite par un ancien de chez thunderbird qui bosse maintenant à temps plein pour faire une application email en HTML5.
 
-1701
-03:56:46,101 --> 03:56:55,102
+1729
+02:35:46,955 --> 02:35:51,745
 Et euh... la blague qu'on lui fait à peu près 10 fois par jour et il doit finir par en avoir marre.
 
-1702
-03:57:04,102 --> 03:57:13,103
+1730
+02:35:51,939 --> 02:35:54,025
 C'est qu'on lui dit mais quand est-ce qu'on arrête thunderbird pour faire ça ?
 
-1703
-03:57:22,103 --> 03:57:31,104
+1731
+02:35:56,292 --> 02:35:59,418
 ça arrive...
 Une étudiante : Excusez-moi,...
 
-1704
-03:57:40,104 --> 03:57:49,105
+1732
+02:36:05,235 --> 02:36:14,889
 En fait y'a une API standard déjà dans le Web donc la géolocalisation on a le... on a la triangulation Wi-fi, ça je sais pas sur quoi on se repose.
 
-1705
-03:57:58,105 --> 03:58:07,106
+1733
+02:36:15,900 --> 02:36:20,033
 Mais on a un bus GPS dans la... dans le device qui est là.
 
-1706
-03:58:16,106 --> 03:58:25,107
+1734
+02:36:20,475 --> 02:36:22,752
 Donc on se localise avec le GPS.
 
-1707
-03:58:34,107 --> 03:58:43,108
+1735
+02:36:23,313 --> 02:36:26,391
 Et après, si par plate-forme, tu entends....
 
-1708
-03:58:52,108 --> 03:59:01,109
+1736
+02:36:28,025 --> 02:36:28,847
 Ah, ça c'est autre chose...
 
-1709
-03:59:10,109 --> 03:59:19,110
+1737
+02:36:30,369 --> 02:36:32,456
 Actuellement, si on tourne, on utilise NokiaMaps
 
-1710
-03:59:28,110 --> 03:59:37,111
+1738
+02:36:33,665 --> 02:36:36,464
 ça on peut parce que si on a pas de connexion au Net, on a pas de carte.
 
-1711
-03:59:46,111 --> 03:59:55,112
+1739
+02:36:37,522 --> 02:36:41,048
 Donc on est pas super satisfait mais ça fonctionne.
 
-1712
-04:00:04,112 --> 04:00:13,113
+1740
+02:36:43,817 --> 02:36:44,456
 Donc ça c'est une horloge.
 
-1713
-04:00:22,113 --> 04:00:31,114
+1741
+02:36:47,233 --> 02:36:48,008
 C'est du SVG.
 
-1714
-04:00:40,114 --> 04:00:49,115
+1742
+02:36:48,642 --> 02:36:52,528
 Je trouve ça classe. Je préfère celle là qui marche aussi bien.
 
-1715
-04:00:58,115 --> 04:01:07,116
+1743
+02:36:54,706 --> 02:36:58,280
 Donc on a les alarmes et je ne résiste pas au plaisir de vous montrer le sélecteur de temps.
 
-1716
-04:01:16,116 --> 04:01:25,117
+1744
+02:37:04,113 --> 02:37:07,232
 Je vais mettre une alarme à cette heure là tiens, ça va me fera les pieds.
 
-1717
-04:01:34,117 --> 04:01:43,118
+1745
+02:37:11,913 --> 02:37:15,823
 Pardon ?
 Ouai, peut-être
 
-1718
-04:01:52,118 --> 04:02:01,119
+1746
+02:37:31,503 --> 02:37:32,159
 Application vidéo...
 
-1719
-04:02:10,119 --> 04:02:19,120
+1747
+02:37:36,752 --> 02:37:40,776
 Voilà... avec le slider et tout...
 
-1720
-04:02:28,120 --> 04:02:37,121
+1748
+02:37:41,466 --> 02:37:45,384
 Alors là forcément si on pouvait le basculer ça rendrait mieux.
 
-1721
-04:02:46,121 --> 04:02:55,122
+1749
+02:37:45,698 --> 02:37:48,935
 Là, une vidéo dans ce sens là en mode portrait ça fait un peu crétin.
 
-1722
-04:03:04,122 --> 04:03:13,123
-Dans les petites révolutions qu'on a faites là dessus c'est que on sait dit en ???? des vidéos en mp4 des audios en mp3 si c'est décodé par le hardware de ça.
-
-1723
-04:03:22,123 --> 04:03:31,124
-Donc on sait toujours pas le faire... enfin on sait pas le faire, on s'interdit de le faire sur le desktop pour des raisons d'éthique, politique, je sais pas trop...
-
-1724
-04:03:40,124 --> 04:03:49,125
-Sur le device, on se pose moins de questions, on le fait...
-
-1725
-04:03:58,125 --> 04:04:07,126
-L'application "Musique", je sais pas du tout comment fonctionne les applications "Musique" d'iOs et compagnie.
-
-1726
-04:04:16,126 --> 04:04:25,127
-Je la trouve vraiment sympa.
-
-1727
-04:04:34,127 --> 04:04:43,128
-Alors là malheureusement bah...
-
-1728
-04:04:52,128 --> 04:05:01,129
-Ma bibliothèque est un poil trop... trop longue.
-
-1729
-04:05:10,129 --> 04:05:19,130
-Je ne sais pas pourquoi il a perdu les images tiens, ça peut être un bug pour ce soir.
-
-1730
-04:05:28,130 --> 04:05:37,131
-Mais voilà il fait une mosaïque de tous... de tous ces trucs là.
-
-1731
-04:05:46,131 --> 04:05:55,132
-Et là, bêtement, comme ça ça doit être du FLAC et que...
-
-1732
-04:06:04,132 --> 04:06:13,133
-je sais pas décoder le FLAC en natif avec ce laptop il va pas pouvoir vous chanter ça.
-
-1733
-04:06:22,133 --> 04:06:31,134
-Mais sur le device ça marche bien.
-
-1734
-04:06:40,134 --> 04:06:49,135
-ça c'est un design que je trouve assez réussi.
-
-1735
-04:06:58,135 --> 04:07:07,136
-Et on a quand même les listes classiques...
-
-1736
-04:07:16,136 --> 04:07:25,137
-Un étudiant: ça fait penser aux tuiles...
-
-1737
-04:07:34,137 --> 04:07:43,138
-Ouai, ça fait penser aux tuiles Windows ouai...
-
-1738
-04:07:52,138 --> 04:08:01,139
-Ouai, je suis d'accord...
-
-1739
-04:08:10,139 --> 04:08:19,140
-Là ça rend pas trop parce que en fait...
-
-1740
-04:08:28,140 --> 04:08:37,141
-dans les méta-données des fichiers mp3, FLAC et compagnie...
-
-1741
-04:08:46,141 --> 04:08:55,142
-y'a des images, en général 200 par 200 et du coup...
-
-1742
-04:09:04,142 --> 04:09:13,143
-en fait ça marchait tout à l'heure bêtement...
-
-1743
-04:09:22,143 --> 04:09:31,144
-là ça ne marche plus, je sais pas pourquoi...
-
-1744
-04:09:40,144 --> 04:09:49,145
-Et on a la pochette de l'album mais avec une couleur par dessus qui donne en fait...
-
-1745
-04:09:58,145 --> 04:10:07,146
-une espèce de taille en fonction de certains trucs qu'on a joué récemment...
-
-1746
-04:10:16,146 --> 04:10:25,147
-qu'on aime beaucoup etcetera...
-
-1747
-04:10:34,147 --> 04:10:43,148
-La taille... les morceaux qu'on joue régulièrement prennent 4 places au lieu d'une...
-
-1748
-04:10:52,148 --> 04:11:01,149
-Enfin, ils se sont fait plaisir je trouve les gars du ????
-
-1749
-04:11:10,149 --> 04:11:19,150
-Et, ça pareil ça marche sur le desktop.
-
 1750
-04:11:28,150 --> 04:11:37,151
-Le défaut c'est que il faut que ce soit de l'OGG en desktop parce que...
+02:37:51,385 --> 02:38:06,824
+Dans les petites révolutions qu'on a faites là dessus c'est que on sait lire des vidéos en mp4 des audios en mp3 si c'est décodé par le hardware de ça.
 
 1751
-04:11:46,151 --> 04:11:55,152
-A moins d'avoir le support matériel pour le décoder le MP3.
+02:38:07,909 --> 02:38:16,212
+Donc on sait toujours pas le faire... enfin on sait pas le faire, on s'interdit de le faire sur le desktop pour des raisons d'éthique, politique, je sais pas trop...
 
 1752
-04:12:04,152 --> 04:12:13,153
-Je redémarre une dernière fois, je sais pas si y'a d'autres applications qui vaillent le coup d'être montrées.
+02:38:17,334 --> 02:38:20,163
+Sur le device, on se pose moins de questions, on le fait...
 
 1753
-04:12:22,153 --> 04:12:31,154
-Vous m'en voudrez pas si je vous montre pas la calculatrice...
+02:38:21,893 --> 02:38:27,683
+L'application "Musique", je sais pas du tout comment fonctionne les applications "Musique" d'iOs et compagnie.
 
 1754
-04:12:40,154 --> 04:12:49,155
-Bon vous faites chier, voilà la calculatrice.
+02:38:28,670 --> 02:38:30,260
+Je la trouve vraiment sympa.
 
 1755
-04:12:58,155 --> 04:13:07,156
-Ouai !
+02:38:30,500 --> 02:38:31,772
+Alors là malheureusement bah...
 
 1756
-04:13:16,156 --> 04:13:25,157
-Elle est vachement mieux en vrai parce que on a pas la vraie police, on a une police qu'on a fait exprès pour mobile mais que visiblement j'ai pas sur ce machin là.
+02:38:32,941 --> 02:38:36,723
+Ma bibliothèque est un poil trop... trop longue.
 
 1757
-04:13:34,157 --> 04:13:43,158
-Donc en vrai elle est mieux.
+02:38:36,997 --> 02:38:40,116
+Je ne sais pas pourquoi il a perdu les images tiens, ça peut être un bug pour ce soir.
 
 1758
-04:13:52,158 --> 04:14:01,159
-Ah, alors maintenant j'aimerais vous montrer et puis on va finir là dessus..
+02:38:40,365 --> 02:38:44,124
+Mais voilà il fait une mosaïque de tous... de tous ces trucs là.
 
 1759
-04:14:10,159 --> 04:14:19,160
-Le truc que je trouve vraiment classe sur ce projet...
+02:38:44,645 --> 02:38:49,468
+Et là, bêtement, comme ça ça doit être du FLAC et que...
 
 1760
-04:14:28,160 --> 04:14:37,161
-Donc voilà, il s'appelle ??? mais en fait c'est un firefox ???
+02:38:49,725 --> 02:38:54,243
+je sais pas décoder le FLAC en natif avec ce laptop il va pas pouvoir vous chanter ça.
 
 1761
-04:14:46,161 --> 04:14:55,162
-C'est juste une branche un poil séparé pour tester des trucs d'interface.
+02:38:55,318 --> 02:38:56,564
+Mais sur le device ça marche bien.
 
 1762
-04:15:04,162 --> 04:15:13,163
-Donc, vous repérez l'URL, alors en fait pour avoir cette URL là j'ai fais un ??? de debug de Gaia.
+02:38:56,886 --> 02:38:59,933
+ça c'est un design que je trouve assez réussi.
 
 1763
-04:15:22,163 --> 04:15:31,164
-ça se fait en ruby, debug égal 1 espace make... Paf!
+02:39:00,270 --> 02:39:03,512
+Et on a quand même les listes classiques...
 
 1764
-04:15:40,164 --> 04:15:49,165
-Et...
+02:39:03,512 --> 02:39:05,028
+Un étudiant: ça fait penser aux tuiles...
 
 1765
-04:15:58,165 --> 04:16:07,166
-ça crée un profil dans lequel y'a tout Gaia et dans lequel y'a une extension qui permet de faire un pseudo serveur...
+02:39:05,821 --> 02:39:07,813
+Ouai, ça fait penser aux tuiles Windows ouai...
 
 1766
-04:16:16,166 --> 04:16:25,167
-Enfin bref...
+02:39:08,077 --> 02:39:09,972
+Ouai, je suis d'accord...
 
 1767
-04:16:34,167 --> 04:16:43,168
-ça permet que l'application système, si je veux la tester, je fais system.gaia.???.org:8080.
+02:39:19,542 --> 02:39:21,627
+Là ça rend pas trop parce que en fait...
 
 1768
-04:16:52,168 --> 04:17:01,169
-Et elle s'affiche dans le navigateur.
+02:39:21,803 --> 02:39:24,235
+dans les méta-données des fichiers mp3, FLAC et compagnie...
 
 1769
-04:17:10,169 --> 04:17:19,170
-Alors, ça c'est l'écran de démarrage...
+02:39:24,485 --> 02:39:27,818
+y'a des images, en général 200 par 200 et du coup...
 
 1770
-04:17:28,170 --> 04:17:37,171
-Donc, là on est dans un vrai navigateur.
+02:39:29,541 --> 02:39:31,101
+en fait ça marchait dans le RER tout à l'heure bêtement...
 
 1771
-04:17:46,171 --> 04:17:55,172
-Et, du coup on peut faire des choses de ce type...
+02:39:31,295 --> 02:39:32,270
+là ça ne marche plus, je sais pas pourquoi...
 
 1772
-04:18:04,172 --> 04:18:13,173
-Et là pour le debug, c'est juste vachement...
+02:39:32,719 --> 02:39:39,774
+Et on a la pochette de l'album mais avec une couleur par dessus qui donne en fait...
 
 1773
-04:18:22,173 --> 04:18:31,174
-Enfin c'est vraiment nettement plus facile qu'avec iOs, Android ou n'importe quoi d'autre.
+02:39:40,464 --> 02:39:43,326
+une espèce de taille en fonction de certains trucs qu'on a joué récemment...
 
 1774
-04:18:40,174 --> 04:18:49,175
-Là, pour l'instant, donc ça on peut le faire tourner dans un navigateur parce que, dans l'application "Settings" j'ai fais en sorte que à chaque fois que l'API dont on avait besoin n'était pas exposée, je renvoyais...
+02:39:43,518 --> 02:39:44,518
+qu'on aime beaucoup etcetera...
 
 1775
-04:18:58,175 --> 04:19:07,176
-Ce que mes collègues US appellent une ????????
+02:39:44,720 --> 02:39:50,102
+La taille... les morceaux qu'on joue régulièrement prennent 4 places au lieu d'une...
 
 1776
-04:19:16,176 --> 04:19:25,177
-C'est à dire, j'envoie des données bidons juste pour pas casser l'interface.
+02:39:50,294 --> 02:39:53,187
+Enfin, ils se sont fait plaisir je trouve les gars du staff
 
 1777
-04:19:34,177 --> 04:19:43,178
-Et donc ça permet de débuguer les interfaces, l'interaction utilisateur etcetera...
+02:39:54,799 --> 02:39:57,215
+Et, ça pareil ça marche sur le desktop.
 
 1778
-04:19:52,178 --> 04:20:01,179
-Y compris pour les choses où y'a pas de support matériel.
+02:39:57,617 --> 02:40:03,669
+Le défaut c'est que il faut que ce soit de l'OGG en desktop parce que...
 
 1779
-04:20:10,179 --> 04:20:19,180
-Et donc...
+02:40:04,023 --> 02:40:06,061
+A moins d'avoir le support matériel pour le décoder le MP3.
 
 1780
-04:20:28,180 --> 04:20:37,181
-Ah voilà, ça permet même de voir des bugs sur la prochaine version qui va arriver.
+02:40:09,880 --> 02:40:14,087
+Je redémarre une dernière fois, je sais pas si y'a d'autres applications qui vaillent le coup d'être montrées.
 
 1781
-04:20:46,181 --> 04:20:55,182
-Et bref, toutes vos applications vous pouvez les tester comme ça.
+02:40:15,128 --> 02:40:16,806
+Vous m'en voudrez pas si je vous montre pas la calculatrice...
 
 1782
-04:21:04,182 --> 04:21:13,183
-Donc ça ce sont les outils de développement qui sont livrés avec firefox depuis quelques temps.
+02:40:20,360 --> 02:40:21,678
+Bon vous faites chier, voilà la calculatrice.
 
 1783
-04:21:22,183 --> 04:21:31,184
-Avec la fameuse 3D view dont vous parlez David tout à l'heure.
+02:40:26,488 --> 02:40:27,070
+Ouai !
 
 1784
-04:21:40,184 --> 04:21:49,185
-Donc là on voit en fait...
+02:40:31,760 --> 02:40:38,333
+Elle est vachement mieux en vrai parce que on a pas la vraie police, on a une police qu'on a fait exprès pour mobile mais que visiblement j'ai pas sur ce machin là.
 
 1785
-04:21:58,185 --> 04:22:07,186
-Je stocke les panneaux pour les effets de coulissement, je les stocke hors la partie visible.
+02:40:38,711 --> 02:40:40,030
+Donc en vrai elle est mieux.
 
 1786
-04:22:16,186 --> 04:22:25,187
-Donc, ça comme outil de debug, en plus evidemment de la console JS et compagnie...
+02:40:40,680 --> 02:40:44,255
+Ah, alors maintenant j'aimerais vous montrer et puis on va finir là dessus..
 
 1787
-04:22:34,187 --> 04:22:43,188
-C'est... ça fait vraiment gagner un temps de chien.
+02:40:44,479 --> 02:40:47,534
+Le truc que je trouve vraiment classe sur ce projet...
 
 1788
-04:22:52,188 --> 04:23:01,189
-Et on est presque là, on est pas encore tout à fait mais d'ici 2-3 jours, 1 semaine, on sera capable de faire tourner ça... là-dessus.
+02:41:11,704 --> 02:41:16,281
+Donc voilà, il s'appelle "lioEX" mais en fait c'est un firefox ???
 
 1789
-04:23:10,189 --> 04:23:19,190
-C'est à dire qu'on aura cette vue là pour le contenu qui est actuellement joué dans le téléphone.
+02:41:16,091 --> 02:41:21,467
+C'est juste une branche un poil séparé pour tester des trucs d'interface.
 
 1790
-04:23:28,190 --> 04:23:37,191
-Donc ça permettra de tester encore plus facilement...
+02:41:23,226 --> 02:41:28,206
+Donc, vous repérez l'URL, alors en fait pour avoir cette URL là j'ai fais un bit de debug de Gaia.
 
 1791
-04:23:46,191 --> 04:23:55,192
-Donc voilà...
+02:41:28,438 --> 02:41:31,094
+ça se fait en ruby, debug égal 1 espace make... Paf!
 
 1792
-04:24:04,192 --> 04:24:13,193
-Globalement, les ???? features, les trucs qui différencient vraiment pour les développeurs Firefox OS des autres OS mobiles.
+02:41:31,718 --> 02:41:32,344
+Et...
 
 1793
-04:24:22,193 --> 04:24:31,194
-Je crois que bêtement j'ai fermé le PDF...
+02:41:33,304 --> 02:41:41,257
+ça crée un profil dans lequel y'a tout Gaia et dans lequel y'a une extension qui permet de faire un pseudo serveur...
 
 1794
-04:24:40,194 --> 04:24:49,195
+02:41:41,593 --> 02:41:42,360
+Enfin bref...
+
+1795
+02:41:42,624 --> 02:41:48,943
+ça permet que l'application système, si je veux la tester, je fais system.gaiamobile.org:8080.
+
+1796
+02:41:49,560 --> 02:41:50,911
+Et elle s'affiche dans le navigateur.
+
+1797
+02:41:51,159 --> 02:41:52,344
+Alors, ça c'est l'écran de démarrage...
+
+1798
+02:43:09,992 --> 02:43:11,832
+Donc, là on est dans un vrai navigateur.
+
+1799
+02:43:12,943 --> 02:43:18,295
+Et, du coup on peut faire des choses de ce type...
+
+1800
+02:43:23,223 --> 02:43:26,624
+Et là pour le debug, c'est juste vachement...
+
+1801
+02:43:26,775 --> 02:43:31,032
+Enfin c'est vraiment nettement plus facile qu'avec iOs, Android ou n'importe quoi d'autre.
+
+1802
+02:43:32,224 --> 02:43:44,823
+Là, pour l'instant, donc ça on peut le faire tourner dans un navigateur parce que, dans l'application "Settings" j'ai fais en sorte que à chaque fois que l'API dont on avait besoin n'était pas exposée, je renvoyais...
+
+1803
+02:43:46,459 --> 02:43:48,571
+Ce que mes collègues US appellent une "hoot&PPI"
+
+1804
+02:43:48,947 --> 02:43:51,707
+C'est à dire, j'envoie des données bidons juste pour pas casser l'interface.
+
+1805
+02:43:51,921 --> 02:43:55,386
+Et donc ça permet de débuguer les interfaces, l'interaction utilisateur etcetera...
+
+1806
+02:43:56,018 --> 02:43:58,938
+Y compris pour les choses où y'a pas de support matériel.
+
+1807
+02:43:59,538 --> 02:44:00,282
+Et donc...
+
+1808
+02:44:03,459 --> 02:44:06,642
+Ah voilà, ça permet même de voir des bugs sur la prochaine version qui va arriver.
+
+1809
+02:44:09,051 --> 02:44:11,794
+Et bref, toutes vos applications vous pouvez les tester comme ça.
+
+1810
+02:44:12,050 --> 02:44:17,458
+Donc ça ce sont les outils de développement qui sont livrés avec firefox depuis quelques temps.
+
+1811
+02:44:17,666 --> 02:44:21,187
+Avec la fameuse 3D view dont vous parlez David tout à l'heure.
+
+1812
+02:44:21,426 --> 02:44:22,587
+Donc là on voit en fait...
+
+1813
+02:44:22,738 --> 02:44:28,153
+Je stocke les panneaux pour les effets de coulissement, je les stocke hors la partie visible.
+
+1814
+02:44:29,114 --> 02:44:35,962
+Donc, ça comme outil de debug, en plus evidemment de la console JS et compagnie...
+
+1815
+02:44:37,106 --> 02:44:39,883
+C'est... ça fait vraiment gagner un temps de chien.
+
+1816
+02:44:39,997 --> 02:44:51,722
+Et on est presque là, on est pas encore tout à fait mais d'ici 2-3 jours, 1 semaine, on sera capable de faire tourner ça... là-dessus.
+
+1817
+02:44:51,890 --> 02:44:57,074
+C'est à dire qu'on aura cette vue là pour le contenu qui est actuellement joué dans le téléphone.
+
+1818
+02:44:57,313 --> 02:45:00,498
+Donc ça permettra de tester encore plus facilement...
+
+1819
+02:45:01,418 --> 02:45:02,571
+Donc voilà...
+
+1820
+02:45:04,522 --> 02:45:12,275
+Globalement, les killers features, les trucs qui différencient vraiment pour les développeurs Firefox OS des autres OS mobiles.
+
+1821
+02:45:17,906 --> 02:45:19,858
+Je crois que bêtement j'ai fermé le PDF...
+
+1822
+02:45:20,001 --> 02:45:21,858
 mais je crois que j'ai fini...
 Ah oui il était là...
 
-1795
-04:24:58,195 --> 04:25:07,196
+1823
+02:45:26,595 --> 02:45:27,474
 Ah oui !
 
-1796
-04:25:16,196 --> 04:25:25,197
+1824
+02:45:29,642 --> 02:45:32,402
 Donc pour ceux qui ont un peu de temps, qui sont curieux, j'ai un device là.
 
-1797
-04:25:34,197 --> 04:25:43,198
+1825
+02:45:32,633 --> 02:45:35,114
 Que je vais pas quitter des yeux mais que vous pouvez essayer.
 
-1798
-04:25:52,198 --> 04:26:01,199
+1826
+02:45:37,570 --> 02:45:38,898
 Les trois liens qui sont là...
 
-1799
-04:26:10,199 --> 04:26:19,200
+1827
+02:45:39,049 --> 02:45:44,075
 alors, désolé je n'ai pas parlé du marketplace mais, globalement, tout ce qui tourne là dessus tourne sur le marketplace.
 
-1800
-04:26:28,200 --> 04:26:37,201
+1828
+02:45:44,818 --> 02:45:49,818
 Et sur le marketplace qui vient d'être lancé y'a un paquet de choses qui sont marrantes aussi à tester sur le desktop...
 
-1801
-04:26:46,201 --> 04:26:55,202
+1829
+02:45:49,978 --> 02:45:52,545
 Qui sont bidouillables, améliorables...
 
-1802
-04:27:04,202 --> 04:27:13,203
+1830
+02:45:53,370 --> 02:45:54,314
 bricolables...
 
-1803
-04:27:22,203 --> 04:27:31,204
+1831
+02:45:54,722 --> 02:45:59,267
 Y'a une page toute fraîche qui vient d'être créé sur mozilla.org qui s'appelle FirefoxOS en un seul mot.
 
-1804
-04:27:40,204 --> 04:27:49,205
+1832
+02:46:01,251 --> 02:46:07,146
 Et pour les plus curieux d'entre vous, ceux qui voudraient par exemple faire tourner le... l'émulateur B2G là, que j'ai lancé tout à l'heure...
 
-1805
-04:27:58,205 --> 04:28:07,206
+1833
+02:46:08,034 --> 02:46:10,762
 Vous cherchez Gaia Hacking sur le Wiki Mozilla...
 
-1806
-04:28:16,206 --> 04:28:25,207
+1834
+02:46:10,946 --> 02:46:14,339
 Y'a toutes les explications qui sont données en clair, c'est par Internet.
 
-1807
-04:28:34,207 --> 04:28:43,208
+1835
+02:46:15,883 --> 02:46:16,547
 Voilà!
 
-1808
-04:28:52,208 --> 04:29:01,209
+1836
+02:46:17,003 --> 02:46:18,547
 Vous avez peut-être des questions ?
 <applaudissements>
 
-1809
-04:29:10,209 --> 04:29:19,210
+1837
+02:46:25,778 --> 02:46:33,451
 Un étudiant : Demain, je veux développer une application, c'est comme une simple application HTML5, derrière y'a pas un paquet spécifique pour l'installer ?
 
-1810
-04:29:28,210 --> 04:29:37,211
+1838
+02:46:33,707 --> 02:46:34,242
 Non.
 
-1811
-04:29:46,211 --> 04:29:55,212
+1839
+02:46:34,874 --> 02:46:37,986
 Alors la question c'est: si moi je veux développer une application, de quoi j'ai besoin ?
 
-1812
-04:30:04,212 --> 04:30:13,213
+1840
+02:46:38,922 --> 02:46:40,322
 Un éditeur de texte, un navigateur.
 
-1813
-04:30:22,213 --> 04:30:31,214
+1841
+02:46:49,763 --> 02:46:51,179
 Voilà, c'est ce que je voulais vous montrer là...
 
-1814
-04:30:40,214 --> 04:30:49,215
+1842
+02:46:54,018 --> 02:46:55,194
 C'est ce qu'on appelle un MANIFEST.
 
-1815
-04:30:58,215 --> 04:31:07,216
+1843
+02:46:58,346 --> 02:47:02,778
 Le MANIFEST, c'est effectivement une spéc du W3C maintenant...
 
-1816
-04:31:16,216 --> 04:31:25,217
+1844
+02:47:02,978 --> 02:47:12,802
 à cause du fait que Google soit passé avant nous, on doit se taper des underscores et ça je pense que je leur en voudrait à vie... des underscores.
 
-1817
-04:31:34,217 --> 04:31:43,218
+1845
+02:47:12,977 --> 02:47:14,170
 Donc là, settings, typiquement...
 
-1818
-04:31:52,218 --> 04:32:01,219
+1846
+02:47:15,881 --> 02:47:18,297
 Voilà, le MANIFEST settings...
 
-1819
-04:32:10,219 --> 04:32:19,220
+1847
+02:47:18,826 --> 02:47:19,670
 Ah merde !
 
-1820
-04:32:28,220 --> 04:32:37,221
+1848
+02:47:21,468 --> 02:47:22,486
 J'y avais pas pensé...
 
-1821
-04:32:46,221 --> 04:32:55,222
+1849
+02:47:24,699 --> 02:47:29,867
 Oué, celle là fait plus que 5 lignes mais globalement les 5 lignes dont t'as besoin, c'est ça... et encore...
 
-1822
-04:33:04,222 --> 04:33:13,223
+1850
+02:47:31,155 --> 02:47:32,699
 ça c'est les permissions qu'on demande...
 
-1823
-04:33:22,223 --> 04:33:31,224
+1851
+02:47:33,491 --> 02:47:42,571
 ça ce sont les WebActivities donc pour ceux qui font un peu de développement Android, c'est la réponse de Mozilla à la proposition de Google de... des Web Intents...
 
-1824
-04:33:40,224 --> 04:33:49,225
+1852
+02:47:43,458 --> 02:47:46,058
 On voulait restreindre un peu le truc...
 
-1825
-04:33:58,225 --> 04:34:07,226
+1853
+02:47:46,875 --> 02:47:48,090
 Et sinon...
 
-1826
-04:34:16,226 --> 04:34:25,227
+1854
+02:47:53,290 --> 02:47:57,323
 Voilà, sinon c'est du Web classique... ça c'est l'application ?iNext?
 
-1827
-04:34:34,227 --> 04:34:43,228
+1855
+02:47:57,691 --> 02:48:00,963
 Bon, 68 kilo, y'a du monde dedans.
 
-1828
-04:34:52,228 --> 04:35:01,229
+1856
+02:48:01,274 --> 02:48:03,058
 Mais c'est du bête HTML quoi.
 
-1829
-04:35:10,229 --> 04:35:19,230
+1857
+02:48:13,923 --> 02:48:17,330
 On a pas encore de discussion avec des opérateurs français.
 
-1830
-04:35:28,230 --> 04:35:37,231
+1858
+02:48:17,882 --> 02:48:26,995
 Alors, on va vendre une version améliorée de ça au brésil l'an prochain.
 
-1831
-04:35:46,231 --> 04:35:55,232
+1859
+02:48:27,323 --> 02:48:28,939
 Et y'aura une version pour le portugal aussi.
 
-1832
-04:36:04,232 --> 04:36:13,233
+1860
+02:48:29,130 --> 02:48:32,851
 Donc on imagine que les français pourront se procurer ça.
 
-1833
-04:36:22,233 --> 04:36:31,234
+1861
+02:48:34,082 --> 02:48:43,707
 Mais après, ce qu'on espère nous vraiment, c'est qu'on puisse supporter officiellement des devices plus courant.
 
-1834
-04:36:40,234 --> 04:36:49,235
+1862
+02:48:43,875 --> 02:48:49,787
 Alors, on avait pensé au L5 de LG, on avait pensé au Samsung GS2, GS3.
 
-1835
-04:36:58,235 --> 04:37:07,236
+1863
+02:48:50,059 --> 02:48:52,051
 On avait pensé à d'autres devices comme ça...
 
-1836
-04:37:16,236 --> 04:37:25,237
+1864
+02:48:52,491 --> 02:48:58,115
 qu'on pourrait supporter, qu'on pourrait rajouter dans nos priorités pour assurer la compatibilité.
 
-1837
-04:37:34,237 --> 04:37:43,238
+1865
+02:49:03,459 --> 02:49:06,763
 Le LG L5, c'est un device à moins de 100 dollars.
 
-1838
-04:37:52,238 --> 04:38:01,239
+1866
+02:49:09,395 --> 02:49:11,635
 Et c'est un bon device déjà, c'est entre...
 
-1839
-04:38:10,239 --> 04:38:19,240
+1867
+02:49:12,395 --> 02:49:17,565
 Et le GS2 et compagnie, la raison pour laquelle on y pense c'est que...
 
-1840
-04:38:28,240 --> 04:38:37,241
+1868
+02:49:17,829 --> 02:49:25,373
 l'utilisateur... enfin... la plupart des développeurs Web, ils ont un iPhone ou un Galaxy.
 
-1841
-04:38:46,241 --> 04:38:55,242
+1869
+02:49:26,366 --> 02:49:34,087
 Et, du coup, le gars qu'à un GS2, si il est développeur Web, y'a de fortes chances qu'il  est fait son kéké, qu'il est acheté un GS3.
 
-1842
-04:39:04,242 --> 04:39:13,243
+1870
+02:49:34,493 --> 02:49:38,077
 Et du coup son GS2 il pourrait vouloir le recycler en firefoxOS.
 
-1843
-04:39:22,243 --> 04:39:31,244
+1871
+02:49:38,294 --> 02:49:41,709
 Et un GS2 en firefoxOS, c'est vraiment un truc qu'il faut voir.
 
-1844
-04:39:40,244 --> 04:39:49,245
+1872
+02:49:42,062 --> 02:49:43,750
 C'est fulgurant !
 
-1845
-04:39:58,245 --> 04:40:07,246
+1873
+02:49:43,981 --> 02:49:45,174
 C'est ahurissant de performance !
 
-1846
-04:40:16,246 --> 04:40:25,247
+1874
+02:49:45,406 --> 02:49:48,894
 Et donc c'est un engin qui donne vachement envie de travailler avec.
 
-1847
-04:40:34,247 --> 04:40:43,248
+1875
+02:49:49,853 --> 02:49:51,230
 Et, l'écran est magnifique, enfin...
 
-1848
-04:40:52,248 --> 04:41:01,249
+1876
+02:49:51,477 --> 02:49:59,438
 Du coup, c'est un engin qui est cher mais pour les gens, enfin pour beaucoup de gens qui sont susceptibles de travailler là dessus c'est probablement un engin qu'ils ont déjà.
 
-1849
-04:41:10,249 --> 04:41:19,250
-Ils ont juste besoin d'une bonne ???? pour le recycler, en faire quelque chose.
+1877
+02:49:59,654 --> 02:50:03,542
+Ils ont juste besoin d'une bonne excuse pour le recycler, en faire quelque chose.
 
-1850
-04:41:28,250 --> 04:41:37,251
+1878
+02:50:04,478 --> 02:50:05,790
 Plutôt que de le laisser dans un tiroir.
 
-1851
-04:41:46,251 --> 04:41:55,252
+1879
+02:50:06,233 --> 02:50:08,516
 Donc, on y pense mais pour l'instant...
 
-1852
-04:42:04,252 --> 04:42:13,253
+1880
+02:50:09,604 --> 02:50:10,900
 Un étudiant: Et, est-ce qu'on peut l'installer sur un iPhone ?
 
-1853
-04:42:22,253 --> 04:42:31,254
-Sur un quoi ???
+1881
+02:50:11,292 --> 02:50:13,373
+Sur un quoi ?
+(un iPhone)
 J'ai pas entendu...
 
-1854
-04:42:40,254 --> 04:42:49,255
+1882
+02:50:13,447 --> 02:50:19,961
 <rires général>
 Non !
 
-1855
-04:42:58,255 --> 04:43:07,256
+1883
+02:50:22,921 --> 02:50:25,200
 Non, on peut légalement pas.
 
-1856
-04:43:16,256 --> 04:43:25,257
+1884
+02:50:25,545 --> 02:50:28,354
 Apple a interdit qu'on installe un autre moteur de rendu.
 
-1857
-04:43:34,257 --> 04:43:43,258
+1885
+02:50:28,537 --> 02:50:33,473
 Comme vous le disait David tout à l'heure donc, c'est illégal d'installer un...
 
-1858
-04:43:52,258 --> 04:44:01,259
+1886
+02:50:33,946 --> 02:50:35,161
 Un étudiant: Et, si moi je veux tester ?
 
-1859
-04:44:10,259 --> 04:44:19,260
+1887
+02:50:41,081 --> 02:50:43,274
 Bon, après faut se taper toute la compatibilité matérielle et tout...
 
-1860
-04:44:28,260 --> 04:44:37,261
+1888
+02:50:43,506 --> 02:50:44,234
 ça va être long.
 
-1861
-04:44:46,261 --> 04:44:55,262
+1889
+02:50:44,489 --> 02:50:48,201
 On s'était posé la question à un moment donné chez Mozilla pour le navigateur mobile.
 
-1862
-04:45:04,262 --> 04:45:13,263
+1890
+02:50:48,425 --> 02:50:50,762
 On s'était dit, bon on peut faire une version Windows.
 
-1863
-04:45:22,263 --> 04:45:31,264
+1891
+02:50:50,977 --> 02:50:55,265
 On peut faire une version Mac... enfin une version iPhone.
 
-1864
-04:45:40,264 --> 04:45:49,265
+1892
+02:50:55,481 --> 02:50:58,202
 Et en fait, on s'est dit, sur iPhone clairement l'intérêt est faible.
 
-1865
-04:45:58,265 --> 04:46:07,266
+1893
+02:50:58,400 --> 02:50:59,913
 Parce que ils ont déjà un bon navigateur.
 
-1866
-04:46:16,266 --> 04:46:25,267
+1894
+02:51:00,882 --> 02:51:06,425
 Mais c'était un peu le fait que ça soit interdit qui nous titille en se disant qu'il faut le faire... mais on l'a pas fait.
 
-1867
-04:46:34,267 --> 04:46:43,268
+1895
+02:51:07,306 --> 02:51:11,906
 Et en fait, je pense qu'on a bien fait de pas le faire parce que quand on voit comment les iPhone évoluent d'une année sur l'autre...
 
-1868
-04:46:52,268 --> 04:47:01,269
+1896
+02:51:12,081 --> 02:51:14,681
 on aurait jamais eu la patience de maintenir tout ça.
 
-1869
-04:47:10,269 --> 04:47:19,270
+1897
+02:51:14,857 --> 02:51:17,921
 Moi je vois je tourne sous Linux, j'ai eu un Macbook pendant un an...
 
-1870
-04:47:28,270 --> 04:47:37,271
+1898
+02:51:18,434 --> 02:51:18,938
 Plus jamais !
 
-1871
-04:47:46,271 --> 04:47:55,272
+1899
+02:51:20,065 --> 02:51:27,793
 C'est... j'vois les gars l'énergie qu'ils dépensent à essayer de coller au matériel chaque année, chaque micro modification qu'ils font, ça casse tous les pilotes.
 
-1872
-04:48:04,272 --> 04:48:13,273
+1900
+02:51:28,194 --> 02:51:34,562
 C'est pas, c'est clairement pas des gens avec lesquelles c'est agréable de travailler quand on est de l'autre côté de la barrière...
 
-1873
-04:48:22,273 --> 04:48:31,274
+1901
+02:51:34,737 --> 02:51:36,337
 qu'on est amateur, qu'on fait ça sur son temps libre...
 
-1874
-04:48:40,274 --> 04:48:49,275
+1902
+02:51:36,529 --> 02:51:43,586
 Alors que, typiquement, y'a pleins de device qui sont super agréable à hacker et on va clairement favoriser ses devices là.
 
-1875
-04:48:58,275 --> 04:49:07,276
+1903
+02:51:43,873 --> 02:51:45,865
 On veut des devices qui soient fait pour être bidouillé.
 
-1876
-04:49:16,276 --> 04:49:25,277
+1904
+02:51:59,249 --> 02:51:59,658
 Clairement.
 
-1877
-04:49:34,277 --> 04:49:43,278
+1905
+02:52:04,026 --> 02:52:08,529
 Alors, la question c'est : est-ce qu'on peut imaginer que firefoxOS sera un jour décliné sur PC fixe ?
 
-1878
-04:49:52,278 --> 04:50:01,279
+1906
+02:52:08,729 --> 02:52:10,529
 La réponse officielle, c'est non évidemment...
 
-1879
-04:50:10,279 --> 04:50:19,280
+1907
+02:52:11,466 --> 02:52:13,345
 Mais en fait, on est plusieurs...
 
-1880
-04:50:28,280 --> 04:50:37,281
+1908
+02:52:13,513 --> 02:52:18,081
 On est pas mal de linuxiens dans la boutique, chez Mozilla...
 
-1881
-04:50:46,281 --> 04:50:55,282
-On est pas mal a pas être enthousiasmé par les nouveaux bureaux à la ???, ?Nop shell? et compagnie.
-
-1882
-04:51:04,282 --> 04:51:13,283
-Et, globalement...
-
-1883
-04:51:22,283 --> 04:51:31,284
-Bah voilà...
-
-1884
-04:51:40,284 --> 04:51:49,285
-Un bureau type d'un mozilien, c'est des terminaux, pleins, et des fenêtres de navigateurs, pleins.
-
-1885
-04:51:58,285 --> 04:52:07,286
-Y'a deux façons de faire rentrer un terminal dans une fenêtre de navigateur.
-
-1886
-04:52:16,286 --> 04:52:25,287
-La première, c'est fireSSH, faut d'abord avoir un serveur SSH en local.
-
-1887
-04:52:34,287 --> 04:52:43,288
-On se connecte dessus via un client SSH qui tombe dans un onglet Web.
-
-1888
-04:52:52,288 --> 04:53:01,289
-C'est un copain à nous, qui s'appelle Mime Cuvalo, qui est l'auteur de fireFTP, qui a fait ça.
-
-1889
-04:53:10,289 --> 04:53:19,290
-Qui bosse maintenant pour Google bêtement...
-
-1890
-04:53:28,290 --> 04:53:37,291
-Mais qui reste quelqu'un de gentil et de fréquentable.
-
-1891
-04:53:46,291 --> 04:53:55,292
-Et, l'autre option, c'est un autre mozilien, qui est parti chez Google... nan chez Samsung.
-
-1892
-04:54:04,292 --> 04:54:13,293
-Lui par contre on lui parle plus...
-
-1893
-04:54:22,293 --> 04:54:31,294
-Il a fait un plugin qui s'appelle... enfin globalement c'est...
-
-1894
-04:54:40,294 --> 04:54:49,295
-Pour les linuxiens d'entre vous, y'a un noyau, enfin y'a un composant qui s'appelle VTE, qui est un composant qui sert à faire des terminaux d'environnement GTK sous Linux.
-
-1895
-04:54:58,295 --> 04:55:07,296
-Et, ce mec là, pour un poisson d'Avril, il avait fait un plugin pour avoir du VTE dans une page Web.
-
-1896
-04:55:16,296 --> 04:55:25,297
-Donc pour avoir un terminal dans une page Web.
-
-1897
-04:55:34,297 --> 04:55:43,298
-Alors, pour lui c'était une blague, il avait trouvé ça super drôle, il avait fait ça pour un 1er Avril.
-
-1898
-04:55:52,298 --> 04:56:01,299
-Y'a pleins de gens qui ont trouvé ça vachement bien.
-
-1899
-04:56:10,299 --> 04:56:19,300
-Et du coup il se retrouve comme un âne à devoir maintenir ça parce que y'a des gens qui trouvent ça vachement bien, y compris moi, j'adore !
-
-1900
-04:56:28,300 --> 04:56:37,301
-Et, donc, on a besoin d'un des deux.
-
-1901
-04:56:46,301 --> 04:56:55,302
-Et après, on a besoin d'un bureau.
-
-1902
-04:57:04,302 --> 04:57:13,303
-Et, y'a un gars, un français qui bosse à...
-
-1903
-04:57:22,303 --> 04:57:31,304
-Comment ?
-
-1904
-04:57:40,304 --> 04:57:49,305
-Y'a un gars de chez nous, un français, qui bosse à Mozilla à Mountainview, Californie, qui a fait, qui a proposé un package, un .deb donc un package Debian.
-
-1905
-04:57:58,305 --> 04:58:07,306
-Je sais pas si il l'a proposé à Debian directement ou si c'est hébergé chez lui sous son propre dépôt, bref.
-
-1906
-04:58:16,306 --> 04:58:25,307
-ça permet de lancer B2G comme desktop à la place de Gnome, KDE ou je ne sais quoi.
-
-1907
-04:58:34,307 --> 04:58:43,308
-On commence à réfléchir à faire du ?tiling? pour pouvoir profiter de ces interfaces qui sont prévu pour des petits écrans sur des 24 pouces ou des 12 pouces comme celui-là.
-
-1908
-04:58:52,308 --> 04:59:01,309
-On a pas encore regardé ça...
-
 1909
-04:59:10,309 --> 04:59:19,310
-Et, y'a un gars, je sais plus qui.
+02:52:18,498 --> 02:52:22,890
+On est pas mal a pas être enthousiasmé par les nouveaux bureaux à la "newVT"," Nop shell" et compagnie.
 
 1910
-04:59:28,310 --> 04:59:37,311
-Bref...
+02:52:23,162 --> 02:52:25,586
+Et, globalement...
 
 1911
-04:59:46,311 --> 04:59:55,312
-Qui bosse sur raspberry PI et donc, firefoxOS typiquement, il le fait tourner sur son raspberry PI et il est tout content.
+02:52:26,089 --> 02:52:26,697
+Bah voilà...
 
 1912
-05:00:04,312 --> 05:00:13,313
-Il nous a envoyé un patch pour nous dégommer la dépendance à X11 donc on a même plus besoin de X11.
+02:52:27,777 --> 02:52:33,442
+Un bureau type d'un mozilien, c'est des terminaux, pleins, et des fenêtres de navigateurs, pleins.
 
 1913
-05:00:22,313 --> 05:00:31,314
-Donc, ça démarrait en une demi seconde avant avec X11.
+02:52:36,066 --> 02:52:38,825
+Y'a deux façons de faire rentrer un terminal dans une fenêtre de navigateur.
 
 1914
-05:00:40,314 --> 05:00:49,315
-Maintenant, sans X11, je ne veux pas savoir, ça doit être...
+02:52:39,000 --> 02:52:42,377
+La première, c'est fireSSH, faut d'abord avoir un serveur SSH en local.
 
 1915
-05:00:58,315 --> 05:01:07,316
-Enfin bref...
+02:52:42,553 --> 02:52:45,098
+On se connecte dessus via un client SSH qui tombe dans un onglet Web.
 
 1916
-05:01:16,316 --> 05:01:25,317
-ça va être grande classe.
+02:52:45,296 --> 02:52:50,442
+C'est un copain à nous, qui s'appelle Mime Cuvalo, qui est l'auteur de fireFTP, qui a fait ça.
 
 1917
-05:01:34,317 --> 05:01:43,318
-Donc, pour l'instant c'est clairement pas un truc qu'on met dans la main de tout le monde mais y'a un potentiel énorme.
+02:52:50,633 --> 02:52:52,529
+Qui bosse maintenant pour Google bêtement...
 
 1918
-05:01:52,318 --> 05:02:01,319
-Quand on voit le boulot que c'est de développer un bureau complet pour Linux par rapport au boulot que ce serait de faire un truc comme ça en technologie Web simple...
+02:52:52,729 --> 02:52:55,706
+Mais qui reste quelqu'un de gentil et de fréquentable.
 
 1919
-05:02:10,319 --> 05:02:19,320
-Il nous manque pas grand chose quoi.
+02:52:56,930 --> 02:53:03,450
+Et, l'autre option, c'est un autre mozilien, qui est parti chez Google... nan chez Samsung.
 
 1920
-05:02:28,320 --> 05:02:37,321
-Donc, voilà, on est deux-trois à bosser dessus à nos heures perdues.
+02:53:03,617 --> 02:53:04,530
+Lui par contre on lui parle plus...
 
 1921
-05:02:46,321 --> 05:02:55,322
-On a peu d'heures perdues en ce moment.
+02:53:06,921 --> 02:53:10,602
+Il a fait un plugin qui s'appelle... enfin globalement c'est...
 
 1922
-05:03:04,322 --> 05:03:13,323
-Mais, oué y'a des projets.
+02:53:10,753 --> 02:53:18,345
+Pour les linuxiens d'entre vous, y'a un noyau, enfin y'a un composant qui s'appelle VTE, qui est un composant qui sert à faire des terminaux d'environnement GTK sous Linux.
 
 1923
-05:03:22,323 --> 05:03:31,324
-Et j'espère que ça va aboutir parce que, je pense qu'à la fois pour l'utilisateur lambda, ça lui ira très très bien.
+02:53:19,249 --> 02:53:24,443
+Et, ce mec là, pour un poisson d'Avril, il avait fait un plugin pour avoir du VTE dans une page Web.
 
 1924
-05:03:40,324 --> 05:03:49,325
-Un truc qui démarre direct sur des applications Web même Gnome.
+02:53:24,617 --> 02:53:26,002
+Donc pour avoir un terminal dans une page Web.
 
 1925
-05:03:58,325 --> 05:04:07,326
-On regarde comment Gnome évolue maintenant, je suis désolé pour les rares d'entre vous qui n'utilisent pas Linux au quotidien.
+02:53:26,145 --> 02:53:29,969
+Alors, pour lui c'était une blague, il avait trouvé ça super drôle, il avait fait ça pour un 1er Avril.
 
 1926
-05:04:16,326 --> 05:04:25,327
-Mais les applications Gnome maintenant, de plus en plus font la part belle aux applications Web et donc du coup, la suite logique ce sera intéressant de regarder ce qu'il y a sur un desktop, d'avoir un desktop fait entièrement en application Web.
+02:53:30,145 --> 02:53:32,521
+Y'a pleins de gens qui ont trouvé ça vachement bien.
 
 1927
-05:04:34,327 --> 05:04:43,328
-Le seul trucs qui nous ferait, nous mozilien, passer à ça c'est qu'on a besoin d'avoir des terminaux quoi.
+02:53:32,753 --> 02:53:38,537
+Et du coup il se retrouve comme un âne à devoir maintenir ça parce que y'a des gens qui trouvent ça vachement bien, y compris moi, j'adore !
 
 1928
-05:04:52,328 --> 05:05:01,329
-Et on est en train de bosser dessus.
+02:53:38,785 --> 02:53:42,001
+Et, donc, on a besoin d'un des deux.
 
 1929
-05:05:10,329 --> 05:05:19,330
-Oui, ça c'est un mauvais exemple.
+02:53:43,297 --> 02:53:45,121
+Et après, on a besoin d'un bureau.
 
 1930
-05:05:28,330 --> 05:05:37,331
-Mais, même pas, PDFJS.
+02:53:45,353 --> 02:53:50,359
+Et, y'a un gars, un français qui bosse à...
 
 1931
-05:05:46,331 --> 05:05:55,332
-C'est du PDF, je peux le rendre en PDFJS.
+02:53:51,271 --> 02:53:52,063
+Comment ?
 
 1932
-05:06:04,332 --> 05:06:13,333
-Bah, normalement les présentations je les fait en HTML + Timesheets
+02:53:54,374 --> 02:54:05,103
+Y'a un gars de chez nous, un français, qui bosse à Mozilla à Mountainview, Californie, qui a fait, qui a proposé un package, un .deb donc un package Debian.
 
 1933
-05:06:22,333 --> 05:06:31,334
-Sauf que là on a fini de débuguer un truc de performance hier tard.
+02:54:05,823 --> 02:54:11,031
+Je sais pas si il l'a proposé à Debian directement ou si c'est hébergé chez lui sous son propre dépôt, bref.
 
 1934
-05:06:40,334 --> 05:06:49,335
-Et donc ma présentation je l'ai fait cette nuit et donc j'ai pris le matos de presse Mozilla et fouiiiiiiiit....
+02:54:11,390 --> 02:54:16,375
+ça permet de lancer B2G comme desktop à la place de Gnome, KDE ou je ne sais quoi.
 
 1935
-05:06:58,335 --> 05:07:07,336
-C'est pour ça que c'est en anglais, je suis désolé...
+02:54:21,542 --> 02:54:32,071
+On commence à réfléchir à faire du "tiling" pour pouvoir profiter de ces interfaces qui sont prévu pour des petits écrans sur des 24 pouces ou des 12 pouces comme celui-là.
 
 1936
-05:07:16,336 --> 05:07:25,337
-Mais, nan, mais y'a pleins de petites choses comme ça.
+02:54:33,823 --> 02:54:35,062
+On a pas encore regardé ça...
 
 1937
-05:07:34,337 --> 05:07:43,338
-Y'a, tout ce qui est infographie... ou là ça marchera pas.
+02:54:35,694 --> 02:54:39,991
+Et, y'a un gars, je sais plus qui.
 
 1938
-05:07:52,338 --> 05:08:01,339
-Y'a... pleins de choses...
+02:54:40,887 --> 02:54:41,406
+Bref...
 
 1939
-05:08:10,339 --> 05:08:19,340
-Mais d'une manière générale, c'était Tim Cook ou Jobs qui disait...
+02:54:41,702 --> 02:54:48,022
+Qui bosse sur raspberry PI et donc, firefoxOS typiquement, il le fait tourner sur son raspberry PI et il est tout content.
 
 1940
-05:08:28,340 --> 05:08:37,341
+02:54:48,223 --> 02:54:54,167
+Il nous a envoyé un patch pour nous dégommer la dépendance à X11 donc on a même plus besoin de X11.
+
+1941
+02:54:54,631 --> 02:54:57,363
+Donc, ça démarrait en une demi seconde avant avec X11.
+
+1942
+02:54:57,363 --> 02:55:00,685
+Maintenant, sans X11, je ne veux pas savoir, ça doit être...
+
+1943
+02:55:00,763 --> 02:55:01,363
+Enfin bref...
+
+1944
+02:55:02,026 --> 02:55:03,280
+ça va être grande classe.
+
+1945
+02:55:03,592 --> 02:55:09,897
+Donc, pour l'instant c'est clairement pas un truc qu'on met dans la main de tout le monde mais y'a un potentiel énorme.
+
+1946
+02:55:10,113 --> 02:55:18,200
+Quand on voit le boulot que c'est de développer un bureau complet pour Linux par rapport au boulot que ce serait de faire un truc comme ça en technologie Web simple...
+
+1947
+02:55:19,272 --> 02:55:20,448
+Il nous manque pas grand chose quoi.
+
+1948
+02:55:20,824 --> 02:55:24,385
+Donc, voilà, on est deux-trois à bosser dessus à nos heures perdues.
+
+1949
+02:55:24,608 --> 02:55:25,864
+On a peu d'heures perdues en ce moment.
+
+1950
+02:55:26,768 --> 02:55:28,400
+Mais, oué y'a des projets.
+
+1951
+02:55:28,585 --> 02:55:35,608
+Et j'espère que ça va aboutir parce que, je pense qu'à la fois pour l'utilisateur lambda, ça lui ira très très bien.
+
+1952
+02:55:35,800 --> 02:55:38,880
+Un truc qui démarre direct sur des applications Web même Gnome.
+
+1953
+02:55:39,056 --> 02:55:43,241
+On regarde comment Gnome évolue maintenant, je suis désolé pour les rares d'entre vous qui n'utilisent pas Linux au quotidien.
+
+1954
+02:55:43,391 --> 02:55:54,248
+Mais les applications Gnome maintenant, de plus en plus font la part belle aux applications Web et donc du coup, la suite logique ce sera intéressant de regarder ce qu'il y a sur un desktop, d'avoir un desktop fait entièrement en application Web.
+
+1955
+02:55:55,032 --> 02:55:58,416
+Le seul trucs qui nous ferait, nous mozilien, passer à ça c'est qu'on a besoin d'avoir des terminaux quoi.
+
+1956
+02:55:58,921 --> 02:56:00,553
+Et on est en train de bosser dessus.
+
+1957
+02:56:09,000 --> 02:56:11,008
+Oui, ça c'est un mauvais exemple.
+
+1958
+02:56:11,192 --> 02:56:12,384
+Mais, même pas, PDFJS.
+
+1959
+02:56:12,632 --> 02:56:14,937
+C'est du PDF, je peux le rendre en PDFJS.
+
+1960
+02:56:15,801 --> 02:56:19,889
+Bah, normalement les présentations je les fait en HTML + Timesheets
+
+1961
+02:56:20,417 --> 02:56:23,761
+Sauf que là on a fini de débuguer un truc de performance hier tard.
+
+1962
+02:56:23,943 --> 02:56:27,472
+Et donc ma présentation je l'ai fait cette nuit et donc j'ai pris le matos de presse Mozilla et fouiiiiiiiit....
+
+1963
+02:56:27,704 --> 02:56:29,184
+C'est pour ça que c'est en anglais, je suis désolé...
+
+1964
+02:56:29,408 --> 02:56:32,024
+Mais, nan, mais y'a pleins de petites choses comme ça.
+
+1965
+02:56:32,137 --> 02:56:36,088
+Y'a, tout ce qui est infographie... ou là ça marchera pas.
+
+1966
+02:56:36,281 --> 02:56:37,056
+Y'a... pleins de choses...
+
+1967
+02:56:37,207 --> 02:56:41,888
+Mais d'une manière générale, c'était Tim Cook ou Jobs qui disait...
+
+1968
+02:56:42,056 --> 02:56:44,740
 "L'évolution... au début de"
-THE END
