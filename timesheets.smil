@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+  <excl timeAction="intrinsic" dur="2:56:45"
+      mediaSync="#conf" controls="#timeController" navigation="arrows; click;">
+  </excl>
+    <!-- swap video and slideshow -->
+  <par timeAction="class:swapped">
+    <item select="body" begin="swap.click" end="swap.click"/>
+  </par>
+  
+</timesheet>
