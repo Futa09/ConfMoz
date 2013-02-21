@@ -18,23 +18,9 @@ This projet is mainly for a subtitle with SMIL timesheet
 =======
 Upcoming release and features:
 
--100% Synchronizing the french Text on SRT
-
 -Convert SRT to Timesheet
 
--Upload full subtitle in english
-
--Synchronizing english subtitle
-
 -Adding Japanese as language
-
--GUI for the video
-
--Chapters
-
--Controller for movie (fast forward and so on)
-
--changing language
 
 -backlight on/off
 
@@ -42,9 +28,24 @@ Upcoming release and features:
 
 =======
 
-Path Note 1.0:
+Patch Note 1.0:
 
 -Full text in french
 
 -Synchronize at 70% with the video conference on SRT
 
+Patch Note 1.5:
+
+-100% Synchronizing the french Text on SRT
+
+-changing language
+
+-Controller for movie (fast forward and so on)
+
+-Chapters
+
+-GUI for the video
+
+-Synchronizing english subtitle
+
+-Upload full subtitle in english
